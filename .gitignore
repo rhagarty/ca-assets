@@ -65,3 +65,6 @@ typings/
 
 # Mac files
 .DS_Store
+
+# large data files
+data/Reviews-full.csv
