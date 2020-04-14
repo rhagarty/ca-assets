@@ -28,13 +28,7 @@ const csv=require('csvtojson');
 
 let totalReviews = 0;
 let minLevelOfReviews = 550;
-let myMap= new Map();
-
-function logMapElements(value, key, map) {
-  if (value > minLevelOfReviews) {
-    console.log(`map[${key}] = ${value}`);
-  }
-}
+let arr = [];
 
 csv({
   headers:['Id','ProductId','UserId','ProfileName','HelpfulnessNumerator','HelpfulnessDenominator','Score','Time','Summary','Text'],
@@ -55,19 +49,72 @@ csv({
     let key = json['ProductId'];
     //console.log(key);
 
-    if (myMap.has(key)) {
-      // console.log('key exists');
-      let val = myMap.get(key) + 1;
-      myMap.set(key, val);
-    } else {
-      // console.log('key does not exist');
-      myMap.set(key, 1);
+    // only use review if someone found it useful
+    if (json['HelpfulnessNumerator'] > 0) {
+      let idx = -1;
+      let obj = arr.find((o, i) => {
+        if (o.key === key) {
+          // found it
+          // console.log('found');
+          idx = i;
+          arr[i] = {
+            key: key,
+            number: o.number += 1,
+            numerator: o.numerator += json['HelpfulnessNumerator'],
+            denominator: o.denominator += json['HelpfulnessDenominator']
+          };
+          return true;
+        }
+      });
+  
+      if (idx < 0) {
+        // console.log('not found');
+        arr.push({
+          key: key,
+          number: 1,
+          numerator: json['HelpfulnessNumerator'],
+          denominator: json['HelpfulnessDenominator']
+        });
+      }
+      totalReviews = totalReviews + 1;
     }
-    totalReviews = totalReviews + 1;
   })
   .on('done',(error)=>{
     if (error) throw error;
     // console.log('end');
     console.log('totalReviews: ' + totalReviews);
-    myMap.forEach(logMapElements);
+
+    // grab just the top ones
+    let arr2 = [];
+    arr.forEach(function (item, index) {
+      if (item.number > 150) {
+        arr2.push(item);
+      }
+    });
+
+    // remove dups
+    console.log('removing dups');
+    let arr3 = [];
+    arr2.forEach(function (item2, index2) {
+      let dupFound = false;
+      arr3.forEach(function (item3, index3) {
+        if (item3.number === item2.number && item3.numerator === item2.numerator && item3.denominator === item2.denominator) {
+          dupFound = true;
+          return true;
+        }
+      });
+      if (! dupFound) {
+        arr3.push(item2);
+      }
+    });
+
+    // sort
+    arr3.sort(function(a, b) {
+      return a.number - b.number;
+    });
+    console.log(JSON.stringify(arr3, null, 2));
+
+    arr3.forEach(function (item, index) {
+      console.log(item.key + '[' + item.number + '] usefullness: ' + item.numerator / item.denominator);
+    });
   });
