@@ -29,18 +29,18 @@ const csvFilePath='../data/Reviews-full.csv';
 const csv=require('csvtojson');
 const fs=require('fs');
 
-// list of products we want reviews for
+// list of products we want reviews for, and the NEW product ID we will use to make visuals easier to read
 const products = [
-  'B002QWP89S',
-  'B0013NUGDE',
-  'B0026RQTGE',
-  'B001EO5Q64',
-  'B000VK8AVK',
-  'B002QWHJOU',
-  'B002QWP8H0',
-  'B003B3OOPA',
-  'B006HYLW32',
-  'B007JFMH8M'
+  { id: 'B000GAT6NG', newId: 'P1000-01' },
+  { id: 'B001VJ0B0I', newId: 'P1000-02' },
+  { id: 'B000VK08OC', newId: 'P1000-03' },
+  { id: 'B008J1HO4C', newId: 'P1000-03' },
+  { id: 'B004CLCEDE', newId: 'P1000-04' },
+  { id: 'B005K4Q37A', newId: 'P1000-05' },
+  { id: 'B005ZBZLT4', newId: 'P1000-06' },
+  { id: 'B000KV61FC', newId: 'P1000-07' },
+  { id: 'B001EO5Q64', newId: 'P1000-08' },
+  { id: 'B003B3OOPA', newId: 'P1000-10' }
 ];
 
 let padding = '000';  // to Line up the numbers and slice(-4).
@@ -69,18 +69,22 @@ csv({
     let json = JSON.parse(jsonStr);
     let key = json['ProductId'];
 
-    if (products.includes(key)) {
+    let matchingObj = products.find(o => o.id === key);
+    if (matchingObj) {
       // console.log('Product we care about: ' + key);
       let numberOfReviews = 0;
       if (myMap.has(key)) {
         numberOfReviews = myMap.get(key);
       }
-      if (numberOfReviews < 100) {
-        numberOfReviews += 1;
+      if (numberOfReviews < 100 && json['HelpfulnessNumerator'] > 0) {
+          numberOfReviews += 1;
         myMap.set(key, numberOfReviews);
         files += 1;
       
-        fs.writeFile('../data/food_reviews/review_' + (padding + files).slice(-4) + '.json', jsonStr, (err) => {
+        // replace product ID with user-friendly ID
+        json['ProductId'] = matchingObj.newId;
+        let str = JSON.stringify(json);
+        fs.writeFile('../data/food_reviews/review_' + (padding + files).slice(-4) + '.json', str, (err) => {
           if (err) throw err;
           // console.log('The file has been saved!');
         });

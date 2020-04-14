@@ -31,23 +31,21 @@ require('dotenv').config({
 });
 
 const ibmdb = require('ibm_db');
-const DiscoveryV1 = require('ibm-watson/discovery/v1');
+const DiscoveryV2 = require('ibm-watson/discovery/v2');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
-const discovery = new DiscoveryV1({
+const discovery = new DiscoveryV2({
   version: '2019-04-30'
 });
 
 const queryParams = {
-  environmentId: process.env.DISCOVERY_ENVIRONMENT_ID,
-  collectionId: process.env.DISCOVERY_COLLECTION_ID,
-  count: 1000,
-  passages: false
+  projectId: process.env.DISCOVERY_PROJECT_ID,
+  count: 1000
 };
 
 discovery.query(queryParams)
   .then(queryResponse => {
-    // console.log(JSON.stringify(queryResponse, null, 2));
+    //console.log(JSON.stringify(queryResponse, null, 2));
     return queryResponse.result;
   })
   .then(result => {
@@ -56,9 +54,9 @@ discovery.query(queryParams)
     buildcvsfile(result.results);
     return result;
   })
-  // .then(result => {
-  //   updateDB(result.results);
-  // })
+  .then(result => {
+    updateDB(result.results);
+  })
   .catch(err => {
     console.log('error:', err);
   });
@@ -82,14 +80,28 @@ function buildcvsfile(results) {
   let data = [];
 
   results.forEach(function(result) {
-    // console.log('Result: ' + JSON.stringify(result, null, 2));
+    console.log('Result: ' + JSON.stringify(result, null, 2));
+
+    // convert timestamp to string
+    let dd = new Date(result.Time * 1000);
+    let month = '' + (dd.getMonth() + 1);
+    let day = '' +  dd.getDate();
+    // all reviews are 2012 or older, so add 7 years to make more relevant
+    let year = dd.getFullYear() + 7;
+
+    if (month.length < 2) 
+      month = '0' + month;
+    if (day.length < 2)
+      day = '0' + day;
+    let reviewDate = [year, month, day].join('-');
+
     data.push(
       { 
         productid: result.ProductId,
-        time: result.Time,
+        time: reviewDate,
         rating: result.Score,
-        score: result.enriched_text.sentiment.document.score,
-        label: result.enriched_text.sentiment.document.label,
+        score: result.enriched_text[0].sentiment.score,
+        label: result.enriched_text[0].sentiment.label,
         summary: result.Summary,
       });
   });
@@ -122,6 +134,8 @@ function updateDB(results) {
       let i = 0;
       results.forEach(function(result) {
         let summary = result.Summary.substring(0, 120);
+
+        // convert timestamp to mm/dd/yyyy
         // console.log(result.ProductId + ',' + result.Time + ',' + result.Score + ',' + result.enriched_text.sentiment.document.score + ',' + 
         //   result.enriched_text.sentiment.document.label + ',' + summary + ' [' + summary.length + ']');
         stmt.executeNonQuerySync([ result.ProductId, result.Time, result.Score, result.enriched_text.sentiment.document.score, result.enriched_text.sentiment.document.label, summary ]);
