@@ -123,7 +123,7 @@ function buildOrderFile() {
 
   stores.forEach(function(store) {
     products.forEach(function(product) {
-      let size = Math.floor(Math.random() * 100) + 1;
+      let size = randomIntFromInterval(50, 100);
       data.push(
         { 
           orderid: 'ORD-' + orderCnt,
@@ -157,19 +157,18 @@ function buildSalesfile() {
   });
   
   let data = [];
-  let day = 1;
-  let month = 11;
 
   stores.forEach(function(store) {
     products.forEach(function(product) {
-      for (month = 1; month <= 12; month++) {
-        for (day = 1; day <= 31; day++) {
-          let amt = randomIntFromInterval(10, 50);
+      for (let month = 11; month <= 12; month++) {
+        for (let day = 1; day <= 31; day++) {
+          let amt = randomIntFromInterval(1, 25);
+          let date = month.toString() + '/' + day.toString() + '/2019';
           data.push(
             { 
               storeid: store,
               productid: product,
-              date: month + '/' + day + '/2019',
+              date: date,
               amount: amt,
             });
         }
