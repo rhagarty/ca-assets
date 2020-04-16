@@ -1,0 +1,21 @@
+WarehouseId,ProductId,Number of Items,Resupply Amount,Resupply Time Interval
+W1000-01,P1000-01,,40,monthly
+W1000-01,P1000-02,,55,monthly
+W1000-01,P1000-03,,43,monthly
+W1000-01,P1000-04,,24,monthly
+W1000-01,P1000-05,,25,monthly
+W1000-01,P1000-06,,96,monthly
+W1000-01,P1000-07,,83,monthly
+W1000-01,P1000-08,,57,monthly
+W1000-01,P1000-09,,1,monthly
+W1000-01,P1000-10,,65,monthly
+W1000-02,P1000-01,,69,monthly
+W1000-02,P1000-02,,83,monthly
+W1000-02,P1000-03,,9,monthly
+W1000-02,P1000-04,,52,monthly
+W1000-02,P1000-05,,63,monthly
+W1000-02,P1000-06,,66,monthly
+W1000-02,P1000-07,,18,monthly
+W1000-02,P1000-08,,90,monthly
+W1000-02,P1000-09,,20,monthly
+W1000-02,P1000-10,,90,monthly
