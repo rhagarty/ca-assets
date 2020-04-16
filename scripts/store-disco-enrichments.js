@@ -30,6 +30,8 @@ require('dotenv').config({
   silent: true
 });
 
+const Query = require('./QueryConstants')
+
 const ibmdb = require('ibm_db');
 const DiscoveryV2 = require('ibm-watson/discovery/v2');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
@@ -43,28 +45,77 @@ const queryParams = {
   count: 1000
 };
 
+const writeToCSV = process.env.WRITE_TO_CSV_FILE;
+
 discovery.query(queryParams)
   .then(queryResponse => {
     //console.log(JSON.stringify(queryResponse, null, 2));
     return queryResponse.result;
   })
   .then(result => {
+    return extractData(result.results);
+  })
+  .then(result => {
     console.log('+++ DISCO QUERY RESULTS +++');
     console.log('numMatches: ' + result.matching_results);
-    buildcvsfile(result.results);
+    if(writeToCSV === 'true'){
+      buildCSVfile(result);
+    }
     return result;
   })
   .then(result => {
-    updateDB(result.results);
+    updateDB(result);
   })
   .catch(err => {
     console.log('error:', err);
   });
 
-// write out each review as a row into a csv file
-function buildcvsfile(results) {
-  console.log('Build CVS File');
+  /**
+   * Extracting relevant data for writing to CSV and/or DB
+   * @param {*} results 
+   */
+function extractData(results) {
+  console.log('Extracting relevant data from the result.')
+  let data = [];
+  let currentDate = new Date();
+  results.forEach(function(result) {
+    // convert timestamp to string
+    let dd = new Date(result.Time * 1000);
+    let month = dd.getMonth() + 1;
+    let day = dd.getDate();
+    // all reviews are 2012 or older, so making them all CurrentYear -1
+    let year = currentDate.getFullYear() - 1;
 
+    // hack for leap year months.
+    if(month === 2 && day === 29){
+      day = day - 1;
+    }
+
+    let monthStr = '' + month;
+    let dayStr = '' + day;
+    if (month < 10) 
+      monthStr = '0' + month;
+    if (day < 10)
+      dayStr = '0' + day;
+
+  
+    let reviewDate = [year, monthStr, dayStr].join('-');
+    data.push(
+      { 
+        productid: result.ProductId,
+        time: reviewDate,
+        rating: result.Score,
+        score: result.enriched_text[0].sentiment.score,
+        label: result.enriched_text[0].sentiment.label,
+        summary: result.Summary,
+      });
+  });
+  return data;
+}  
+
+// write out each review as a row into a csv file
+function buildCSVfile(results) {
+  console.log('Build CSV File');
   const csvWriter = createCsvWriter({
     path: '../data/out.csv',
     header: [
@@ -76,45 +127,15 @@ function buildcvsfile(results) {
       {id: 'summary', title: 'Summary' },
     ]
   });
-  
-  let data = [];
-
-  results.forEach(function(result) {
-    console.log('Result: ' + JSON.stringify(result, null, 2));
-
-    // convert timestamp to string
-    let dd = new Date(result.Time * 1000);
-    let month = '' + (dd.getMonth() + 1);
-    let day = '' +  dd.getDate();
-    // all reviews are 2012 or older, so add 7 years to make more relevant
-    let year = dd.getFullYear() + 7;
-
-    if (month.length < 2) 
-      month = '0' + month;
-    if (day.length < 2)
-      day = '0' + day;
-    let reviewDate = [year, month, day].join('-');
-
-    data.push(
-      { 
-        productid: result.ProductId,
-        time: reviewDate,
-        rating: result.Score,
-        score: result.enriched_text[0].sentiment.score,
-        label: result.enriched_text[0].sentiment.label,
-        summary: result.Summary,
-      });
-  });
 
   csvWriter
-    .writeRecords(data)
+    .writeRecords(results)
     .then(()=> console.log('The CSV file was written successfully'));
 }
 
 // write out each review into a Db2 table
 function updateDB(results) {
-  // const connStr = 'DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-dal09-08.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=wdp34011;PWD=6k2tx7mk+499cgsq;';
-  const connStr = process.env.DB2_DSN;
+  const connStr = process.env.DB2WH_DSN;
 
   ibmdb.open(connStr, function (err, conn) { 
     if (err) {
@@ -124,8 +145,10 @@ function updateDB(results) {
     
     console.log('opened connection');
     // note: table name can NOT contain a dash, and ensure summary text does not exceed max length as defined here
-    conn.querySync("create table FOOD_REVIEWS (ProductId varchar(10), Time int, Rating smallint, Sentiment_Score decimal(12,6), Sentiment_Label varchar(8), Summary varchar(120))");
-    conn.prepare("insert into FOOD_REVIEWS (ProductId, Time, Rating, Sentiment_Score, Sentiment_Label, Summary) Values (?, ?, ?, ?, ?, ?)", function (err, stmt) {
+    // if table already exists, then it will still run with a warning message
+    // `Warning message Table or view <tablename> already exists.. SQLCODE=4136, SQLSTATE=, DRIVER=4.26.14`
+    conn.querySync(Query.CREATE_TABLE);
+    conn.prepare(Query.INSERT_TO_TABLE, function (err, stmt) {
       if (err) {
         console.log(err);
         return conn.closeSync();
@@ -133,12 +156,11 @@ function updateDB(results) {
 
       let i = 0;
       results.forEach(function(result) {
-        let summary = result.Summary.substring(0, 120);
+        console.log(result)
+        let summary = result.summary.substring(0, 120); 
+        let score = result.score.toFixed(6);       
 
-        // convert timestamp to mm/dd/yyyy
-        // console.log(result.ProductId + ',' + result.Time + ',' + result.Score + ',' + result.enriched_text.sentiment.document.score + ',' + 
-        //   result.enriched_text.sentiment.document.label + ',' + summary + ' [' + summary.length + ']');
-        stmt.executeNonQuerySync([ result.ProductId, result.Time, result.Score, result.enriched_text.sentiment.document.score, result.enriched_text.sentiment.document.label, summary ]);
+        stmt.executeNonQuerySync([ result.productid, result.time, result.rating, score, result.label, summary ]);
         i += 1;
       });
 
