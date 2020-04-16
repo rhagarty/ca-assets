@@ -84,13 +84,13 @@ function buildWarehouseFile() {
 
   warehouses.forEach(function(warehouse) {
     products.forEach(function(product) {
-      let items = Math.floor(Math.random() * 100) + 1;
-      let amt = Math.floor(Math.random() * 100) + 1;
+      let items = randomIntFromInterval(500, 800);
+      let amt = randomIntFromInterval(50, 100);
       data.push(
         { 
           warehouseid: warehouse,
           productid: product,
-          numItems: items,
+          numitems: items,
           resupplyamount: amt,
           resupplyinterval: 'monthly',
         });
