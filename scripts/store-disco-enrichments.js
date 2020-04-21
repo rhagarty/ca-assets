@@ -136,7 +136,7 @@ function buildCSVfile(results) {
 // write out each review into a Db2 table
 function updateDB(results) {
   const connStr = process.env.DB2WH_DSN;
-
+console.log(connStr)
   ibmdb.open(connStr, function (err, conn) { 
     if (err) {
       console.log('DB Connection Error: ' + err);
@@ -147,8 +147,8 @@ function updateDB(results) {
     // note: table name can NOT contain a dash, and ensure summary text does not exceed max length as defined here
     // if table already exists, then it will still run with a warning message
     // `Warning message Table or view <tablename> already exists.. SQLCODE=4136, SQLSTATE=, DRIVER=4.26.14`
-    conn.querySync(Query.CREATE_TABLE);
-    conn.prepare(Query.INSERT_TO_TABLE, function (err, stmt) {
+    conn.querySync(Query.FOOD_REVIEWS_CREATE_TABLE);
+    conn.prepare(Query.FOOD_REVIEWS_INSERT_TO_TABLE, function (err, stmt) {
       if (err) {
         console.log(err);
         return conn.closeSync();
