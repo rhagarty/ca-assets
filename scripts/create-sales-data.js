@@ -36,8 +36,10 @@ const Query = require('./QueryConstants');
 const dataUtil = require('./DataUtil');
 
 const writeToCSV = process.env.WRITE_TO_CSV_FILE;
+const writeToDB = process.env.WRITE_TO_DB;
 
 module.exports = {
+
   //updateDB: async (createQuery, insertQuery, data) =>
   buildStoreFile: async () => {
     console.log('Build Store File');
@@ -56,15 +58,18 @@ module.exports = {
     if (writeToCSV === 'true') {
       csvWriter
         .writeRecords(data)
-        .then(() => console.log('The CSV file was written successfully'));
+        .then(() => console.log('The store CSV file was written successfully'));
     }
 
-    await databaseUtil.updateDB(
-      Query.STORE_CREATE_TABLE,
-      Query.STORE_INSERT_TO_TABLE,
-      data
-    );
-    console.log('Store table created..');
+    if (writeToDB === 'true') {
+      await databaseUtil.updateDB(
+        Query.STORE_CREATE_TABLE,
+        Query.STORE_INSERT_TO_TABLE,
+        data
+      );
+      console.log('Store table created..');
+    }
+
     return true;
   },
 
@@ -81,20 +86,21 @@ module.exports = {
     });
 
     let data = dataUtil.getProductData();
-
     if (writeToCSV === 'true') {
       csvWriter
         .writeRecords(data)
-        .then(() => console.log('The CSV file was written successfully'));
+        .then(() => console.log('The product CSV file was written successfully'));
     }
 
-    await databaseUtil.updateDB(
-      Query.PRODUCT_CREATE_TABLE,
-      Query.PRODUCT_INSERT_TO_TABLE,
-      data
-    );
+    if (writeToDB === 'true') {
+      await databaseUtil.updateDB(
+        Query.PRODUCT_CREATE_TABLE,
+        Query.PRODUCT_INSERT_TO_TABLE,
+        data
+      );
+      console.log('Product table created..');
+    }
 
-    console.log('Product table created..');
     return true;
   },
 
@@ -117,15 +123,18 @@ module.exports = {
     if (writeToCSV === 'true') {
       csvWriter
         .writeRecords(data)
-        .then(() => console.log('The CSV file was written successfully'));
+        .then(() => console.log('The warehouse CSV file was written successfully'));
     }
 
-    await databaseUtil.updateDB(
-      Query.WAREHOUSE_CREATE_TABLE,
-      Query.WAREHOUSE_INSERT_TO_TABLE,
-      data
-    );
-    console.log('Warehouse table created..');
+    if (writeToDB === 'true') {
+      await databaseUtil.updateDB(
+        Query.WAREHOUSE_CREATE_TABLE,
+        Query.WAREHOUSE_INSERT_TO_TABLE,
+        data
+      );
+      console.log('Warehouse table created..');
+    }
+
     return true;
   },
 
@@ -148,15 +157,18 @@ module.exports = {
     if (writeToCSV === 'true') {
       csvWriter
         .writeRecords(data)
-        .then(() => console.log('The CSV file was written successfully'));
+        .then(() => console.log('The order CSV file was written successfully'));
     }
 
-    await databaseUtil.updateDB(
-      Query.STORE_ORDER_CREATE_TABLE,
-      Query.STORE_ORDER_INSERT_TO_TABLE,
-      data
-    );
-    console.log('Order table created..');
+    if (writeToDB === 'true') {
+      await databaseUtil.updateDB(
+        Query.STORE_ORDER_CREATE_TABLE,
+        Query.STORE_ORDER_INSERT_TO_TABLE,
+        data
+      );
+      console.log('Order table created..');
+    }
+
     return true;
   },
 
@@ -178,15 +190,18 @@ module.exports = {
     if (writeToCSV === 'true') {
       csvWriter
         .writeRecords(data)
-        .then(() => console.log('The CSV file was written successfully'));
+        .then(() => console.log('The sales CSV file was written successfully'));
     }
 
-    await databaseUtil.updateDB(
-      Query.SALES_CREATE_TABLE,
-      Query.SALES_INSERT_TO_TABLE,
-      data
-    );
-    console.log('Sales table created..');
+    if (writeToDB === 'true') {
+      await databaseUtil.updateDB(
+        Query.SALES_CREATE_TABLE,
+        Query.SALES_INSERT_TO_TABLE,
+        data
+      );
+      console.log('Sales table created..');
+    }
+
     return true;
   },
 };
