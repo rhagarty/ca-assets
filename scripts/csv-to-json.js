@@ -31,16 +31,16 @@ const fs=require('fs');
 
 // list of products we want reviews for, and the NEW product ID we will use to make visuals easier to read
 const products = [
-  { id: 'B000GAT6NG', newId: 'P1000-01', description: 'Toasted Oats' },
-  { id: 'B001VJ0B0I', newId: 'P1000-02', description: 'Peanut Butter Crunch' },
-  { id: 'B000VK08OC', newId: 'P1000-03', description: 'Berrie Crunch' },
-  { id: 'B008J1HO4C', newId: 'P1000-03', description: 'Cinnamon Oats' },
-  { id: 'B004CLCEDE', newId: 'P1000-04', description: 'Chocolate Crunch' },
-  { id: 'B005K4Q37A', newId: 'P1000-05', description: 'Honey Cinnamon' },
-  { id: 'B005ZBZLT4', newId: 'P1000-06', description: 'Organic' },
-  { id: 'B000KV61FC', newId: 'P1000-07', description: 'Shredded Wheat' },
-  { id: 'B001EO5Q64', newId: 'P1000-08', description: 'Multigrain Crunch' },
-  { id: 'B003B3OOPA', newId: 'P1000-10', description: 'Heart Healthy' }
+  { id: 'B000GAT6NG', newId: 'P1000-01' },
+  { id: 'B001VJ0B0I', newId: 'P1000-02' },
+  { id: 'B000VK08OC', newId: 'P1000-03' },
+  { id: 'B008J1HO4C', newId: 'P1000-03' },
+  { id: 'B004CLCEDE', newId: 'P1000-04' },
+  { id: 'B005K4Q37A', newId: 'P1000-05' },
+  { id: 'B005ZBZLT4', newId: 'P1000-06' },
+  { id: 'B000KV61FC', newId: 'P1000-07' },
+  { id: 'B001EO5Q64', newId: 'P1000-08' },
+  { id: 'B003B3OOPA', newId: 'P1000-10' }
 ];
 
 let padding = '000';  // to Line up the numbers and slice(-4).
@@ -83,7 +83,6 @@ csv({
       
         // replace product ID with user-friendly ID
         json['ProductId'] = matchingObj.newId;
-        json['Description'] = matchingObj.description;
         let str = JSON.stringify(json);
         fs.writeFile('../data/food_reviews/review_' + (padding + files).slice(-4) + '.json', str, (err) => {
           if (err) throw err;
