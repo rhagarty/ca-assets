@@ -112,7 +112,7 @@ module.exports = {
       header: [
         { id: 'warehouseId', title: 'WarehouseId' },
         { id: 'productId', title: 'ProductId' },
-        { id: 'numitems', title: 'Number of Items' },
+        { id: 'numItems', title: 'Number of Items' },
         { id: 'resupplyAmount', title: 'Resupply Amount' },
         { id: 'resupplyInterval', title: 'Resupply Time Interval' },
       ],
