@@ -1,1001 +1,1001 @@
 ProductId,Time,Rating,Sentiment Score,Sentiment Label,Summary
-P1000-03,2016-01-03,5,0.759519420910571,positive,World's Best Oatmeal
-P1000-02,2019-07-20,4,0.7592822747896892,positive,Good basic maintenance dog food
-P1000-03,2018-07-24,5,0.9991274854120488,positive,Great Stuff!!!!
-P1000-08,2018-02-02,5,0.5247178014481085,positive,Love it!
-P1000-03,2014-11-05,5,0.846301549966398,positive,The Best Oatmeal
-P1000-08,2019-05-06,5,0.5301045436811609,positive,multifunctional wonderstuff!
-P1000-02,2019-09-16,5,0.41085597094274867,positive,Lily's New Favorite
-P1000-03,2015-07-17,1,-0.5926644266047454,negative,Shipping Policy
-P1000-02,2019-07-24,5,0.35737032661120444,positive,This was a big hit!
-P1000-10,2019-05-02,5,0.7229349849577056,positive,"Tasty, health oil."
-P1000-03,2015-06-20,5,0.49050428849575656,positive,"Great Product, Not So Great Price"
-P1000-03,2016-02-05,5,0.49702204925822047,positive,mighty fine
-P1000-02,2019-07-23,4,0.4245545185053196,positive,Dog likes it
-P1000-03,2018-12-28,5,0.35643550423455916,positive,THE BEST
-P1000-03,2018-07-07,5,0.5959419843234337,positive,Excellent
-P1000-08,2018-12-06,5,0.9286422740985284,positive,"So tasty, so good for you!"
-P1000-03,2016-04-04,5,0.6076318684391127,positive,Better than rolled oats
-P1000-03,2018-11-08,5,0.9268426498670996,positive,Yum!
-P1000-03,2018-03-06,5,0.7960945921381488,positive,The best honey
-P1000-08,2017-05-08,5,0.872836714809428,positive,I absolutely LOVE the taste ...
-P1000-08,2019-06-15,5,0,neutral,*ALL-PURPOSE COCONUT OIL!!!
-P1000-08,2018-10-05,5,0.7325054653107088,positive,Nutiva Is The Best Brand!
-P1000-03,2015-06-30,5,0.8023480341075053,positive,"Manuka honey, nature's perfect food!"
-P1000-02,2019-07-20,4,0.2958059398643691,positive,My Chihuahua Loves It; Resealable Bag
-P1000-08,2018-02-20,5,0.7101195804627113,positive,tastes great and great for higher heat cooking
-P1000-10,2019-05-01,5,0.7589477487438951,positive,Hair SOOO Soft Skin so Soft
-P1000-02,2019-10-16,5,0.3172271321199058,positive,My dogs were begging for it!
-P1000-10,2019-09-09,5,0.877061603727885,positive,Good for you in every way
-P1000-03,2014-09-05,5,0.4617771581321716,positive,You'll never go back to the instant stuff
-P1000-02,2019-07-24,4,0.5270160817589065,positive,"Huskies eat it, don't ask for it by name"
-P1000-03,2017-06-21,5,0.6633086281931978,positive,The Bees Knees
-P1000-08,2017-06-07,5,0.8456586291910462,positive,This is What REAL Coconut Oil Should Be
-P1000-03,2017-02-01,4,0.6902112235002325,positive,"Tastes great, real thick"
-P1000-01,2018-05-01,4,0.9080232830608783,positive,Great product!!!
-P1000-03,2018-09-13,5,0.7620112110834414,positive,Beneficial sweetness
-P1000-02,2019-05-21,5,0.7199877016558358,positive,This is my dog's favorite food!
-P1000-08,2019-03-01,5,0.3310500437228251,positive,SO MANY USES!
-P1000-08,2017-12-16,5,0.6509307937966525,positive,Best coconut oil
-P1000-02,2019-07-19,4,0.672798058894333,positive,A favorite in our house
-P1000-03,2016-03-28,5,0.967181339437775,positive,The Best Oatmeal
-P1000-03,2016-11-03,4,-0.458274856868748,negative,Manuka honey  for indigestion or facial masks
-P1000-08,2017-06-28,5,0.6410009156669809,positive,Love Love Love this stuff!
-P1000-08,2017-06-07,5,0.6765017105963328,positive,Smells Great! Works Great!
-P1000-03,2015-11-22,4,0.645177138607742,positive,Honey
-P1000-08,2017-02-03,5,0.6374617685446926,positive,Great for popcorn!
-P1000-03,2016-01-05,4,0.4740870801363381,positive,Will buy again
-P1000-03,2018-08-25,5,0.31968083394632085,positive,This is the stuff!
-P1000-02,2019-07-26,4,-0.3257265927225414,negative,Beneful definitely passed the dog taste-test in this house!
-P1000-02,2019-07-24,4,-0.41317398645469416,negative,Picky Shih-Tzu eats it mixed with canned food....
-P1000-03,2018-08-12,5,0.891120268074508,positive,It's Delicious
-P1000-01,2017-09-21,5,0.3632533582535984,positive,Great Product
-P1000-08,2017-07-29,5,0.4693133567772438,positive,Organic extra virgin coconut oil
-P1000-03,2018-03-07,5,0.6816453195820888,positive,"If it tastes, looks and smells like honey... it's raw honey!"
-P1000-03,2018-08-11,5,0.7642244241623787,positive,Fresh and delicious!
-P1000-02,2019-09-26,3,-0.3118159274650096,negative,Props for improvements but still a lower quality food source for Dogs
-P1000-08,2019-07-23,5,0.7063844187287375,positive,Tastes and smells great
-P1000-02,2019-07-23,5,-0.3951627872015933,negative,The ONLY dog food our dog will eat!
-P1000-08,2017-11-21,5,0.7052404430192976,positive,"Tastes like coconut, is delicious and healthy!"
-P1000-03,2019-01-12,5,0.7675174448898421,positive,best therapeutic honey!
-P1000-03,2018-06-15,5,0.38210585268169633,positive,Manuka Honey
-P1000-10,2019-06-17,5,0.65797706240499,positive,YUM! All aboard the coconut train!!
-P1000-03,2019-05-08,5,0.34713715656872085,positive,Works good and taste better
-P1000-08,2017-12-23,5,0.6214757807895754,positive,2nd order
-P1000-03,2015-01-27,5,0.6242908808573759,positive,Great Oatmeal
-P1000-03,2018-01-09,5,-0.7551397179486012,negative,Save money...order it in boxes instead of tins
-P1000-03,2017-07-28,3,-0.7568410922418435,negative,Did'nt work that well for me....
-P1000-08,2019-05-21,5,0.5911299962186207,positive,Awesome Product
-P1000-02,2019-09-18,3,-0.49671145938659267,negative,Not Something I would Get Again
-P1000-03,2017-11-23,5,0.7993370083096154,positive,comparatively cheaper and good quality
-P1000-02,2019-08-15,3,0.5039593203896304,positive,"It may not be the healthiest but for those on a budget, the Beneful Adult Dry Dog Food will provide the vitamins your dog needs"
-P1000-08,2018-10-11,5,0.8716364743232303,positive,Great product
-P1000-03,2019-06-18,5,-0.5308212864437292,negative,Excellent for Gastric Ulcer
-P1000-02,2019-08-08,3,0.5045859279607242,positive,"Beneful Dog Food Has its Share of the Good, and the Bad"
-P1000-02,2019-05-21,2,-0.3831266960972651,negative,"Dog loves it, price is a bit high, question the quality of ingredients"
-P1000-02,2019-07-22,4,0.6389352949547,positive,More sugar and salt than peas and carrots
-P1000-03,2018-12-02,5,0.33227719279557105,positive,Magic Honey
-P1000-03,2017-06-03,5,0.36362153555396115,positive,Fantastic oatmeal!
-P1000-08,2017-05-24,5,0.9673610407612971,positive,Cocunut Oil
-P1000-03,2015-04-29,5,0.7159259737886448,positive,The best!
-P1000-08,2018-04-24,5,-0.42102083504480986,negative,Great Product & Amazon Service. Expect Greasy Delivery in Hot Weather.
-P1000-03,2019-03-02,5,-0.5499502550427097,negative,great product
-P1000-03,2019-08-03,5,0.4680999406463638,positive,dilute with water for face
-P1000-08,2018-10-05,4,0.9749483545865025,positive,Yummy!
-P1000-02,2019-10-11,4,0.48737573364038367,positive,Picky dog likes it; picky dog's people not impressed with ingredient list
-P1000-03,2015-11-08,4,0.9261609591347048,positive,Raw Organic Manuka Honey
-P1000-02,2019-07-25,4,0.5621138153124849,positive,Some good healthy ingredients
-P1000-02,2019-07-02,3,-0.6140209448326368,negative,My picky eater picked at it
-P1000-03,2018-10-14,3,-0.5828322302021872,negative,Not Necessarily Good for Stomachs
-P1000-08,2019-06-30,3,-0.8757122478566262,negative,Good very pricey
-P1000-08,2019-07-15,5,0.6990664736889324,positive,Superb Quality!
-P1000-03,2014-01-10,5,0.8286217151553846,positive,"Great product, great price and great, fast devliery."
-P1000-01,2018-08-18,5,0.5148582248088467,positive,Tropical paradise on your skin
-P1000-03,2018-05-10,4,0.6920482442551443,positive,As advertised. Great taste =)
-P1000-03,2014-06-14,5,-0.51554940592052,negative,i love this oatmeal
-P1000-03,2018-02-14,5,0.3064575256250725,positive,Manuka honey
-P1000-03,2016-12-23,5,-0.45630844574258184,negative,Excellent
-P1000-03,2018-09-17,5,-0.44626494045398263,negative,Great Product
-P1000-03,2014-03-16,5,-0.611755863653611,negative,Product great! Packaging lousy!
-P1000-10,2019-02-16,5,0.6317112821418606,positive,Absolutely great!!
-P1000-02,2019-07-19,4,0.32196061542409565,positive,My dogs like it!
-P1000-03,2016-02-02,5,0.8147719050446355,positive,All i can say is wow!!!!
-P1000-08,2018-02-21,5,0.6358232123287685,positive,PERFECT
-P1000-03,2015-02-29,5,0.6248375611276715,positive,Most excellent oatmeal
-P1000-03,2017-08-11,3,0.4939526549739705,positive,manuka WHAT!!!
-P1000-03,2016-08-08,1,-0.6264959158055581,negative,Poor Packing
-P1000-01,2017-12-20,4,0.25822368974116705,positive,Satisfied
-P1000-03,2016-03-18,5,0.7682727657704074,positive,excellent product
-P1000-03,2019-04-17,5,0.5883341576123683,positive,Everything is Good!!
-P1000-03,2019-06-05,4,-0.9662234130410129,negative,"Very nice, 12+ is better value"
-P1000-02,2019-04-30,1,0.33475088239229556,positive,Horrible food!!
-P1000-03,2017-07-20,5,0.962095549008935,positive,Love This Honey
-P1000-03,2017-03-21,5,-0.3307219827381079,negative,Manuka Honey as a cure
-P1000-03,2018-10-12,5,0.790303085352878,positive,This is a panacea
-P1000-02,2019-06-06,3,-0.3463244380025854,negative,It's OK
-P1000-03,2018-12-22,5,-0.858420026900365,negative,Miracle Honey!
-P1000-10,2019-08-22,5,0.8316500323230025,positive,Coconut Oil is Good for You
-P1000-10,2019-03-22,5,0.6594877894919576,positive,Amazing Skin and Hair Softener!
-P1000-03,2017-12-04,4,0.4762864332396408,positive,Love the taste
-P1000-03,2018-01-16,5,-0.6831281616377998,negative,please charge me for the second shipment
-P1000-03,2015-08-02,4,0.34756531800306945,positive,No more Mush!
-P1000-03,2016-02-27,5,-0.9368421589879738,negative,GREAT Honey
-P1000-03,2019-09-28,5,0.9362382865178437,positive,Best oatmeal I've ever eaten
-P1000-02,2019-09-29,4,-0.27038977928029884,negative,my dog liked it
-P1000-08,2017-10-09,5,0.7551115775225297,positive,Excellent Coconut Oil
-P1000-03,2016-11-12,5,0.8697677792792846,positive,Medicinal honey
-P1000-03,2019-05-29,5,0.9063429120819542,positive,Delicious
-P1000-03,2017-11-15,5,0.8414895181160711,positive,Oats make a Meal
-P1000-03,2018-01-15,4,0.46858735776716604,positive,VERY TASTY
-P1000-10,2019-05-03,5,0.4616067339427771,positive,The benefits are amazing
-P1000-08,2019-08-18,5,0.7731345252334423,positive,I'm a faithful Nutiva fan: quality and value.
-P1000-03,2015-10-01,5,0.5817035258392977,positive,Manuka Active 16+ Honey is Delicious!
-P1000-03,2018-03-05,5,-0.5693010067860271,negative,"Awesome, Manuka is the real deal!"
-P1000-08,2017-03-01,5,0.6574627995196525,positive,Great for cooking and skin/haircare!
-P1000-03,2015-11-24,5,0.733097649132755,positive,I love it
-P1000-08,2017-05-25,5,0.8381699963348277,positive,excellent stuff
-P1000-10,2017-12-12,5,0.7413247855520047,positive,Coconut Oil
-P1000-08,2019-03-11,5,0.7567394424494431,positive,excellent product - great for baking
-P1000-10,2019-06-05,5,0.6421760575155092,positive,Best Oil Ever
-P1000-03,2014-03-09,5,0.32787597999980395,positive,Steel Cut Oatmeal
-P1000-03,2018-01-01,5,-0.474992668181349,negative,Healing Manuka Honey
-P1000-02,2019-08-14,4,0.59673069666869,positive,The doggies seem to dig it!
-P1000-10,2019-02-16,5,0.8758788725984921,positive,Tastes great and good for you
-P1000-08,2019-04-13,5,0.6649869093895044,positive,Delicious flavor
-P1000-03,2018-12-14,5,-0.35036260699055116,negative,Amazing Honey!!!
-P1000-08,2018-02-21,5,0.5885534775686085,positive,Best so far!
-P1000-03,2019-05-12,5,-0.5761741160335114,negative,"Really amazed, and I am not usually amazed"
-P1000-08,2018-02-11,5,0.9081502572786356,positive,So delicious!
-P1000-10,2019-09-28,3,-0.4952121296748075,negative,Made my skin dry but hair is softer
-P1000-03,2016-01-18,5,0.7931461363520516,positive,the best oatmeal
-P1000-08,2018-03-07,5,-0.4671420115820137,negative,Great Multi-Uses
-P1000-08,2019-06-04,5,-0.4638579917933242,negative,Best tasting coconut oil
-P1000-03,2019-04-20,5,0.24933273427601838,positive,"delicious taste, Best hONEY EVER"
-P1000-10,2019-04-18,5,0.5955199694022315,positive,Wonderful
-P1000-10,2019-09-01,5,0.4514368392288062,positive,LOVE IT
-P1000-03,2018-08-06,1,-0.48061222650958363,negative,"You change Your Honey, You Don't Get My Money"
-P1000-08,2018-02-12,5,0.7653132813451211,positive,Coconut oil for everything!
-P1000-06,2018-12-10,5,0.47992666069143514,positive,"Tasty, strong brew"
-P1000-04,2018-11-18,5,0.33601558617789384,positive,Tastes just like cellophane noodles! Great for pho!
-P1000-01,2018-01-09,4,0.5802522559566337,positive,Perfect for Hair
-P1000-03,2019-01-17,5,0.8259280838347602,positive,"Ohh, ohh, oatmeal."
-P1000-04,2019-04-30,3,-0.34007401937728526,negative,A Decent Filler
-P1000-04,2019-08-15,4,0.4362255133749539,positive,Price is okay. S&S: Be sure to count your packages!
-P1000-06,2019-03-11,2,-0.7147384787870812,negative,"""Green"" K-cup packaging sacrifices flavor"
-P1000-04,2019-09-18,5,0.5596034633403889,positive,These are Amazing
-P1000-03,2018-08-17,5,0.655526076336556,positive,The best steel cut oatmeal
-P1000-02,2019-06-18,2,-0.6584007847895972,negative,"My dogs accepted it, but they crapped 10x more."
-P1000-06,2019-01-30,5,0.8109207021342427,positive,Sanfrancisco Bay Coffee
-P1000-05,2019-05-22,1,-0.8140072846824805,negative,Used to love it.
-P1000-04,2018-06-20,5,0.42613510517315356,positive,Great Alternative to Pasta!
-P1000-07,2019-01-03,5,-0.3154633130366497,negative,Very Good
-P1000-07,2018-09-05,5,0.5850429765682652,positive,Worth every penny!
-P1000-08,2019-10-02,5,0.7458093087601788,positive,Delicious
-P1000-02,2019-07-24,4,0.7679997663990492,positive,4-paws from my dog!!
-P1000-02,2019-07-24,5,0.798840807950901,positive,my dog loves it
-P1000-03,2019-01-17,5,0.4832977524368449,positive,I am pleased with purchase.
-P1000-07,2018-05-16,5,0.3196986678909259,positive,Surprised at how much my dog liked this!
-P1000-07,2019-03-04,4,-0.5301630072582224,negative,Pug loves it...
-P1000-07,2019-02-07,4,-0.624183865386832,negative,Tug-A-Jug Treat Toy
-P1000-05,2018-10-19,2,0.4815944721724284,positive,Convenience Store Cappuccino
-P1000-05,2019-09-11,2,-0.6740686226168847,negative,Disappointed
-P1000-08,2018-08-23,5,0.5493741513579727,positive,"Love Nutiva coconut oil, but not digging the price hike."
-P1000-02,2019-07-04,3,0.4259444856395567,positive,Dogs Love It But Is It beneficial?
-P1000-03,2016-03-24,4,0.3112887442472699,positive,"Taste, Flavor,Time, and Value"
-P1000-06,2019-01-19,5,0.6144005843963357,positive,Eye Opener
-P1000-04,2018-05-17,3,-0.5149349638114606,negative,Shipped quick
-P1000-07,2019-03-21,5,0.6167888079063013,positive,Lab puppy loves this
-P1000-07,2018-02-13,5,0.6133452421946267,positive,Tug-A-Jug Med/Lg
-P1000-03,2014-02-07,5,0.9238998795491008,positive,breakfast
-P1000-05,2018-11-10,5,0.3561946780387339,positive,Good for what it is
-P1000-05,2018-11-02,5,0.6882021032621245,positive,This is so much cheaper then getting my cappuccino from the gas station in the mornings!
-P1000-01,2014-01-08,5,0.37686898905106375,positive,Great Product
-P1000-05,2019-08-08,2,0.4334726977439731,positive,MILD and Sweet
-P1000-04,2018-09-13,5,0.2958582816938282,positive,Excellent pasta substitution!
-P1000-05,2019-01-04,5,-0.43520204363677173,negative,Delicious
-P1000-04,2019-09-05,5,0.9030021783837445,positive,Takes on the flavor of whatever you're cooking!
-P1000-10,2019-09-11,5,0.3873458799003065,positive,It Works
-P1000-01,2017-08-16,5,0.9990341683436156,positive,loving the coconut oil
-P1000-03,2016-03-18,3,-0.4574105562008472,negative,I really wanted to like this.
-P1000-07,2018-10-20,4,-0.43335397692040817,negative,Keeps my big Dog busy for a long time!
-P1000-06,2019-07-01,5,0.6490834657442699,positive,Excellent Taste and More Robust Brewing with These Type of Pods
-P1000-04,2018-05-29,5,0.6854981637015322,positive,Miracle Noodle Angel Hair Pasta at Amazon
-P1000-05,2018-12-08,5,0.7364860284516649,positive,LOVE this Kcup coffee
-P1000-05,2019-01-16,5,0.7365961474298667,positive,Gas Station Cappuccino
-P1000-02,2019-07-18,3,-0.3406885214313805,negative,"Better than ""Dog Chow"" but not by much"
-P1000-01,2018-01-20,5,0.8009637074202484,positive,"Lasting forever, tastes great, works great."
-P1000-07,2017-11-25,5,0.49202684982784833,positive,Golden Retriever Loves it
-P1000-01,2017-04-12,5,0.9768322972386264,positive,Amazing product
-P1000-06,2019-05-19,4,-0.4723618354253046,negative,Strongest K-Cup coffee out there
-P1000-05,2018-10-20,5,0.7640544012582117,positive,Really good for what it is
-P1000-02,2019-07-28,5,0.7490267602572845,positive,Dog food your vet would approve
-P1000-06,2019-05-20,5,0.8984230903333943,positive,Less plastic - Like the Earth needs another cup....
-P1000-04,2019-03-08,5,-0.8957790210181357,negative,Miracle Noodles
-P1000-06,2019-01-31,5,0.5125649285017168,positive,Fresh-brewed taste for way less $$!
-P1000-06,2019-02-13,5,0.8121876337118623,positive,"Good strong coffee (new favorite), and a bit better for the environment!"
-P1000-05,2019-08-23,1,-0.8532305975809124,negative,Plastic taste
-P1000-07,2019-05-31,5,0.7182315637281199,positive,Great busy toy!
-P1000-03,2017-11-26,5,0.46424977712741416,positive,Great
-P1000-10,2019-07-04,5,0.7436619776629348,positive,Great all around!
-P1000-07,2018-02-23,5,-0.724466514476433,negative,Busy Buddy
-P1000-05,2019-03-17,5,0.9291915107120003,positive,Great Taste
-P1000-04,2018-06-18,4,0.5806922559399724,positive,Makes a quick snack
-P1000-07,2019-07-30,4,-0.39115885745443346,negative,Easier than I expected
-P1000-03,2014-05-23,5,0.8800320207927097,positive,It's the real thing
-P1000-05,2018-10-21,1,0.49922640043073674,positive,Grove Square K-cups - DO NOT BUY!
-P1000-06,2019-04-30,3,-0.3515948017750159,negative,"Good coffee, bad packaging"
-P1000-06,2019-04-23,5,0.6784240808196836,positive,Simple the Best Keurig Cups
-P1000-04,2019-02-11,5,0.7969058541830145,positive,Great Substitute for Pasta
-P1000-10,2019-03-28,5,0.5183720990754312,positive,Pure and tasty CoconutOil from Amazon
-P1000-04,2019-07-06,3,0.5256351809548109,positive,When is a noodle not a noodle.
-P1000-01,2017-01-26,5,0.8450419714192259,positive,Great coconut oil!
-P1000-01,2019-08-16,4,0.32401790517758017,positive,First Time User
-P1000-07,2017-12-13,3,-0.6957402467670005,negative,Maybe my dog isn't the brightest....
-P1000-08,2019-09-17,5,0.372727405353188,positive,My favorite thing ever
-P1000-10,2019-05-20,5,0.7626256663232593,positive,Awesome conditioner for thick African American hair!
-P1000-06,2019-02-02,5,0.7761724254525911,positive,"Great flavor, less waste!"
-P1000-05,2018-10-15,5,0.8294489227963652,positive,Yum!
-P1000-08,2017-03-13,5,0.7611192192762793,positive,Really is Natural
-P1000-04,2018-12-30,1,-0.8636087871221905,negative,not a miracle
-P1000-01,2017-03-08,4,0.8293760906548466,positive,Value and Quality
-P1000-01,2014-05-11,5,0.8531272106258547,positive,Wonderful product...
-P1000-07,2017-03-09,4,-0.6323997664237867,negative,Great interactive toy but my boy still to smart for it...lol
-P1000-01,2013-12-13,5,0.8738137766925361,positive,Tropical Treat
-P1000-05,2019-08-08,1,-0.9749661383976487,negative,Unhappy
-P1000-07,2018-04-23,5,0.5175757961985007,positive,Favorite toy
-P1000-10,2019-04-07,5,0.7120286087082749,positive,"Excellent for skin, hair, and cooking"
-P1000-08,2019-01-05,5,0.5509775314505786,positive,the best
-P1000-08,2018-08-16,5,0.44410715716442684,positive,Very Good Oil
-P1000-06,2019-07-07,1,0.5457702875481455,positive,disappointed with my first SF Bay coffee
-P1000-06,2019-05-02,5,-0.44049132531089247,negative,Better than every real K-Cup there is
-P1000-03,2017-04-06,5,0.6322497507238267,positive,Best oatmeal ever
-P1000-10,2019-10-05,3,-0.4450657040854868,negative,A few probelms
-P1000-04,2019-02-02,5,-0.4615434838034631,negative,"For dieters YES, For non-dieters NO"
-P1000-10,2019-05-23,5,0.750805798995982,positive,great to have
-P1000-07,2019-06-10,5,-0.3290039248786631,negative,Good Quality
-P1000-03,2018-03-07,5,0.5197966240439472,positive,good for your body
-P1000-06,2019-05-15,5,0.935883365936028,positive,Don't Look Like K-Kups
-P1000-07,2018-05-18,5,0.3351148241588277,positive,My Pooch Loves it
-P1000-04,2018-06-20,5,0.3612094554754604,positive,Filling noodles
-P1000-05,2018-11-24,5,0.953694388767324,positive,So yummy!!
-P1000-07,2018-02-23,4,-0.48230353192395115,negative,Keeps dog busy
-P1000-06,2019-05-24,5,0.8932143869788923,positive,sold
-P1000-01,2019-08-14,5,0.9821462393394808,positive,Best coconut oil you can find anywhere!
-P1000-01,2019-09-17,5,0.9211364082383728,positive,I love coconut oil
-P1000-06,2019-05-31,5,0.9954976414198661,positive,Great Coffee
-P1000-01,2014-04-09,5,0.8100899793097271,positive,LOVE IT~LOVE IT~LOVE IT!!!
-P1000-01,2019-07-07,5,0.48394165498532427,positive,Super Awesome
-P1000-06,2019-05-21,5,0.4472779679866862,positive,Delicious
-P1000-03,2015-01-13,5,0.572368493677421,positive,"No better breakfast, no better oatmeal"
-P1000-07,2017-08-12,4,-0.4106468626308431,negative,"Great fun, has to be on a rug and needs thin treats"
-P1000-07,2019-02-29,5,0.6663446521357113,positive,Amazing way to provide treats
-P1000-06,2019-04-12,5,0.6352554458220124,positive,"San Francisco Bay Coffee One Cup for Keurig K-Cup Brewers, Fog Chaser, 36-Count"
-P1000-06,2019-06-21,5,0.5704342802419257,positive,Keurig Who????
-P1000-03,2014-01-08,5,0.5718109437339879,positive,McCann's Oatmeal
-P1000-04,2018-08-04,5,0.7270789867425789,positive,Miracle Noodles----truly a miracle!!!
-P1000-07,2019-05-04,5,0.3468724740784987,positive,Love it! Best toy yet.
-P1000-01,2016-02-09,5,0.3819795023283185,positive,Good Deal - Good Oil
-P1000-05,2018-11-24,5,0.7394660202187142,positive,Love it - give it a try
-P1000-03,2014-02-06,5,0.8578022243149124,positive,It's all I eat for breakfast now!
-P1000-08,2019-05-14,5,0.8800292635298476,positive,*~~~Wonderful Product~~~*
-P1000-05,2019-08-05,1,-0.4813048346814042,negative,Too Sweet
-P1000-05,2019-03-18,1,-0.416251888608586,negative,Low Quality. High Calorie and Fat.
-P1000-02,2019-07-25,3,-0.38065877811553916,negative,My dog doesn't love it
-P1000-07,2014-08-04,5,0.8039487604543175,positive,Tug-a-jug is a hit!
-P1000-07,2017-11-22,5,0.738722524837864,positive,Great Product!
-P1000-04,2018-04-04,5,0.5013643817222384,positive,a must try for any dieter!
-P1000-04,2018-11-16,5,0.6132314786368723,positive,Use the right recipe!
-P1000-03,2019-02-21,5,0.6255496144392733,positive,Love it
-P1000-02,2019-07-29,5,0.944986492578833,positive,My dogs approve!
-P1000-01,2016-11-14,5,0.6290973930816216,positive,More value for your money
-P1000-03,2018-01-23,3,-0.44746432812081344,negative,"Great Product, Cans Are Dented"
-P1000-05,2019-08-15,1,-0.35258494869855955,negative,"Vending Machine Coffee, dont buy it."
-P1000-01,2014-12-10,5,0.5714224832411039,positive,A great deal!
-P1000-01,2014-12-09,5,0.8532859341935136,positive,Always stocked in my house
-P1000-06,2019-01-10,5,0.45075941863141233,positive,Great taste
-P1000-03,2014-06-04,5,0.6045987639025389,positive,The best oatmeal i ever tasted.
-P1000-06,2019-04-29,5,0.5042763001521543,positive,sf kcup coffee review
-P1000-08,2019-02-13,5,0.6918728365992087,positive,Great tasting in oatmeal!
-P1000-07,2015-08-17,5,-0.3253431269146671,negative,My Pugs love this!
-P1000-01,2017-12-05,5,0.6093333288674637,positive,Amazing!!!!!!
-P1000-05,2019-01-05,5,0.8407005346774976,positive,delicious!
-P1000-06,2019-02-19,5,0.8512635840543727,positive,fog chaser
-P1000-02,2019-07-28,4,0.2839287235549349,positive,Average sized bits that the dogs just loved
-P1000-01,2019-02-08,5,0.6699500634642774,positive,Pure Coconut Oil with nice flavor and good price
-P1000-07,2019-03-10,5,0.41155134415615396,positive,Favorite and hardest of the 4 Busy Buddy toys we own
-P1000-02,2019-05-22,4,0.26591977258848526,positive,Not cat food but my dog likes it anyway
-P1000-01,2015-11-04,5,0.69612480405471,positive,Nothing Compares
-P1000-06,2018-11-29,5,0.583820311122799,positive,"Absolutely delicious, best cup of coffee around!"
-P1000-08,2019-03-06,5,0.48080160835852537,positive,My Manna
-P1000-07,2014-07-21,5,0.5304572071936728,positive,"very durable ""toy"" to keep dog entertained"
-P1000-04,2019-08-22,5,0.5217674909167225,positive,OMG!
-P1000-04,2019-02-26,5,-0.35149607724946647,negative,Yum!
-P1000-04,2018-04-17,5,0.5181968632713055,positive,Calorie Free Noodles!!!! Amazing
-P1000-07,2017-07-01,5,0.26534795688371954,positive,Great Toy
-P1000-07,2018-08-19,5,-0.7100560154825775,negative,"Took a while to figure out, but great toy!"
-P1000-04,2019-09-08,4,0.28782656939105933,positive,"Not Bad, Not Bad At All"
-P1000-01,2017-10-29,5,0.8306120715364564,positive,Fantastic Stuff!
-P1000-06,2018-12-01,5,0.7668849898305056,positive,"Great taste, impressed"
-P1000-04,2018-04-05,4,0.5375988668420003,positive,EXCELLENT no carb!!!
-P1000-10,2018-05-21,5,0.9099561209940396,positive,Love it!!
-P1000-04,2018-06-13,4,-0.6347154677653768,negative,Ok...to be honest...
-P1000-01,2019-06-19,5,0.8476519581887377,positive,"Amazing on the face, body, and on food!"
-P1000-03,2017-04-14,5,0.5173557602252996,positive,This oatmeal is just amazing!!!
-P1000-08,2018-06-24,5,0.7778917825851801,positive,amazing product
-P1000-08,2019-05-25,5,0.9217672322669701,positive,Coconut oil is awesome!
-P1000-05,2018-12-24,5,0.9933075313284297,positive,k cups
-P1000-03,2014-04-02,5,0.9759235636567365,positive,Awesome oatmeal
-P1000-05,2019-09-01,1,0.5644690868848963,positive,Way to sweet
-P1000-05,2018-12-16,5,0.8160277525785581,positive,Very Happy With This Item!
-P1000-01,2017-01-30,5,0.7744592737234728,positive,Wonderful Goodness
-P1000-10,2019-06-18,5,0.7303607420271089,positive,SUPER!
-P1000-06,2019-01-25,5,0.5705592505783608,positive,Wakes me up!
-P1000-07,2018-05-13,5,0.5553817548173958,positive,So much better than a bowl!
-P1000-03,2014-01-24,5,0,neutral,YUMMY OATMEAL
-P1000-01,2019-09-12,5,0.7754756838863993,positive,Delicious & Nutricious!
-P1000-01,2019-03-13,5,0.6262837066061059,positive,Nutive Organic Extra Virgin Coconut Oil
-P1000-04,2018-06-25,1,-0.6044109491643322,negative,"No miracle, they are NOT edible!"
-P1000-05,2018-12-29,5,0.7866802860157869,positive,K-Cups
-P1000-07,2018-01-19,4,-0.3392977635316715,negative,Lasted longer than I thought!
-P1000-04,2019-05-18,2,-0.41454300532219,negative,Terrible Texture
-P1000-04,2019-02-09,4,0.5223353924134558,positive,Sukiyaki ingredients!
-P1000-01,2014-08-22,4,0.5320473214940169,positive,Nutiva Coconut Oil - change in bottling?
-P1000-05,2019-07-17,1,-0.5639123903288104,negative,Could barely get through 2 sips..
-P1000-01,2017-08-14,5,0.5542246833890292,positive,Great alternative cooking oil
-P1000-01,2018-06-03,5,0.5666410753432105,positive,good for external use
-P1000-07,2018-01-22,5,-0.5723922704925356,negative,Great Lab Toy!
-P1000-01,2018-06-17,5,0.9014499112927904,positive,Great tasting!
-P1000-01,2019-10-12,5,0.9635728012621976,positive,Oh God...That this is legal bliss is..
-P1000-01,2017-04-23,5,0.9848837841573237,positive,Nutiva Organic Extra Virgin Coconut Oil - 8lb tub
-P1000-10,2019-04-01,5,0.6692978372883733,positive,One of the Best Coconut oils on the Market
-P1000-06,2019-01-17,5,0.6531459951246044,positive,An inexpensive alternative to the K-cup
-P1000-07,2017-01-22,5,0.7896810016637662,positive,Hours of fun!
-P1000-06,2019-05-29,5,0.8267355811146505,positive,"Great coffee, great price and  much greener!"
-P1000-10,2019-09-25,5,0.6217369520600418,positive,Tastes Good And Is Not Expensive
-P1000-06,2019-06-10,5,0.7397860489429775,positive,"Bold, fresh flavor"
-P1000-04,2019-02-29,1,-0.6561806989040031,negative,yuk!
-P1000-05,2019-02-12,2,-0.29719441270127855,negative,Tastes awful due to sugar-free sweetener
-P1000-07,2015-04-12,5,0.7740784858788663,positive,Great fun for my dogs!
-P1000-07,2019-03-06,5,0.6551448264171126,positive,"Durable, still fun when ""solved"""
-P1000-03,2017-11-12,5,0.8649803425978305,positive,Good for you and great taste
-P1000-03,2014-03-07,5,0.6608638943981477,positive,The Very Best Oatmeal
-P1000-01,2017-11-07,5,0.884842332752309,positive,Best oil for hair
-P1000-04,2018-06-26,5,0.6088828251584786,positive,Noodlicious
-P1000-08,2019-02-08,5,0.7868704793151611,positive,Healthiest fat on the planet.
-P1000-08,2018-07-27,5,0.3109145520488562,positive,I'm Sold on Coconut Oil
-P1000-10,2019-05-24,5,0.7712503428197685,positive,Great stuff!
-P1000-07,2017-04-15,3,-0.49999288330094727,negative,eat-a-rope
-P1000-07,2019-03-03,5,0.6966971601174522,positive,Great Toy
-P1000-08,2019-06-10,5,0.6560215472927032,positive,Great product!
-P1000-10,2017-10-31,5,0.6776240182997051,positive,Great
-P1000-05,2019-09-27,2,-0.38283442368732656,negative,If you like coffee.. buy something else
-P1000-06,2019-01-11,5,-0.3142634703314257,negative,Less plastic and better taste? Yes please!
-P1000-02,2019-07-31,5,0.6764491770474961,positive,Beneful Dog Food is all we use
-P1000-05,2018-11-20,1,-0.7085198668938358,negative,"Horrible, Instant coffee, Hydrogenated oil inside, health hazard!!!"
-P1000-05,2019-04-11,5,0.9614923432393686,positive,Tasty
-P1000-04,2018-08-01,5,-0.28740734964534614,negative,Miracle Noodle
-P1000-01,2015-01-06,5,0.6838343932443928,positive,Best Deal Ever!
-P1000-10,2019-08-26,5,-0.2903389871284589,negative,Tons of Uses!!
-P1000-07,2019-01-22,5,0.5812463295374782,positive,excellent
-P1000-04,2018-06-26,5,0.6489281233600356,positive,Fantastic!!!
-P1000-06,2019-05-24,5,0.8656015081002193,positive,Our favorite coffee at a fantastic price
-P1000-01,2017-07-27,5,0.5267349753649868,positive,The reviews don't lie
-P1000-10,2019-08-21,5,0.8326319672101831,positive,Fantastic
-P1000-06,2019-02-22,5,0.7939031543546583,positive,Fog Chaser - Superb!
-P1000-07,2019-05-31,4,-0.4654534174601431,negative,keeps 'em busy!
-P1000-04,2018-04-04,1,-0.8961531828747101,negative,If you like the smell of fish you'll like these
-P1000-04,2019-01-16,2,-0.8365444661622978,negative,Diffrent
-P1000-04,2019-01-04,5,-0.3196416053120992,negative,"Dear lord, thank you for sending me miracle noodles..."
-P1000-05,2018-10-19,5,0.8937444510393618,positive,"I love it, stock up for the winter!!"
-P1000-10,2019-01-27,5,0.5537977201559491,positive,Yum!
-P1000-07,2018-11-07,3,0.4743108419930156,positive,"Love This Product, But..."
-P1000-10,2019-05-28,4,0.5661566630744868,positive,Great for cooking and spread.
-P1000-01,2015-12-26,5,0.8491122487187923,positive,I use it for everything!
-P1000-01,2016-05-17,5,0.5013113363044177,positive,love this product
-P1000-10,2019-03-30,5,0.8126530160998258,positive,hoping for great results
-P1000-04,2019-10-06,4,-0.39258623983710106,negative,Good eating but not effective dieting
-P1000-05,2018-11-04,1,-0.46859018536396974,negative,Not what you think--taste wise
-P1000-01,2016-08-25,5,0.6962675313242597,positive,I can't get any better than this...
-P1000-03,2014-01-30,5,0.8200714152225902,positive,Steel Cut Oatmean
-P1000-03,2014-11-07,5,0.4037487721103319,positive,Good Stuff in a handy can
-P1000-04,2018-12-21,5,-0.28045185178822607,negative,Read before purchasing
-P1000-04,2018-10-20,5,0.7027227228245573,positive,These are a diet's Lifesaver!
-P1000-06,2019-06-05,4,0.5905133874990357,positive,Surprisingly Good
-P1000-05,2019-01-30,5,0.7627679944423071,positive,Delicious!
-P1000-05,2019-01-24,5,0.8696766971180249,positive,LOVE!!!
-P1000-04,2018-08-20,5,0.7034575145539328,positive,Love These Noodles
-P1000-04,2019-05-09,1,-0.4568602240513206,negative,Only Meant To Be Used In Asian Dishes
-P1000-06,2019-05-26,5,0.7381722219610996,positive,"A hearty, fresh, and somewhat bold taste"
-P1000-08,2018-02-12,4,0.3552942038951748,positive,I like it
-P1000-06,2019-03-28,3,0.6679386051616792,positive,Average cup of coffee
-P1000-07,2018-12-05,4,0.3570990133987334,positive,"One dog loves it, the other couldn't figure it out!"
-P1000-07,2018-12-07,5,0.7547508690927145,positive,very engaging!
-P1000-01,2017-01-10,5,0.6118545374432202,positive,We use this for everything!
-P1000-06,2019-06-15,5,0.6402903647198276,positive,"Bold coffee from k-cups, finally!"
-P1000-05,2018-11-27,5,-0.3254947817314021,negative,Mini Mart Cappuccino
-P1000-04,2018-07-13,5,0.7234916338642418,positive,The best of Miracle Noodles Angel Hair Pasta !!!
-P1000-01,2016-08-16,5,0.46015812744940326,positive,Holy YUM!!
-P1000-04,2018-06-05,5,0.6057618851425154,positive,Great Stuff
-P1000-04,2019-08-20,1,-0.5103029784129162,negative,No. Just no.
-P1000-03,2015-05-16,5,-0.43356227600828046,negative,Apparently Gluten-Free
-P1000-08,2019-02-07,5,0.45346557908659785,positive,Great Stuff - No odor
-P1000-06,2019-05-22,5,0.8490231875121865,positive,San Francisco Bay ( fog chaser )
-P1000-07,2019-04-26,5,0.6845990079765688,positive,Our Rescue Pup LOVES this toy!
-P1000-06,2019-05-04,5,0.8533959853454562,positive,Great Bargain at this price
-P1000-07,2018-08-28,5,0.8029664110871786,positive,sturdy
-P1000-01,2018-08-15,5,0.8893520715863846,positive,LOvE IT!!!!!
-P1000-01,2015-12-26,5,0.6274179614632328,positive,The best tasting
-P1000-01,2014-03-07,5,0.8110083259080403,positive,well-being in a jar
-P1000-02,2019-06-09,5,0.4552786553015325,positive,Dog Prefers This - Actually Loves It
-P1000-06,2019-03-19,4,0.3725992647267289,positive,Odd package but good coffee
-P1000-10,2019-07-08,5,0.8879483268879211,positive,Great Product!
-P1000-07,2017-09-12,5,-0.34332606887257777,negative,I love this toy
-P1000-01,2018-02-17,5,0.9840687423778565,positive,Healthy cooking with coconut oil
-P1000-07,2019-01-04,5,0.45751611616515536,positive,Puppies All Time Favorite Toy
-P1000-05,2018-11-06,5,0.9566391180252941,positive,Very Good Coffee
-P1000-03,2018-02-09,2,-0.8546525668896151,negative,Selling dented cans.
-P1000-06,2019-03-13,5,-0.6882436780778362,negative,Robust and true...
-P1000-10,2019-05-09,5,0.7239969293881986,positive,You can get addicted to this stuff..
-P1000-05,2018-12-13,5,0.9606433309175126,positive,Great Taste...
-P1000-07,2018-03-15,5,0.673235339444663,positive,My dog loves this thing
-P1000-06,2019-04-25,5,0.7796387972860199,positive,Great cup of joe
-P1000-08,2019-05-21,5,0.5303877273607773,positive,Well Worth Trying
-P1000-04,2018-07-13,5,0.6067380237605834,positive,shirataki noodles
-P1000-04,2018-08-28,5,0.3573563583111859,positive,Miracle Noodles...quite impressive!
-P1000-04,2019-08-02,4,0.513752477113676,positive,"Miracle Noodles, good not great..."
-P1000-01,2018-08-20,5,0.7419825773702391,positive,best purshase yet!!
-P1000-05,2018-12-07,5,0.989190378190156,positive,Delicious!
-P1000-07,2018-03-15,5,0.5055883417872359,positive,Puppy Loves It!
-P1000-04,2019-03-03,4,0.4936456277900439,positive,Miracle
-P1000-01,2018-09-27,5,0.35474220585715416,positive,Good brand of Coconut Oil
-P1000-07,2018-12-26,5,0.9238761586527523,positive,Doggy Approved
-P1000-03,2013-12-13,5,0.6852748073193964,positive,Heavenly oatmeal.
-P1000-04,2019-03-05,2,0.26160057554033006,positive,Miracle no
-P1000-02,2019-07-02,3,-0.2970021537093297,negative,Beneful
-P1000-04,2019-08-29,1,-0.8712249622123771,negative,EXPIRED!!!!
-P1000-06,2019-05-14,5,0.8007182223930319,positive,Coffee
-P1000-07,2017-10-30,4,0.7265486641879435,positive,Good entertainment
-P1000-10,2018-02-22,5,0.9583958564238341,positive,Love It
-P1000-04,2019-03-11,5,0.5587188999136689,positive,Delicious
-P1000-07,2018-10-23,5,0.5182432767928328,positive,Occupies my dog for hours!
-P1000-05,2019-01-28,1,0.7064941645024341,positive,Wow.... lots of saturated fat
-P1000-04,2018-06-04,5,0.4476918724842573,positive,If you want to cut down of carbs go for this!
-P1000-03,2015-06-24,5,0.31089987272392744,positive,Add Drambuie and brown sugar and you've got oatmeal for adults
-P1000-08,2019-01-16,5,0.7908982421640989,positive,Awesome for Hair!
-P1000-08,2019-04-22,4,0.9401847169496611,positive,coconut oil
-P1000-01,2019-09-10,5,0.8547134954544571,positive,Coconut oil
-P1000-05,2019-01-18,5,0.7887310662200948,positive,Great Taste
-P1000-05,2019-02-14,1,0.4915193470181687,positive,More like dessert than coffee
-P1000-08,2017-02-02,5,0.3629834489259458,positive,BEST PRICE - BEST PRODUCT!
-P1000-08,2019-03-10,5,0.7373401371266926,positive,Best tasting coconut oil we've tried.
-P1000-04,2019-01-09,5,-0.5530855464258353,negative,skeptical at first
-P1000-06,2019-06-04,5,0.43665894913613257,positive,size and shape worried me- but taste is where they excel
-P1000-10,2019-07-26,5,0.9112546308681085,positive,Feet Action
-P1000-07,2018-09-20,5,0.5165173747796172,positive,This made ALL the difference
-P1000-06,2019-06-09,5,0,neutral,GREAT COFFEE
-P1000-02,2019-05-29,2,-0.382284484254411,negative,It's nothing to rave about
-P1000-06,2019-05-08,5,0.8548953516068591,positive,Fast became one of my favorite K-Cups
-P1000-06,2019-03-05,5,0.9565812314825277,positive,It's different from k-cups
-P1000-07,2019-01-01,5,0.8136425915679841,positive,"Dogs love it, easy to fill, durable."
-P1000-06,2019-06-05,5,0.60685742481271,positive,really good coffee for a really good price
-P1000-10,2019-06-08,5,0.8091767626587386,positive,strongly recommend
-P1000-03,2016-01-22,5,0.4327107245903467,positive,Fantastic product and price
-P1000-10,2019-06-10,5,0.7789392345705832,positive,Best on the market
-P1000-01,2016-07-09,5,0.7534068257238696,positive,Great Product
-P1000-03,2014-01-08,5,0.49071898252391444,positive,Steel cut oats
-P1000-05,2019-03-10,2,0.5747926498125338,positive,Excellent products
-P1000-04,2018-11-25,5,0.5261603573486462,positive,Don't expect pasta!
-P1000-04,2019-09-10,5,0.37809691543054674,positive,noodles.
-P1000-01,2014-05-05,5,0.7624968344304461,positive,Tasty and nutritious
-P1000-06,2019-02-19,5,0.8680195038706017,positive,Fog Chaser K-cups
-P1000-05,2019-01-05,5,0.7569272266299701,positive,Great product!
-P1000-10,2017-08-12,5,0.9819367503290726,positive,yummy!
-P1000-01,2016-01-29,5,0.4931410973140942,positive,THIS STUFF IS INCREDIBLE!!!
-P1000-02,2019-07-30,4,0.551377049215901,positive,Dog eats it!
-P1000-03,2015-06-14,5,0.3448829494853182,positive,I love this oatmeal
-P1000-01,2019-03-18,5,0.6204254829287017,positive,SMELLS DELICIOUS!!
-P1000-10,2019-04-04,5,0.7757428829414164,positive,Very healthy
-P1000-05,2018-12-28,5,0.9107076804529628,positive,I'm addicted!!!
-P1000-06,2019-03-18,5,0.9861686445319336,positive,Great Coffee
-P1000-10,2019-03-12,5,0.40527412905824495,positive,The smell of sunshine and ice-cream!
-P1000-07,2017-01-24,5,0.7607528286769263,positive,Awesome Toy!
-P1000-01,2018-08-14,5,0.529306660938881,positive,Great Price With Shipping
-P1000-04,2018-06-15,5,-0.9037786154994735,negative,love &lt;3
-P1000-08,2018-04-25,5,-0.5140443038362341,negative,Why are we no longer able to autoship my item?
-P1000-10,2019-02-05,5,0.9019542728367558,positive,Great stuff!
-P1000-04,2018-07-03,4,0.563318467095543,positive,worth trying
-P1000-03,2018-05-24,5,0.7866122555717343,positive,Love this steel-cut oatmeal!
-P1000-10,2019-05-19,5,0.6013613790353476,positive,Amazing stuff
-P1000-06,2019-06-07,5,0.8037074852438608,positive,Wow...fantastic coffee at a great price
-P1000-05,2019-01-19,2,0.429405961276327,positive,Big Dissapointment
-P1000-04,2019-03-22,1,-0.7215175457380593,negative,It is a miracle I didn't vomit
-P1000-05,2018-10-22,5,0.8781086808451108,positive,"Great just be aware, it is instant not fresh brewed."
-P1000-07,2019-03-27,4,0.5144168762869813,positive,Good food toy for the rotation
-P1000-01,2019-04-12,5,0.7886706685199614,positive,Nutiva
-P1000-05,2018-12-14,2,0.6282584662020644,positive,Disappointed. . .
-P1000-01,2018-05-24,5,0.5589929743659678,positive,Good value conitioner/moisturizer
-P1000-01,2018-09-11,5,0.8267827663857423,positive,Coconut Oil
-P1000-05,2019-09-28,1,-0.5468585949801614,negative,Not worth it
-P1000-04,2018-08-30,1,-0.6923870599777068,negative,"Actual noodles weigh 1oz, comes in 6oz of water, so gross!"
-P1000-04,2019-04-09,4,-0.32746477142546887,negative,Great Product
-P1000-04,2019-02-28,5,-0.35719666899645136,negative,Miracle Noodles
-P1000-02,2019-06-26,3,0.3188190449430206,positive,My dog LOVES it BUT...
-P1000-04,2019-02-04,4,0.2919810683450064,positive,"Very good, but very pricey."
-P1000-08,2019-02-15,5,0.739339018030018,positive,How did I live without this?
-P1000-05,2018-12-28,5,0.8498210250749498,positive,Delicious!
-P1000-05,2018-12-13,4,0.6496899746288798,positive,flavor
-P1000-06,2019-05-01,5,0.9849428673024951,positive,Delicious!
-P1000-03,2016-03-02,5,0.336953951478547,positive,Slooow Cooking
-P1000-03,2016-09-13,5,0.7879756914275136,positive,"Delicious, wholesome product-- and the tins are great for knick knacks!"
-P1000-06,2019-01-29,5,0.43650645206267336,positive,No fog here!.
-P1000-07,2015-10-01,5,0.6998958618565257,positive,The best dog toy I ever bought :)
-P1000-01,2017-11-16,5,0.6847245042306248,positive,For Everything
-P1000-08,2019-05-06,5,0.890715767453435,positive,good
-P1000-05,2018-12-09,1,-0.874742137414443,negative,Beware of artificial sweetener!
-P1000-06,2019-02-19,5,0.5450350552719205,positive,Best tasting coffee I have had for the Keurig
-P1000-02,2019-07-31,4,0.40116893053206637,positive,The dog likes it
-P1000-10,2019-09-17,4,0.8274141437886819,positive,"Great for my hair, and cooking!"
-P1000-01,2018-12-11,5,0.6469423385667552,positive,Best darn Coconut oil EVER!!!!
-P1000-01,2016-07-04,5,0.6040589426989157,positive,A Diverse Product
-P1000-07,2018-04-04,2,0.6543922094556178,positive,My Dogs completely ignore it.
-P1000-05,2019-10-04,1,-0.8681619763932298,negative,Absolutely Vile
-P1000-06,2019-01-22,5,0.8186184865876582,positive,"Great Taste, Less waste!"
-P1000-01,2017-04-24,4,-0.8694890805695228,negative,"Oil is good, bottle is not"
-P1000-01,2016-05-10,5,0.8815087159044447,positive,Fragrance that takes you out of this world!!
-P1000-07,2019-01-19,5,-0.6145931780770292,negative,Two Years is a LONG Time
-P1000-06,2019-03-13,5,0.9774841247513186,positive,enjoy this brand of coffee
-P1000-07,2019-06-12,5,-0.2876619252728648,negative,Amazing toy for dogs who devour their food quickly
-P1000-06,2019-01-30,4,0.41995517888749384,positive,Good basic coffee for your Keurig
-P1000-01,2016-11-14,5,0.9013166374868808,positive,"Nutiva Organic Extra Virgin Coconut Oil, 54 ounce jar"
-P1000-03,2016-12-29,5,0.7619860514618444,positive,Great product. Delicous
-P1000-01,2018-12-07,5,0.9023428851030513,positive,The best oil ever!
-P1000-01,2017-06-24,5,0.2955543006049959,positive,Create product - hit or miss shipping
-P1000-06,2019-01-08,3,0.439773323624744,positive,Not Really K-Cups But They Do Fit in Your Keurig
-P1000-06,2019-06-10,5,0.8270557051409838,positive,Great Product + Excellent Price!
-P1000-10,2019-08-19,5,-0.4279311624694914,negative,Love this!
-P1000-04,2019-08-17,4,0.7020683901535233,positive,A Good Substitute
-P1000-08,2018-05-13,5,0.47409503006511694,positive,great deal
-P1000-03,2013-12-24,5,0.7997137733523261,positive,Steel Cut is the way to go
-P1000-07,2017-11-26,5,0.37543318627937056,positive,Georgia and Diego love  Tug-A-Jug
-P1000-01,2017-03-05,5,0.48478468957887744,positive,Fantastic!!
-P1000-06,2019-04-22,4,-0.6554588951426493,negative,Works in the B3000 brewer
-P1000-05,2019-01-03,5,0.7159381720126768,positive,The Perfect Treat!
-P1000-05,2019-02-29,1,0.5118186676834962,positive,What a disappointment
-P1000-08,2019-01-13,5,0.7108226114979947,positive,Very versatile
-P1000-10,2019-01-20,5,0.49427161232836514,positive,Excellent
-P1000-06,2018-12-21,3,0.6210939805291386,positive,San Fransisco k-cup
-P1000-07,2018-08-28,4,0.5097457029258878,positive,nice toy
-P1000-06,2019-04-28,5,0.8843307697159557,positive,My new favorite
-P1000-04,2018-06-26,4,-0.41391857532372545,negative,A Great Substitute!
-P1000-07,2018-08-08,5,0.40214863326813677,positive,Great distraction! I get so much done!
-P1000-07,2018-02-17,4,0.33566515911052835,positive,Good for fast eaters
-P1000-06,2019-03-12,3,-0.7664971364299837,negative,San Francisco Bay Coffee
-P1000-04,2018-06-11,1,-0.7879096949510636,negative,shirataki noodles- order the bare minimum
-P1000-06,2019-02-08,5,0.7637988597020943,positive,Yuuuuuum!
-P1000-01,2014-02-23,5,0.7384855108145586,positive,It's a win win thing.  And I even like the smell!
-P1000-03,2014-01-08,4,0.35159661393379177,positive,$17.05 for satisfying and healthier rice substitute
-P1000-05,2018-12-18,1,-0.25584831562740584,negative,Hope you like milk and sugar and no coffee
-P1000-07,2018-01-21,5,0.3063736951884819,positive,My dogs love this toy!
-P1000-06,2019-02-01,4,0.4521280188297984,positive,Good quality coffee-- cheaper and less waste
-P1000-01,2017-08-06,5,0.629880837009525,positive,Nutiva organic extra virgin coconut oil
-P1000-08,2019-02-06,5,0.7295884837606038,positive,LOVE LOVE LOVE
-P1000-04,2018-05-22,4,0.9600756133065383,positive,Noodle review
-P1000-04,2018-06-20,1,-0.7079356423248482,negative,"Had to try it, but yuck."
-P1000-04,2018-07-10,5,0.704058307418104,positive,Great low-carb option for Asian noodle dishes
-P1000-08,2019-08-01,5,0.8198716666445489,positive,Great oil...especially for popcorn!
-P1000-10,2018-09-08,5,-0.49028353616065784,negative,"What ""Extra Virgin"" label  mean for coconut ?????"
-P1000-07,2014-12-13,5,0.6268372595601156,positive,Provides Hours of Durable Fun for our Puppies!
-P1000-04,2018-08-17,2,-0.5918691423264885,negative,It DOES NOT taste bad......BUT...
-P1000-05,2018-11-22,5,0.6802338681911538,positive,Really Good Coffee Drink
-P1000-07,2014-09-09,5,0.5232866429836414,positive,My Dogs LOVE Tug-a-Jug!
-P1000-10,2019-06-10,5,0.7830677945157302,positive,Great Stuff!
-P1000-05,2018-10-20,5,0.9837429241277814,positive,Great Coffee and Great Price
-P1000-10,2019-06-03,5,0.46976160647753085,positive,"Once you start, you won't go back"
-P1000-05,2018-12-25,5,0.7977487502122609,positive,Delicious Cappucino Hot or Cold!
-P1000-07,2017-05-18,4,0.7004829045958075,positive,Tough Jug!
-P1000-01,2017-04-11,5,0.6738941781781368,positive,Coconut Oil
-P1000-10,2019-07-01,5,0.7390626807677008,positive,Works magically on hair
-P1000-05,2018-12-28,5,0.8440280030519157,positive,I love these!
-P1000-03,2019-08-29,5,0.3034494168459958,positive,Awesome.  Plain and Simple.
-P1000-01,2018-03-01,5,0.6226918807044034,positive,"I love, love, LOVE it!"
-P1000-10,2019-01-11,5,0.8841644281078556,positive,AMAZING
-P1000-10,2019-06-12,4,0.7527526061724792,positive,Excellent coconut oil
-P1000-07,2015-09-10,2,0.5124963371681192,positive,Buried Treasure Forever!
-P1000-04,2018-06-22,4,-0.5303224698315322,negative,Great alternative to pasta
-P1000-02,2019-06-11,3,0.5567325937848013,positive,Delicious junk food
-P1000-10,2017-12-06,5,0.5208169403188385,positive,"Love, love, love it"
-P1000-06,2019-02-09,5,0.7103055251569612,positive,Best cup of coffee from a Keurig yet.
-P1000-03,2014-01-08,5,0.5555645858397716,positive,Yummy! And way less expensive than the local grocery store.
-P1000-03,2015-06-18,5,0.6346733928922087,positive,Oatmeal
-P1000-06,2019-02-01,5,-0.875841682265862,negative,Love Fog Chaser!
-P1000-10,2018-05-18,5,-0.720398676782437,negative,Finally!!! Amazing result!!!
-P1000-04,2018-08-29,5,0.7598734813447255,positive,Buy It!
-P1000-06,2019-02-16,5,0.7970368214277228,positive,Digging the Fog Chaser
-P1000-06,2019-03-18,5,0.4757694274079897,positive,Great coffee
-P1000-07,2018-02-23,4,0.8016757286098385,positive,Great for smart busy dogs!
-P1000-07,2016-11-13,1,-0.6367116235311565,negative,Awful!  Didn't make it through a day!
-P1000-06,2019-03-12,4,0.8515109854383387,positive,Great deal!
-P1000-08,2019-02-28,5,0.8211296791178206,positive,Excellent product!!!
-P1000-07,2018-03-15,4,-0.43820095090102745,negative,Favorite toy - just plan to replace it frequently
-P1000-08,2018-05-16,5,0.6077525225970495,positive,Gives a Good Hint of Coconut to Food
-P1000-04,2018-08-02,4,-0.4481709684832017,negative,Great product
-P1000-04,2018-06-23,4,0.7825168597490766,positive,"Miracle Noodle Shiratake Angel Pasta, 7-ounce packages (Pack of 6)"
-P1000-10,2019-08-01,5,0.7196230674636508,positive,Cure for Cancer???
-P1000-06,2019-04-29,5,0.8374983667273126,positive,Love the flavor
-P1000-10,2018-01-31,5,0.4201530389085609,positive,Interesting Oil
-P1000-06,2019-04-30,5,0.9181286358983892,positive,Excellent coffee!
-P1000-01,2017-04-17,5,0.6775199198626527,positive,No Hexane
-P1000-01,2018-05-14,5,0.8333009585593815,positive,Great product; great store.
-P1000-04,2018-09-26,3,-0.5644154828083134,negative,"Not bad, but not good either"
-P1000-10,2019-01-17,5,0.5843459314909603,positive,I just got mine and I am so excited!
-P1000-03,2014-05-13,5,0.8046225526167274,positive,McCann's Oatmeal
-P1000-07,2018-02-13,5,0.6442137947683316,positive,tug-a-jug
-P1000-07,2017-12-06,5,0.44346351631754094,positive,we use it daily
-P1000-06,2018-12-03,5,0.8048985755408058,positive,Love it!
-P1000-01,2019-03-15,5,0.5457573495504068,positive,LOVEEEE!
-P1000-05,2019-01-23,4,0.7717144432715002,positive,Pretty damn good....but I LIKE the Wawa/Convenience store stuff!
-P1000-10,2019-02-21,5,0.6592697754040135,positive,Awesome Stuff !!
-P1000-07,2018-08-12,5,-0.3675683436353397,negative,Keeps my dog occupied for a looooong time!
-P1000-08,2014-04-08,5,0.9231107772660169,positive,"GREAT COCONUT OIL....Try it, you'll like it!"
-P1000-05,2018-12-13,5,0.5510793479269298,positive,My wife loves it.
-P1000-02,2019-07-14,3,0.513079230061339,positive,I Am Now Wondering!
-P1000-07,2018-09-21,4,-0.5217090076508694,negative,Great Product.
-P1000-05,2018-10-17,1,-0.5780177357675871,negative,Gas station coffee dispenser garbage
-P1000-07,2018-02-03,5,-0.3967832797922705,negative,My dog loves this
-P1000-05,2019-01-27,5,0.7115048597110796,positive,Love this product
-P1000-10,2019-06-19,5,0.7519168235413165,positive,Nature's Way EfaGold Organic Extra Virgin Coconut Oil
-P1000-10,2019-02-19,4,-0.6265974425222662,negative,Delicious and a world of uses!
-P1000-06,2019-03-22,4,0.7848408829414331,positive,Fog Chaser for Sure!
-P1000-06,2018-11-16,5,0.8371922286605891,positive,Great morning wakeup cup of coffee
-P1000-02,2019-07-29,5,0.7457144258341469,positive,Your Dog Will Love This
-P1000-03,2017-10-31,5,0.969765454926769,positive,great stuff!
-P1000-03,2016-05-28,1,-0.3741412223951648,negative,High quality product in plastic container...illogical!
-P1000-03,2018-02-15,5,0.9447865749827966,positive,Best Oat Meal I've Ever Tasted
-P1000-01,2017-05-11,5,0.9979166538764037,positive,Love This Oil
-P1000-02,2019-07-24,4,-0.36760356110071124,negative,"Dogs love it, picture on bag is very misleading."
-P1000-01,2018-02-01,5,0.6660147428129792,positive,Simply THE best tasting!
-P1000-03,2015-03-01,5,0.5607976626142093,positive,Nutritious & delicious!
-P1000-02,2019-09-25,3,0.5996062003387225,positive,My go-to brand
-P1000-03,2014-05-18,5,0.7656390973365789,positive,the best oatmeal i've had
-P1000-02,2019-07-19,1,-0.48148320357897906,negative,Multiple species refused to eat this food
-P1000-08,2018-01-13,5,0.8812216938473202,positive,Love it!
-P1000-08,2018-04-12,3,0.29293394112753635,positive,"Love Nutiva, but Dioxin (plastic)"
-P1000-08,2019-05-30,5,0.5891576129546577,positive,BIG fan!
-P1000-03,2017-02-15,5,0.8665607148511912,positive,Delicious!
-P1000-03,2016-06-02,5,0.638688657229769,positive,Great !!
-P1000-02,2019-07-26,2,-0.4815500329625581,negative,A great fly attractant
-P1000-02,2019-05-21,3,0.3616225283502733,positive,"My Dog Likes It, Though Perhaps He Shouldn't."
-P1000-03,2019-09-29,5,-0.9588202294465539,negative,More effective than Nexium or Pantozole
-P1000-02,2019-02-25,1,-0.6989375307480669,negative,"False Advertising, Terrible Dog Food!!"
-P1000-03,2018-12-05,5,0.6988415327857397,positive,For the oatmeal conoisseur
-P1000-03,2014-11-14,5,0.7232109414415389,positive,McCanns Steel Cut Oatmeal
-P1000-03,2018-07-01,5,0.6564553773699033,positive,Substance
-P1000-03,2016-01-10,5,0.5579439327922366,positive,"If you like oatmeal,"
-P1000-02,2019-07-24,4,-0.34011976981701075,negative,Fred Votes Yes!
-P1000-03,2017-07-31,5,0.9832010827605666,positive,Awesome!
-P1000-02,2019-07-24,3,-0.2841507499090713,negative,"Dog Not a Big Fan, but the Cats Loved It"
-P1000-02,2019-05-28,5,0.96279632375556,positive,Purina Beneful Original Dry Dog Food
-P1000-08,2017-06-17,5,0.7219810781523829,positive,best coconut oil I have found
-P1000-03,2018-02-12,3,-0.468566659352469,negative,great taste
-P1000-02,2019-06-02,1,-0.7445963252523655,negative,"More expensive than in the stores, not enough nutrition for dogs."
-P1000-03,2018-07-21,5,0.3076640511777255,positive,It seems to be working ...
-P1000-03,2019-09-10,2,0.6581227389175002,positive,Confused about texture
-P1000-02,2019-06-15,3,0.36275003184209176,positive,"Some Good, Some Bad"
-P1000-03,2015-06-16,5,0.39246425743566854,positive,best oatmeal!
-P1000-08,2018-05-10,5,0.8958793256641199,positive,Healthy Organic Coconut Oil
-P1000-02,2019-06-11,2,-0.3658491529747915,negative,Purina not molto Bene
-P1000-10,2019-06-07,5,0.4617941950007272,positive,Love this stuff!
-P1000-08,2017-04-23,5,0.500265116873591,positive,Cant say anything that hasnt already been said!
-P1000-03,2016-11-10,5,-0.571889256147838,negative,Excellent Product for Digestion
-P1000-03,2018-03-12,5,-0.9419100191934374,negative,benefit of Wedderspoon
-P1000-03,2019-08-19,4,0.9043899960514539,positive,Wedderspoon Raw Organic Manuka Honey Active 16+
-P1000-03,2019-05-11,5,0.3363219574812106,positive,Help my wound heal! A miracle!!
-P1000-02,2019-07-25,4,-0.4848692219965593,negative,My friend's 2 dogs and 5 shelter dogs ate this dog food eagerly
-P1000-10,2019-02-27,5,0.9213458543498155,positive,Good product
-P1000-03,2016-01-10,5,0.6730703092799947,positive,I buy this brand because its the best...................................
-P1000-02,2019-06-11,2,-0.4843931483441956,negative,"Dog enjoyed it, but poor grade food overall"
-P1000-03,2018-11-26,5,0.40853117624890833,positive,Not the cheapest....
-P1000-03,2016-03-29,5,-0.5378263767331477,negative,Drs could learn something here
-P1000-03,2019-10-18,5,0.917106574982133,positive,my favorite honey
-P1000-08,2019-04-09,5,-0.3249214732968547,negative,great for aging skin!
-P1000-03,2019-08-01,4,0.48535382929414916,positive,unlike any other honey
-P1000-10,2019-04-06,5,0.4235458139234096,positive,Coconut Oil and HDL
-P1000-10,2019-03-22,5,0.6212243626825449,positive,Yummy!
-P1000-08,2019-09-22,5,0.9141888026901668,positive,My skin is happy!
-P1000-02,2019-07-24,5,-0.7020953356045331,negative,Two Paws Up
-P1000-08,2018-03-25,5,0.896028791581835,positive,Taste fantastic with just about anything and not strong...
-P1000-02,2019-08-10,4,0.9485769100990462,positive,Beneful
-P1000-03,2019-05-20,5,0.9639227238641281,positive,Miracle!
-P1000-08,2018-03-26,5,0.6864017874989021,positive,New user and LOVE it!!
-P1000-08,2018-06-01,5,0.8482627488676961,positive,Coconut popcorn
-P1000-10,2019-02-28,5,0.8154048225103276,positive,"Taste good, great with honey!"
-P1000-10,2018-06-01,5,0.6877419294410125,positive,So yummy!
-P1000-02,2019-07-04,1,-0.33270299429685496,negative,Same stuff different packaging.
-P1000-03,2018-01-20,2,0.7492183454534398,positive,not worth the $ or the yuck factor
-P1000-02,2019-07-23,5,0.6890890449171294,positive,Dogs love it !!!
-P1000-02,2019-07-27,3,0.6018903898288396,positive,"I like the bag, dogs like the taste, nobody likes the ""nutrition"""
-P1000-10,2019-04-08,5,0.5911024616225252,positive,"Coconut Oil ""Miracle of Nature"""
-P1000-02,2019-06-02,1,-0.9328904667522842,negative,Poor quality
-P1000-03,2015-02-26,5,0.7590045648060257,positive,Great food.
-P1000-03,2015-04-04,4,-0.7703090296471679,negative,"McCanns is the best, but. . . . . ."
-P1000-03,2016-04-24,5,0.8725259900954399,positive,Great Honey
-P1000-02,2019-05-31,1,-0.493608186555192,negative,"Not ""Natural"""
-P1000-02,2019-09-28,5,0.38190705238119405,positive,Our picky dogs like it
-P1000-10,2017-07-13,5,0.823923642841834,positive,Makes everything taste good...
-P1000-02,2019-07-24,4,-0.677337256223293,negative,Chihuahua Enjoys
-P1000-08,2017-11-07,5,0.8567225899578385,positive,I really enjoy it's clean fresh taste and light texture.
-P1000-03,2017-04-15,5,0,neutral,Manuka Honey for medicinal purposes.
-P1000-03,2018-02-27,5,0.6084430708423337,positive,the very best product
-P1000-03,2015-08-11,5,0.521677931391963,positive,Manuka magick!
-P1000-03,2018-10-21,5,-0.9099273535862397,negative,Keeps my eczema under control
-P1000-02,2019-10-13,4,0.6042349863054282,positive,Definitely enjoyed
-P1000-03,2018-04-04,5,0.6089718641279138,positive,I like it
-P1000-03,2019-10-01,5,-0.8380534705806452,negative,Great honey
-P1000-03,2015-11-18,4,0.40275833178400877,positive,Packaged in plastic jar
-P1000-10,2019-04-10,5,0.424809813344012,positive,Coconut Oil in PLASTIC!
-P1000-10,2019-02-08,5,0.8061289999677359,positive,Delightful taste!
-P1000-02,2019-06-07,1,-0.656096984040228,negative,Complete Garbage and Chemicals for your animals - Great marketing with pretty pics of vegetables.
-P1000-02,2019-09-30,4,-0.27896557966560137,negative,My Dogs Enjoy It
-P1000-03,2019-04-01,4,-0.5598041129247533,negative,Manuka Honey -
-P1000-08,2017-10-15,5,0.4017269810406562,positive,Great for kitchen and bath use!
-P1000-03,2017-06-21,5,0.28345829572522596,positive,good endoscopy!
-P1000-02,2019-07-23,5,0.49875247305596687,positive,"*pant, pant* Yeah, we love it.  *pant, pant*"
-P1000-03,2016-08-16,4,0.5112192340819524,positive,Manuka honey
-P1000-10,2019-05-23,5,0.7867392434244611,positive,great
-P1000-03,2018-09-06,5,0.65476091431187,positive,Allergy Effective
-P1000-03,2018-02-16,4,0.607118441669362,positive,exceptional oatmeal
-P1000-10,2019-05-23,5,0.8787691711983441,positive,very very very good product
-P1000-02,2019-07-30,5,-0.4416962978003588,negative,...sat up and begged for more. :)
-P1000-03,2017-12-10,4,0.8995826359812903,positive,McCasnns oatmeal
-P1000-02,2019-07-20,3,0.679527104986352,positive,Dog ate it right up
-P1000-03,2019-08-15,5,0.6475208399233003,positive,I don't like honey--I got this for the health benefits.
-P1000-03,2017-08-17,5,-0.3424039169485647,negative,Oatmeal Heaven!
-P1000-08,2019-03-23,5,0.5968384614478544,positive,Best Tasting Coconut Oil
-P1000-10,2019-06-29,5,0.597272026738998,positive,This is the Best cooking oil!
-P1000-10,2019-08-07,4,0.6618973136982372,positive,Great for homemade baby wipes
-P1000-02,2019-08-01,4,-0.7547307895359666,negative,My Dogs Like This Too Much
-P1000-03,2015-07-26,5,0.44509788330028716,positive,Manuka Honey
-P1000-03,2014-11-24,5,0.7779110635600541,positive,Excellant product
-P1000-02,2019-08-17,1,0.45543317761959495,positive,Can I give this no stars?
-P1000-02,2019-07-25,3,0.4933553063296991,positive,I want to like it...
-P1000-10,2018-02-02,5,0.7721658324660894,positive,Wow!! Amazing stuff
-P1000-02,2019-07-25,4,0.9541225024030622,positive,Healthy Dog Food
-P1000-03,2018-06-13,5,0.799101908538064,positive,Love the product
-P1000-02,2019-07-25,5,0.2851121945195666,positive,The dog loves it
-P1000-02,2019-09-25,3,0.3344923682222396,positive,"No shedding, eats most of the kibbles."
-P1000-03,2016-01-19,5,0.8036633106297157,positive,cadillac of honey
-P1000-02,2019-07-24,5,-0.3935327721059091,negative,LOL!!!!!!!!! My CATS are fighting over this one - they believe it's their food!
-P1000-02,2019-07-25,4,0.8138012162309926,positive,Our dogs love it!
-P1000-08,2018-02-07,5,0.9743584062907688,positive,Nutiva Coconut Oil
-P1000-03,2014-07-11,5,0.3378381292097935,positive,Shipping and Denting
-P1000-02,2019-07-25,4,0.3858928432207738,positive,"Good Quality Dog Food, Excellent Resealble Package!"
-P1000-10,2019-06-24,5,-0.6260428586855468,negative,Read this if you have keratosis piliarisis!!!
-P1000-02,2019-05-13,5,-0.312300063967726,negative,Read before you buy
-P1000-03,2019-03-21,5,0.7383953982704309,positive,Great honey
-P1000-03,2019-01-30,5,0.4679476579017701,positive,Oatmeal for people who hate oatmeal
-P1000-02,2019-07-24,4,0.36243358173315776,positive,Dogs Loved This Food! People Like the Convenience but still concerned over quality
-P1000-08,2017-04-26,5,0.41504414161613634,positive,Great find!
-P1000-03,2017-11-19,4,0.8506180085973576,positive,Healthy Honey
-P1000-08,2019-06-05,4,0.3709325872019702,positive,"Product good, packaging needs to be improved!"
-P1000-03,2019-07-08,5,0.9725681524191948,positive,wonderful honey
-P1000-02,2019-03-23,2,-0.43902308326699796,negative,Mixed feelings on this.
-P1000-10,2019-07-30,5,0.9590973731652062,positive,Organic coconut oil
-P1000-02,2019-05-22,2,-0.5854368965577266,negative,"""Wholesale"" Ingredients... Enough said!"
-P1000-03,2018-06-21,4,0.6814760263489474,positive,Nice flavor
-P1000-02,2019-09-25,1,0.28875007186440194,positive,Great food for dogs who need corn
-P1000-10,2019-07-07,5,0.4498950969551207,positive,A Hair Miracle!
-P1000-03,2015-02-15,4,-0.33116614884356016,negative,Cooking it in a programmable Rice Cooker makes for an easier breakfast!
-P1000-10,2019-04-11,5,0.7108504840347075,positive,Healthy and Yum!
-P1000-08,2017-07-26,5,0.6544122575837129,positive,Many different uses!
-P1000-01,2018-08-12,5,0.523550102570079,positive,Great oil!
-P1000-02,2019-08-17,3,-0.3192233680001076,negative,Good Treat Alternative
-P1000-08,2019-07-21,5,0.5752223476447117,positive,Nutiva vs. Barlean's
-P1000-08,2017-05-03,5,0.8712751500934143,positive,Great for everything!!
-P1000-08,2019-09-12,4,-0.5876537896074119,negative,Coconut oil can seep past the new opaque white plastic Jar.
-P1000-03,2019-07-20,5,0.66920740253023,positive,It tastes like cherries...
-P1000-02,2019-07-25,5,0.6648307459686528,positive,Great taste; lost weight.
-P1000-03,2019-10-08,5,-0.3021271633255784,negative,Diminished my bruise!
-P1000-08,2018-04-11,4,0.8987432872612395,positive,Delicious smelling body lotion and hair treatment
-P1000-03,2017-04-15,5,-0.9451662628498544,negative,manuka honey
-P1000-08,2017-05-18,5,0.9704258276816671,positive,"Wonderful oil, very happy with it"
-P1000-03,2018-03-01,5,0.9404512035961684,positive,Manuka Honey seems to be working to heal my ulcers
-P1000-03,2019-02-19,5,0.8666628085689041,positive,"tastes good, nice to eat a spoonful before bed or put in a tea"
-P1000-03,2019-10-07,5,-0.5018807941566261,negative,From Proton Pump Inhibitor to Wdderspoon's Manuka Honey
-P1000-03,2018-02-11,4,0.5061582692736459,positive,Great flavor
-P1000-03,2018-06-12,5,-0.9803172826720994,negative,Works Well but Caution...
-P1000-08,2017-05-25,5,0.7340349246492273,positive,The best
-P1000-04,2019-03-25,5,0.9920568118290474,positive,Miracle is right!!!!
-P1000-02,2019-07-23,4,0.3994697406234476,positive,Less stomach upset than the Healthy Weight version
-P1000-06,2019-03-12,2,0.43881001260752894,positive,"Average, at best.  (You get what you pay for...)"
-P1000-06,2019-07-23,4,0.6496602676165333,positive,Pleased with purchase so far.
-P1000-06,2019-04-23,5,0.9848717037745343,positive,Reasonably Priced Delicious Coffee
-P1000-08,2019-05-28,4,-0.6189140466481307,negative,Leaked
-P1000-05,2018-12-26,5,0.985968745497541,positive,Yum!
-P1000-01,2018-03-10,5,0.9292174054062514,positive,I love it
-P1000-10,2018-10-11,5,0.5102265934432277,positive,Cleared up my skin!!
-P1000-03,2016-05-20,4,-0.36633998700227244,negative,McCann's Oatmeal is perfect for my rice cooker
-P1000-05,2019-01-25,2,0.9243606576089992,positive,"Vey, verry sweet"
-P1000-05,2019-02-23,3,0.8983730125258416,positive,Too sweet
-P1000-01,2016-05-25,5,0.8110723913557172,positive,"Great product, great value!"
-P1000-01,2017-04-16,5,0.6630109490044566,positive,This stuff is great
-P1000-01,2018-05-19,5,0.7096916170521874,positive,Love it!
-P1000-07,2018-10-16,1,-0.9045525546723597,negative,poor quality !!!!
-P1000-06,2019-02-26,4,0.4053328075935691,positive,"Good value for ""Kcups"""
-P1000-05,2018-12-03,4,-0.3122665244476419,negative,Pleasant Surprise!!
-P1000-10,2019-07-31,5,0.7706626980596416,positive,Very pleasant aroma......Not heady
-P1000-05,2019-01-13,5,0.6092713380698681,positive,Exactly what I was looking for
-P1000-06,2019-04-23,5,0.7549371172656482,positive,ahhh smell the coffee!
-P1000-10,2019-02-21,5,0.5247370788097969,positive,Gotta Love Amazon
-P1000-02,2019-06-20,2,-0.6705423692119159,negative,It made my dog sick!
-P1000-04,2019-01-13,2,-0.41420516925318757,negative,"Exactly as advertised, But I just couldn't do it."
-P1000-10,2019-03-27,5,0.5769528330892485,positive,Great for cooking
-P1000-06,2019-03-24,5,0.8287216217354675,positive,Cheaper price and better flavor
-P1000-07,2018-07-18,1,0.6447385776669584,positive,Not very busy buddy
-P1000-01,2017-08-16,5,0.7085516770921948,positive,Nutiva Organic EV Coconut Oil
-P1000-10,2019-01-17,5,0.3137301099750486,positive,The best on the market!!!
-P1000-01,2019-03-23,5,0.660029506383437,positive,Awesome!  Will never be without it!
-P1000-05,2018-12-05,5,0.4713381859260619,positive,YUM!
-P1000-06,2019-05-02,4,0.6140468741076162,positive,"Good, but I don't like it black at all"
-P1000-01,2017-05-20,5,0.5831390811097631,positive,The best of the best
-P1000-08,2016-10-27,4,0.5215633868507826,positive,"Near Perfect for popcorn, experimental for other things"
-P1000-01,2017-07-01,5,0.9804279627936077,positive,A great alternative Oil
-P1000-10,2019-01-15,5,0.5705291754133835,positive,Creamiest brand ever
-P1000-05,2019-01-07,1,-0.8746138338762584,negative,Bad Stuff
-P1000-04,2018-12-05,3,0.651851337996418,positive,"Product as described, texture as expected..."
-P1000-04,2018-04-04,5,0.9194842507206432,positive,the best!!!
-P1000-06,2019-04-21,4,0.9697183300848489,positive,Environmentally Better
-P1000-05,2018-12-05,5,0.956863610909672,positive,Pretty Good
-P1000-04,2019-03-01,5,-0.3600641394912023,negative,"Healthy, vermicelli-like noodles"
-P1000-06,2019-05-01,5,0.9117169391357645,positive,Makes the Keurig finally worth the money
-P1000-01,2018-09-01,5,0.396244805327415,positive,Working Nicely for my Dog's Itchy Red Skin
-P1000-01,2015-02-12,5,0.3650735780801657,positive,Excellent value and product. Love it!
-P1000-07,2019-01-17,3,0.42005220746345995,positive,Good Toy--A few Drawbacks
-P1000-10,2019-07-09,5,0.6728687259987484,positive,Delicious and healthy - Organic EV Coconut Oil
-P1000-01,2018-10-27,5,-0.3608803017947905,negative,NUTIVA COCONUT OIL
-P1000-05,2019-02-24,1,0.28586600355408004,positive,lame
-P1000-05,2019-05-10,1,0.6938360547387701,positive,Very cheap and flat taste...
-P1000-04,2019-07-31,3,-0.5624670975862424,negative,Hmm...
-P1000-06,2018-12-18,2,0.6899001058410349,positive,unfortunately underwhelming
-P1000-04,2018-11-25,5,0.7975800761714118,positive,Finally!!
-P1000-04,2019-03-10,1,-0.6231080919917841,negative,Strong chemical smell
-P1000-05,2018-11-28,5,-0.9348543954751942,negative,Great Cappuccino
-P1000-03,2017-12-29,4,-0.6691585004105062,negative,I like McCann's Steel Cut but...
-P1000-10,2019-05-13,5,0.9190638979901649,positive,great coconut oil and great price!
-P1000-03,2015-05-13,5,0.8929416098968705,positive,Best oat meal on the market
-P1000-06,2019-03-03,5,0.8645035403394876,positive,Excellent Coffee Blend at Best Price
-P1000-07,2017-08-15,5,0.6306239159138762,positive,Tug-a-Jug is WONDERFUL!!
-P1000-05,2019-05-30,2,0.6831166132710184,positive,Weird aftertaste...
-P1000-06,2019-05-07,5,0.8257243671198875,positive,Good coffee
-P1000-07,2017-09-24,3,-0.3607231986183647,negative,Was good for a while
-P1000-03,2015-03-29,5,0.5420222090696004,positive,WOW! Irish Steel Cut Only!
-P1000-02,2019-07-24,4,0.841036851632617,positive,My dog enjoys it
-P1000-05,2018-11-27,1,-0.9388693551979289,negative,Cappuccino cups
-P1000-01,2015-01-09,5,-0.5127957871729568,negative,A cut above the rest!
-P1000-02,2019-06-14,4,0.6359506371196263,positive,How to review dog food
-P1000-01,2014-04-11,5,0.8057331314169895,positive,Best Deal on the Internet
-P1000-07,2018-04-03,5,0.7750077593257079,positive,My dogs LOVE this toy!
-P1000-07,2019-04-16,4,0.6595054651629819,positive,Larger than I though
-P1000-03,2014-04-03,5,0.5173491895730262,positive,Will definately buy again
-P1000-07,2018-04-19,1,-0.48069483477533426,negative,Great while it lasted
-P1000-05,2019-02-12,1,0.8299927889603557,positive,Instant Coffee
-P1000-05,2018-12-12,5,0.46940045073553655,positive,Something we agree on!
-P1000-05,2018-12-04,5,0.971324472505161,positive,Great Product
-P1000-03,2019-07-08,5,0.6280057537791036,positive,Awesome
-P1000-03,2016-12-31,5,-0.34380485766066565,negative,Healthy Oats-Great Taste
-P1000-04,2019-01-11,5,0.5234872101827203,positive,It just doesn't get better than this!!
-P1000-06,2018-12-03,4,0.43673152551130895,positive,"Good Coffee, Different Packaging"
-P1000-05,2018-10-18,5,0.7998613679219827,positive,"For 10 dollars, yes. otherwise, no"
-P1000-05,2018-10-17,5,-0.8931888799849846,negative,I kinda like it
-P1000-10,2019-08-22,5,0.7853825613287809,positive,Great Product!!!
-P1000-08,2019-08-10,5,0.7675026410302439,positive,Excellent coconut oil
-P1000-03,2018-12-08,5,0.4870949697021792,positive,The Best Oatmeal
-P1000-07,2019-03-27,3,0.6838426754981992,positive,Smart Siberian Husky
-P1000-04,2018-10-04,5,0.36466806967939625,positive,"Like Ramen Noodles, but healthier!"
-P1000-04,2018-03-04,2,-0.7438777845023964,negative,Not worth it
-P1000-07,2017-02-18,4,0,neutral,DOG TOY
-P1000-05,2019-01-23,1,0,neutral,Ingredients
-P1000-10,2019-01-18,5,-0.5980255974513712,negative,"High quality, low cost product"
-P1000-10,2019-05-30,5,0.7609751036643638,positive,Coconut Oil
-P1000-08,2019-04-11,5,0.8090055003446152,positive,Great Stuff
-P1000-07,2019-02-22,4,-0.3168248873206372,negative,"Be warned, can double as a club when wielded by strong dog."
-P1000-05,2019-02-14,1,-0.5446771242515118,negative,Wish I had read the reviews
-P1000-02,2019-07-29,3,0.46470602330478633,positive,It is better than most but not as good as some
-P1000-04,2018-07-19,5,0.7442237232386877,positive,Really Supprised
-P1000-04,2018-05-16,5,0.4005872791397831,positive,Love!
-P1000-04,2019-03-10,1,-0.7063032554078364,negative,Horrid!!!
-P1000-06,2019-05-15,5,0.4637735066105202,positive,"Good Value, Good Taste"
-P1000-01,2017-10-26,5,0.8175560125613418,positive,Great Oil - Great Price
-P1000-07,2017-07-20,5,0.32159552428219895,positive,My dog's favorite way to eat!
-P1000-04,2018-07-07,5,0.8884738766287046,positive,Good near zero calorie meal
-P1000-05,2018-12-28,5,0.931439405099184,positive,Cappuccino kcups
-P1000-04,2019-08-02,4,0.908160292702707,positive,Good food easy and quick
-P1000-02,2019-07-31,4,0.9677734279299522,positive,"My dog loves it, and it's not hard on my bank account"
-P1000-04,2019-01-10,5,-0.41922962170107875,negative,Great Resolution Support
-P1000-05,2019-02-14,1,-0.33874482376431625,negative,very weak!
-P1000-10,2018-03-06,5,0.7730301423499052,positive,This stuff is the truth
-P1000-07,2018-05-15,3,0.32462248468549093,positive,Great Toy but Not as Durable
-P1000-04,2019-02-04,4,0.8919319984426334,positive,no carb pasta
-P1000-05,2018-12-08,5,0.6484089272562028,positive,SPIKE this with some Irish cream liqueur
-P1000-03,2014-03-29,5,-0.4347661824685647,negative,Excellent slow cook oatmeal
-P1000-02,2019-06-25,4,-0.49657270597561803,negative,"I can't rate taste, but my dogs love it."
-P1000-04,2018-12-16,5,0.35832341231265274,positive,Needs a bit of creativity to be palatable
-P1000-06,2019-04-15,5,0.6441362862705567,positive,K-Cup that tastes like coffee
-P1000-06,2018-11-28,5,0.4832538061128471,positive,Very good coffee with less packaging
-P1000-07,2018-10-23,2,0.7064906135690636,positive,Lids break easily
-P1000-01,2014-03-03,5,0.62343941773681,positive,Delicious
-P1000-03,2014-03-17,5,0.7849163052562489,positive,oatmeal
-P1000-10,2017-02-02,5,0.8084842926011283,positive,Fantastic!
-P1000-05,2019-09-11,1,-0.6081477257074785,negative,Way too sweet
-P1000-03,2016-04-16,5,0.3052395511021092,positive,GREAT BREAKFAST STARTS HERE
-P1000-06,2019-06-17,2,-0.5184198321385397,negative,Not as Bold as advertised  ;(
-P1000-05,2018-12-16,5,0.29351846913078944,positive,great cappuccino
-P1000-06,2019-01-30,4,0.7065859325892087,positive,SF Bay Fog Chaser K Cup - A pleasant surprise
-P1000-06,2019-05-22,5,0.8726772674719635,positive,Excellent coffee from a family-owned company
-P1000-06,2019-02-02,5,0.9057010346367899,positive,Very good!
-P1000-06,2019-05-30,5,0.7857885664569341,positive,If You Like a Stong Brew
-P1000-03,2014-09-22,5,0.6573813284516212,positive,The best oatmeal out there!
-P1000-03,2015-01-22,5,0.5746450281137613,positive,First cooked oatmeal that I've ever liked
-P1000-03,2013-08-15,5,0.7817522918562696,positive,Great Oatmeal
-P1000-05,2019-02-01,1,-0.44065467511250594,negative,Nasty fake sweetener aftertaste
-P1000-04,2019-02-25,5,0.8910373739671741,positive,Love love love
-P1000-10,2019-05-26,4,0.7180150098731732,positive,Coconut oil
-P1000-07,2019-07-07,5,-0.5816668232260557,negative,Keeps Shih Tzu busy!
-P1000-07,2018-12-16,5,0.4142698471326399,positive,Great Toy But Not Durable Enough
-P1000-03,2017-02-15,5,0.6700645243701568,positive,Nothing better!
-P1000-04,2018-09-26,5,0.5802184555029101,positive,I keep ordering--Great substitute!
-P1000-08,2019-07-19,5,0.8938058904071458,positive,I love this Coconut Oil
-P1000-10,2018-12-19,5,0.573948688870224,positive,Very good
-P1000-04,2018-06-25,3,0.25626912068686225,positive,Different Texture but No Fishey Smell
-P1000-06,2019-01-21,5,0.5828646907606061,positive,Great tasting coffee
-P1000-10,2019-08-11,5,0.9874095179759346,positive,so good
-P1000-08,2018-05-19,5,0.8369114448595274,positive,It's the new EVOO!
-P1000-07,2018-11-16,5,0.3383585683453186,positive,Fantastic puzzle toy for our clever and busy pit bull! Just try not to get conked out with it.
-P1000-05,2018-11-05,5,0.6747369722378204,positive,New morning pleasure
-P1000-04,2018-10-19,5,0.36878870921306955,positive,taste awesome
-P1000-02,2019-07-24,4,0.756379255952159,positive,"Pricey but really, really good."
-P1000-06,2019-02-06,4,0.8667939076746484,positive,"Good coffee, creative product design, great price!"
-P1000-01,2014-05-11,5,0.6910569393760927,positive,Amazing Oil
-P1000-03,2014-07-17,5,-0.3077905818265178,negative,My Favorite Oatmeal
-P1000-08,2018-11-07,5,0.9356161011767017,positive,Yummy coconut!
-P1000-04,2018-06-15,5,-0.33072612608322594,negative,Wow - I am surprised by these.
-P1000-05,2018-10-19,2,0.6592275065986675,positive,Not pleased with these K-cups
-P1000-07,2015-07-10,1,-0.6993799545029072,negative,Weak
-P1000-05,2018-12-12,5,0.781122718431025,positive,The best Cappuccino
-P1000-06,2018-11-27,5,0.9662334133920643,positive,Great cup of coffee
-P1000-05,2019-03-23,1,-0.9348886810908709,negative,Partially Hydroginated crap
-P1000-07,2018-03-04,5,-0.28845970314636266,negative,Challenging and Durable
-P1000-10,2017-11-08,5,0.8095732871119712,positive,Coconut Oil
-P1000-05,2019-03-12,1,-0.8802250354998088,negative,Pretty Bad
-P1000-05,2018-11-10,5,0.9157209387660442,positive,This is delicious!
-P1000-06,2019-05-06,5,0.542006463671373,positive,Better Than Most K-Cups!
-P1000-07,2017-02-02,4,-0.2882503796746619,negative,Great!
-P1000-05,2019-02-02,4,0.4740917600805262,positive,Yummy and simple
-P1000-04,2018-07-10,5,0.8442765240316826,positive,Love This Product
-P1000-03,2016-12-14,5,0.7166832052922519,positive,Better than Oatmeal!
-P1000-02,2019-07-18,5,-0.3343173332709824,negative,This product is chihuahua approved
-P1000-04,2019-09-30,5,0.9179696579511055,positive,Excellent pasta substitute
-P1000-05,2018-12-18,5,0.9976743329354806,positive,great cappuccino
-P1000-08,2017-12-19,5,0.9200180917477249,positive,Great Coconut Oil
-P1000-08,2018-12-03,5,0.7287992449645087,positive,Great buy!
-P1000-01,2016-02-11,5,0.8295026097488477,positive,Nutiva Organic Coconut Oil
-P1000-05,2018-11-22,1,-0.8219900801421274,negative,Extremely Poor Quality - SUX
-P1000-03,2017-03-01,5,0.8962302369116764,positive,Fantastic Oatmeal
-P1000-10,2017-09-05,5,0.8855754170511578,positive,Re: superior coconut oil!
-P1000-10,2019-08-04,5,0.9627274050896498,positive,Coconut Oil
-P1000-01,2017-09-12,3,0.8579968416864323,positive,"Disappointed the oil didn't come in a ""jar"" ended up being a ""plastic bottle.""  :("
-P1000-01,2016-11-18,5,0.9304056397809838,positive,Nutiva Organic Coconut Oil
-P1000-06,2018-12-01,5,0.8499963026719888,positive,I love Fog Chaser
-P1000-04,2019-03-14,1,-0.9081080192323161,negative,Not the Miracle I was looking for!!!
-P1000-07,2019-08-17,1,-0.8015468737451537,negative,ATTENTION: This toy is DANGEROUS for your dog!
-P1000-03,2014-10-17,4,0.9082972162650429,positive,Steel Cut Oatmeal
-P1000-01,2017-05-21,5,0.6498160145624992,positive,Love it
-P1000-07,2018-09-16,5,-0.6982526622698471,negative,She works for her kibble
-P1000-05,2019-10-01,2,0.8164521011163799,positive,Bootleg Product?
-P1000-07,2019-08-05,4,0.6935085203890401,positive,Easy!
-P1000-01,2017-11-20,5,0.3558393863727416,positive,coconut oil&lt;3
-P1000-10,2019-08-27,5,0.4844480588187993,positive,The Best stuff YET!
-P1000-10,2018-12-15,5,0.7001836092930509,positive,"Great product, very mild scent"
-P1000-05,2018-12-08,5,0.9158619309102238,positive,It was exactly what I expected.
-P1000-07,2014-05-24,5,-0.4304841110041386,negative,great way to feed!
-P1000-01,2017-04-23,5,0.7241971546718539,positive,Coconut Oil
-P1000-07,2019-06-29,5,0.8420351906171126,positive,My Yorkie can spend hours playing with the Tug-A-Jug!
+,2019-07-29,5,0.745714,positive,Your Dog Will Love This
+,2019-06-10,5,0.783068,positive,Great Stuff!
+,2019-10-17,4,0.908297,positive,Steel Cut Oatmeal
+,2019-04-04,5,0.607632,positive,Better than rolled oats
+,2019-05-28,1,-0.374141,negative,High quality product in plastic container...illogical!
+,2019-07-24,4,0.362434,positive,Dogs Loved This Food! People Like the Convenience but still concerned over quality
+,2019-01-23,3,-0.447464,negative,"Great Product, Cans Are Dented"
+,2019-08-11,5,0.987410,positive,so good
+,2019-07-23,5,0.498752,positive,"*pant, pant* Yeah, we love it.  *pant, pant*"
+,2019-01-10,5,0.673070,positive,I buy this brand because its the best...................................
+,2019-07-26,5,0.911255,positive,Feet Action
+,2019-05-18,5,-0.720399,negative,Finally!!! Amazing result!!!
+,2019-06-24,5,-0.626043,negative,Read this if you have keratosis piliarisis!!!
+,2019-03-02,5,0.336954,positive,Slooow Cooking
+,2019-02-05,5,0.497022,positive,mighty fine
+,2019-01-09,5,-0.755140,negative,Save money...order it in boxes instead of tins
+,2019-09-17,5,-0.446265,negative,Great Product
+,2019-02-21,5,0.524737,positive,Gotta Love Amazon
+,2019-01-10,5,0.557944,positive,"If you like oatmeal,"
+,2019-03-05,5,-0.569301,negative,"Awesome, Manuka is the real deal!"
+,2019-08-11,5,0.521678,positive,Manuka magick!
+,2019-01-30,5,0.820071,positive,Steel Cut Oatmean
+,2019-09-18,3,-0.496711,negative,Not Something I would Get Again
+,2019-01-05,4,0.474087,positive,Will buy again
+,2019-07-23,5,0.689089,positive,Dogs love it !!!
+,2019-03-21,5,-0.330722,negative,Manuka Honey as a cure
+,2019-02-02,5,0.814772,positive,All i can say is wow!!!!
+,2019-07-28,3,-0.756841,negative,Did'nt work that well for me....
+,2019-03-18,3,-0.457411,negative,I really wanted to like this.
+,2019-01-15,4,0.468587,positive,VERY TASTY
+,2019-02-15,5,0.670065,positive,Nothing better!
+,2019-02-11,4,0.506158,positive,Great flavor
+,2019-05-01,5,0.758948,positive,Hair SOOO Soft Skin so Soft
+,2019-01-22,5,0.432711,positive,Fantastic product and price
+,2019-09-28,5,0.381907,positive,Our picky dogs like it
+,2019-04-24,5,0.872526,positive,Great Honey
+,2019-01-20,5,0.494272,positive,Excellent
+,2019-06-14,4,0.635951,positive,How to review dog food
+,2019-03-02,5,-0.549950,negative,great product
+,2019-07-28,4,0.283929,positive,Average sized bits that the dogs just loved
+,2019-05-13,5,0.892942,positive,Best oat meal on the market
+,2019-08-07,4,0.661897,positive,Great for homemade baby wipes
+,2019-10-13,4,0.604235,positive,Definitely enjoyed
+,2019-03-06,5,0.773030,positive,This stuff is the truth
+,2019-07-08,5,0.628006,positive,Awesome
+,2019-02-21,5,0.625550,positive,Love it
+,2019-01-03,5,0.759519,positive,World's Best Oatmeal
+,2019-07-23,4,0.399470,positive,Less stomach upset than the Healthy Weight version
+,2019-05-19,5,0.601361,positive,Amazing stuff
+,2019-02-01,4,0.690211,positive,"Tastes great, real thick"
+,2019-11-10,5,-0.571889,negative,Excellent Product for Digestion
+,2019-02-19,4,-0.626597,negative,Delicious and a world of uses!
+,2019-01-08,4,0.351597,positive,$17.05 for satisfying and healthier rice substitute
+,2019-05-12,5,-0.576174,negative,"Really amazed, and I am not usually amazed"
+,2019-09-10,2,0.658123,positive,Confused about texture
+,2019-06-26,3,0.318819,positive,My dog LOVES it BUT...
+,2019-06-17,5,0.657977,positive,YUM! All aboard the coconut train!!
+,2019-09-22,5,0.657381,positive,The best oatmeal out there!
+,2019-05-21,2,-0.383127,negative,"Dog loves it, price is a bit high, question the quality of ingredients"
+,2019-07-14,3,0.513079,positive,I Am Now Wondering!
+,2019-08-08,1,-0.626496,negative,Poor Packing
+,2019-03-01,5,0.940451,positive,Manuka Honey seems to be working to heal my ulcers
+,2019-06-25,4,-0.496573,negative,"I can't rate taste, but my dogs love it."
+,2019-07-17,5,-0.307791,negative,My Favorite Oatmeal
+,2019-07-20,4,0.759282,positive,Good basic maintenance dog food
+,2019-09-28,5,0.936238,positive,Best oatmeal I've ever eaten
+,2019-02-16,5,0.631711,positive,Absolutely great!!
+,2019-11-12,5,0.869768,positive,Medicinal honey
+,2019-12-19,5,0.573949,positive,Very good
+,2019-08-22,5,0.785383,positive,Great Product!!!
+,2019-05-20,5,0.762626,positive,Awesome conditioner for thick African American hair!
+,2019-07-31,5,0.770663,positive,Very pleasant aroma......Not heady
+,2019-08-22,5,0.831650,positive,Coconut Oil is Good for You
+,2019-03-06,5,0.796095,positive,The best honey
+,2019-04-11,5,0.710850,positive,Healthy and Yum!
+,2019-06-07,5,0.461794,positive,Love this stuff!
+,2019-04-01,5,0.669298,positive,One of the Best Coconut oils on the Market
+,2019-05-21,5,0.719988,positive,This is my dog's favorite food!
+,2019-08-08,3,0.504586,positive,"Beneful Dog Food Has its Share of the Good, and the Bad"
+,2019-08-19,5,-0.427931,negative,Love this!
+,2019-01-12,5,0.767517,positive,best therapeutic honey!
+,2019-07-07,5,0.449895,positive,A Hair Miracle!
+,2019-02-27,5,-0.936842,negative,GREAT Honey
+,2019-03-16,5,-0.611756,negative,Product great! Packaging lousy!
+,2019-05-22,4,0.265920,positive,Not cat food but my dog likes it anyway
+,2019-07-25,3,0.493355,positive,I want to like it...
+,2019-04-10,5,0.424810,positive,Coconut Oil in PLASTIC!
+,2019-12-22,5,-0.858420,negative,Miracle Honey!
+,2019-01-01,5,-0.474993,negative,Healing Manuka Honey
+,2019-07-24,5,-0.702095,negative,Two Paws Up
+,2019-11-26,5,0.408531,positive,Not the cheapest....
+,2019-07-24,5,0.357370,positive,This was a big hit!
+,2019-08-12,5,0.891120,positive,It's Delicious
+,2019-03-21,5,0.738395,positive,Great honey
+,2019-05-20,5,0.963923,positive,Miracle!
+,2019-04-29,5,0.715926,positive,The best!
+,2019-05-31,1,-0.493608,negative,"Not ""Natural"""
+,2019-03-07,5,0.519797,positive,good for your body
+,2019-07-09,5,0.672869,positive,Delicious and healthy - Organic EV Coconut Oil
+,2019-02-15,5,0.866561,positive,Delicious!
+,2019-08-17,5,-0.342404,negative,Oatmeal Heaven!
+,2019-07-25,5,0.664831,positive,Great taste; lost weight.
+,2019-04-03,5,0.517349,positive,Will definately buy again
+,2019-10-18,5,0.917107,positive,my favorite honey
+,2019-12-02,5,0.332277,positive,Magic Honey
+,2019-07-04,5,0.743662,positive,Great all around!
+,2019-05-23,5,0.750806,positive,great to have
+,2019-12-14,5,-0.350363,negative,Amazing Honey!!!
+,2019-02-15,5,0.944787,positive,Best Oat Meal I've Ever Tasted
+,2019-11-19,4,0.850618,positive,Healthy Honey
+,2019-06-21,4,0.681476,positive,Nice flavor
+,2019-03-28,5,0.967181,positive,The Best Oatmeal
+,2019-06-15,3,0.362750,positive,"Some Good, Some Bad"
+,2019-09-09,5,0.877062,positive,Good for you in every way
+,2019-02-26,5,0.759005,positive,Great food.
+,2019-02-16,5,0.875879,positive,Tastes great and good for you
+,2019-07-20,5,0.669207,positive,It tastes like cherries...
+,2019-07-19,4,0.672798,positive,A favorite in our house
+,2019-08-17,5,0.655526,positive,The best steel cut oatmeal
+,2019-07-23,5,-0.395163,negative,The ONLY dog food our dog will eat!
+,2019-06-21,5,0.663309,positive,The Bees Knees
+,2019-09-26,3,-0.311816,negative,Props for improvements but still a lower quality food source for Dogs
+,2019-08-15,5,0.647521,positive,I don't like honey--I got this for the health benefits.
+,2019-04-04,5,0.608972,positive,I like it
+,2019-02-28,5,0.815405,positive,"Taste good, great with honey!"
+,2019-06-09,5,0.455279,positive,Dog Prefers This - Actually Loves It
+,2019-06-10,5,0.778939,positive,Best on the market
+,2019-05-09,5,0.723997,positive,You can get addicted to this stuff..
+,2019-04-07,5,0.712029,positive,"Excellent for skin, hair, and cooking"
+,2019-07-20,3,0.679527,positive,Dog ate it right up
+,2019-01-10,5,0.828622,positive,"Great product, great price and great, fast devliery."
+,2019-07-02,3,-0.614021,negative,My picky eater picked at it
+,2019-02-02,5,0.772166,positive,Wow!! Amazing stuff
+,2019-12-04,4,0.476286,positive,Love the taste
+,2019-08-26,5,-0.290339,negative,Tons of Uses!!
+,2019-08-17,1,0.455433,positive,Can I give this no stars?
+,2019-12-08,5,0.487095,positive,The Best Oatmeal
+,2019-01-15,5,0.570529,positive,Creamiest brand ever
+,2019-04-08,5,0.591102,positive,"Coconut Oil ""Miracle of Nature"""
+,2019-06-02,1,-0.744596,negative,"More expensive than in the stores, not enough nutrition for dogs."
+,2019-04-30,1,0.334751,positive,Horrible food!!
+,2019-07-24,4,-0.340120,negative,Fred Votes Yes!
+,2019-07-30,5,-0.441696,negative,...sat up and begged for more. :)
+,2019-02-27,5,0.921346,positive,Good product
+,2019-01-17,5,0.483298,positive,I am pleased with purchase.
+,2019-07-26,5,0.445098,positive,Manuka Honey
+,2019-08-12,5,0.981937,positive,yummy!
+,2019-06-03,5,0.363622,positive,Fantastic oatmeal!
+,2019-01-22,5,0.574645,positive,First cooked oatmeal that I've ever liked
+,2019-06-02,5,0.638689,positive,Great !!
+,2019-08-15,5,0.781752,positive,Great Oatmeal
+,2019-06-20,2,-0.670542,negative,It made my dog sick!
+,2019-02-21,5,0.659270,positive,Awesome Stuff !!
+,2019-08-06,1,-0.480612,negative,"You change Your Honey, You Don't Get My Money"
+,2019-07-20,5,0.962096,positive,Love This Honey
+,2019-03-23,2,-0.439023,negative,Mixed feelings on this.
+,2019-06-14,5,-0.515549,negative,i love this oatmeal
+,2019-11-12,5,0.864980,positive,Good for you and great taste
+,2019-03-24,4,0.311289,positive,"Taste, Flavor,Time, and Value"
+,2019-12-13,5,0.685275,positive,Heavenly oatmeal.
+,2019-05-30,5,0.760975,positive,Coconut Oil
+,2019-05-18,5,0.765639,positive,the best oatmeal i've had
+,2019-10-16,5,0.317227,positive,My dogs were begging for it!
+,2019-01-11,5,0.884164,positive,AMAZING
+,2019-08-02,4,0.347565,positive,No more Mush!
+,2019-07-04,3,0.425944,positive,Dogs Love It But Is It beneficial?
+,2019-06-20,5,0.490504,positive,"Great Product, Not So Great Price"
+,2019-03-22,5,0.659488,positive,Amazing Skin and Hair Softener!
+,2019-10-31,5,0.677624,positive,Great
+,2019-05-29,5,0.906343,positive,Delicious
+,2019-03-01,5,0.560798,positive,Nutritious & delicious!
+,2019-02-14,5,0.306458,positive,Manuka honey
+,2019-09-06,5,0.654761,positive,Allergy Effective
+,2019-06-11,3,0.556733,positive,Delicious junk food
+,2019-06-18,5,-0.530821,negative,Excellent for Gastric Ulcer
+,2019-05-16,5,-0.433562,negative,Apparently Gluten-Free
+,2019-06-18,2,-0.658401,negative,"My dogs accepted it, but they crapped 10x more."
+,2019-07-24,4,0.527016,positive,"Huskies eat it, don't ask for it by name"
+,2019-11-08,5,0.809573,positive,Coconut Oil
+,2019-06-13,5,0.799102,positive,Love the product
+,2019-12-14,5,0.716683,positive,Better than Oatmeal!
+,2019-05-22,2,-0.585437,negative,"""Wholesale"" Ingredients... Enough said!"
+,2019-07-18,5,-0.334317,negative,This product is chihuahua approved
+,2019-07-01,5,0.656455,positive,Substance
+,2019-04-02,5,0.975924,positive,Awesome oatmeal
+,2019-02-25,1,-0.698938,negative,"False Advertising, Terrible Dog Food!!"
+,2019-07-24,4,-0.677337,negative,Chihuahua Enjoys
+,2019-07-01,5,0.739063,positive,Works magically on hair
+,2019-10-05,3,-0.445066,negative,A few probelms
+,2019-04-18,5,0.595520,positive,Wonderful
+,2019-05-28,4,0.566157,positive,Great for cooking and spread.
+,2019-06-03,5,0.469762,positive,"Once you start, you won't go back"
+,2019-08-25,5,0.319681,positive,This is the stuff!
+,2019-07-07,5,0.595942,positive,Excellent
+,2019-01-08,5,0.490719,positive,Steel cut oats
+,2019-03-12,5,0.405274,positive,The smell of sunshine and ice-cream!
+,2019-08-01,4,-0.754731,negative,My Dogs Like This Too Much
+,2019-02-28,5,0.624838,positive,Most excellent oatmeal
+,2019-02-05,5,0.901954,positive,Great stuff!
+,2019-01-13,5,0.572368,positive,"No better breakfast, no better oatmeal"
+,2019-08-27,5,0.484448,positive,The Best stuff YET!
+,2019-05-20,4,-0.366340,negative,McCann's Oatmeal is perfect for my rice cooker
+,2019-02-27,5,0.608443,positive,the very best product
+,2019-11-26,5,0.464250,positive,Great
+,2019-06-16,5,0.392464,positive,best oatmeal!
+,2019-11-24,5,0.733098,positive,I love it
+,2019-03-07,5,0.681645,positive,"If it tastes, looks and smells like honey... it's raw honey!"
+,2019-09-25,3,0.599606,positive,My go-to brand
+,2019-08-17,3,-0.319223,negative,Good Treat Alternative
+,2019-02-19,5,0.866663,positive,"tastes good, nice to eat a spoonful before bed or put in a tea"
+,2019-11-23,5,0.799337,positive,comparatively cheaper and good quality
+,2019-05-28,5,0.962796,positive,Purina Beneful Original Dry Dog Food
+,2019-05-03,5,0.461607,positive,The benefits are amazing
+,2019-07-11,5,0.337838,positive,Shipping and Denting
+,2019-11-22,4,0.645177,positive,Honey
+,2019-09-13,5,0.787976,positive,"Delicious, wholesome product-- and the tins are great for knick knacks!"
+,2019-07-18,3,-0.340689,negative,"Better than ""Dog Chow"" but not by much"
+,2019-12-05,5,0.698842,positive,For the oatmeal conoisseur
+,2019-01-20,2,0.749218,positive,not worth the $ or the yuck factor
+,2019-04-15,5,-0.945166,negative,manuka honey
+,2019-07-02,3,-0.297002,negative,Beneful
+,2019-10-12,5,0.790303,positive,This is a panacea
+,2019-06-24,5,0.310900,positive,Add Drambuie and brown sugar and you've got oatmeal for adults
+,2019-08-01,5,0.719623,positive,Cure for Cancer???
+,2019-07-23,4,0.424555,positive,Dog likes it
+,2019-10-07,5,-0.501881,negative,From Proton Pump Inhibitor to Wdderspoon's Manuka Honey
+,2019-04-04,5,0.775743,positive,Very healthy
+,2019-09-01,5,0.451437,positive,LOVE IT
+,2019-11-14,5,0.723211,positive,McCanns Steel Cut Oatmeal
+,2019-06-15,5,0.382106,positive,Manuka Honey
+,2019-03-18,5,0.768273,positive,excellent product
+,2019-01-27,5,0.624291,positive,Great Oatmeal
+,2019-06-11,2,-0.484393,negative,"Dog enjoyed it, but poor grade food overall"
+,2019-11-08,4,0.926161,positive,Raw Organic Manuka Honey
+,2019-01-27,5,0.553798,positive,Yum!
+,2019-10-14,3,-0.582832,negative,Not Necessarily Good for Stomachs
+,2019-08-29,5,0.303449,positive,Awesome.  Plain and Simple.
+,2019-01-08,5,0.571811,positive,McCann's Oatmeal
+,2019-09-25,1,0.288750,positive,Great food for dogs who need corn
+,2019-07-25,4,0.813801,positive,Our dogs love it!
+,2019-03-29,5,-0.537826,negative,Drs could learn something here
+,2019-07-20,4,0.295806,positive,My Chihuahua Loves It; Resealable Bag
+,2019-04-06,5,0.423546,positive,Coconut Oil and HDL
+,2019-05-23,5,0.786739,positive,great
+,2019-06-02,1,-0.932890,negative,Poor quality
+,2019-01-16,5,-0.683128,negative,please charge me for the second shipment
+,2019-09-25,3,0.334492,positive,"No shedding, eats most of the kibbles."
+,2019-11-05,5,0.846302,positive,The Best Oatmeal
+,2019-02-09,2,-0.854653,negative,Selling dented cans.
+,2019-01-24,5,0.000000,neutral,YUMMY OATMEAL
+,2019-06-07,1,-0.656097,negative,Complete Garbage and Chemicals for your animals - Great marketing with pretty pics of vegetables.
+,2019-03-07,5,0.660864,positive,The Very Best Oatmeal
+,2019-12-29,4,-0.669159,negative,I like McCann's Steel Cut but...
+,2019-02-12,3,-0.468567,negative,great taste
+,2019-11-07,5,0.403749,positive,Good Stuff in a handy can
+,2019-07-19,1,-0.481483,negative,Multiple species refused to eat this food
+,2019-07-30,5,0.959097,positive,Organic coconut oil
+,2019-05-10,4,0.692048,positive,As advertised. Great taste =)
+,2019-06-29,5,0.597272,positive,This is the Best cooking oil!
+,2019-07-21,5,0.307664,positive,It seems to be working ...
+,2019-05-13,5,0.804623,positive,McCann's Oatmeal
+,2019-12-28,5,0.356436,positive,THE BEST
+,2019-07-08,5,0.887948,positive,Great Product!
+,2019-07-25,5,0.285112,positive,The dog loves it
+,2019-10-21,5,-0.909927,negative,Keeps my eczema under control
+,2019-08-01,4,0.485354,positive,unlike any other honey
+,2019-07-24,5,-0.393533,negative,LOL!!!!!!!!! My CATS are fighting over this one - they believe it's their food!
+,2019-09-05,5,0.885575,positive,Re: superior coconut oil!
+,2019-08-04,5,0.962727,positive,Coconut Oil
+,2019-08-21,5,0.832632,positive,Fantastic
+,2019-11-03,4,-0.458275,negative,Manuka honey  for indigestion or facial masks
+,2019-08-14,4,0.596731,positive,The doggies seem to dig it!
+,2019-03-22,5,0.621224,positive,Yummy!
+,2019-03-27,5,0.576953,positive,Great for cooking
+,2019-07-26,2,-0.481550,negative,A great fly attractant
+,2019-02-08,5,0.806129,positive,Delightful taste!
+,2019-09-16,5,0.410856,positive,Lily's New Favorite
+,2019-06-06,3,-0.346324,negative,It's OK
+,2019-04-01,4,-0.559804,negative,Manuka Honey -
+,2019-01-17,5,0.584346,positive,I just got mine and I am so excited!
+,2019-08-15,3,0.503959,positive,"It may not be the healthiest but for those on a budget, the Beneful Adult Dry Dog Food will provide the vitamins your do"
+,2019-06-12,4,0.752753,positive,Excellent coconut oil
+,2019-07-13,5,0.823924,positive,Makes everything taste good...
+,2019-04-20,5,0.249333,positive,"delicious taste, Best hONEY EVER"
+,2019-05-13,5,-0.312300,negative,Read before you buy
+,2019-11-18,4,0.402758,positive,Packaged in plastic jar
+,2019-04-04,4,-0.770309,negative,"McCanns is the best, but. . . . . ."
+,2019-04-17,5,0.588334,positive,Everything is Good!!
+,2019-07-17,1,-0.592664,negative,Shipping Policy
+,2019-11-08,5,0.926843,positive,Yum!
+,2019-05-26,4,0.718015,positive,Coconut oil
+,2019-03-12,5,-0.941910,negative,benefit of Wedderspoon
+,2019-12-31,5,-0.343805,negative,Healthy Oats-Great Taste
+,2019-10-11,4,0.487376,positive,Picky dog likes it; picky dog's people not impressed with ingredient list
+,2019-12-10,4,0.899583,positive,McCasnns oatmeal
+,2019-05-23,5,0.878769,positive,very very very good product
+,2019-03-29,5,-0.434766,negative,Excellent slow cook oatmeal
+,2019-08-16,4,0.511219,positive,Manuka honey
+,2019-10-11,5,0.510227,positive,Cleared up my skin!!
+,2019-05-13,5,0.919064,positive,great coconut oil and great price!
+,2019-07-25,4,0.562114,positive,Some good healthy ingredients
+,2019-09-08,5,-0.490284,negative,"What ""Extra Virgin"" label  mean for coconut ?????"
+,2019-12-24,5,0.799714,positive,Steel Cut is the way to go
+,2019-06-19,5,0.751917,positive,Nature's Way EfaGold Organic Extra Virgin Coconut Oil
+,2019-07-04,1,-0.332703,negative,Same stuff different packaging.
+,2019-01-18,5,0.793146,positive,the best oatmeal
+,2019-02-16,4,0.607118,positive,exceptional oatmeal
+,2019-02-22,5,0.958396,positive,Love It
+,2019-06-21,5,0.283458,positive,good endoscopy!
+,2019-09-05,5,0.461777,positive,You'll never go back to the instant stuff
+,2019-05-02,5,0.722935,positive,"Tasty, health oil."
+,2019-09-25,5,0.621737,positive,Tastes Good And Is Not Expensive
+,2019-02-02,5,0.808484,positive,Fantastic!
+,2019-11-15,5,0.841490,positive,Oats make a Meal
+,2019-04-14,5,0.517356,positive,This oatmeal is just amazing!!!
+,2019-12-06,5,0.520817,positive,"Love, love, love it"
+,2019-09-30,4,-0.278966,negative,My Dogs Enjoy It
+,2019-09-28,3,-0.495212,negative,Made my skin dry but hair is softer
+,2019-06-30,5,0.802348,positive,"Manuka honey, nature's perfect food!"
+,2019-11-24,5,0.777911,positive,Excellant product
+,2019-07-26,4,-0.325727,negative,Beneful definitely passed the dog taste-test in this house!
+,2019-05-21,3,0.361623,positive,"My Dog Likes It, Though Perhaps He Shouldn't."
+,2019-06-14,5,0.344883,positive,I love this oatmeal
+,2019-01-18,5,-0.598026,negative,"High quality, low cost product"
+,2019-06-18,5,0.730361,positive,SUPER!
+,2019-06-08,5,0.809177,positive,strongly recommend
+,2019-05-11,5,0.336322,positive,Help my wound heal! A miracle!!
+,2019-09-11,5,0.387346,positive,It Works
+,2019-02-07,5,0.923900,positive,breakfast
+,2019-06-12,5,-0.980317,negative,Works Well but Caution...
+,2019-10-31,5,0.969765,positive,great stuff!
+,2019-04-06,5,0.632250,positive,Best oatmeal ever
+,2019-05-24,5,0.786612,positive,Love this steel-cut oatmeal!
+,2019-03-28,5,0.518372,positive,Pure and tasty CoconutOil from Amazon
+,2019-05-29,2,-0.382284,negative,It's nothing to rave about
+,2019-06-05,5,0.642176,positive,Best Oil Ever
+,2019-01-17,5,0.313730,positive,The best on the market!!!
+,2019-01-08,5,0.555565,positive,Yummy! And way less expensive than the local grocery store.
+,2019-01-17,5,0.825928,positive,"Ohh, ohh, oatmeal."
+,2019-08-19,4,0.904390,positive,Wedderspoon Raw Organic Manuka Honey Active 16+
+,2019-05-08,5,0.347137,positive,Works good and taste better
+,2019-03-17,5,0.784916,positive,oatmeal
+,2019-06-01,5,0.687742,positive,So yummy!
+,2019-09-29,4,-0.270390,negative,my dog liked it
+,2019-10-01,5,-0.838053,negative,Great honey
+,2019-07-08,5,0.972568,positive,wonderful honey
+,2019-06-04,5,0.604599,positive,The best oatmeal i ever tasted.
+,2019-09-13,5,0.762011,positive,Beneficial sweetness
+,2019-07-25,4,0.385893,positive,"Good Quality Dog Food, Excellent Resealble Package!"
+,2019-06-05,4,-0.966223,negative,"Very nice, 12+ is better value"
+,2019-02-15,4,-0.331166,negative,Cooking it in a programmable Rice Cooker makes for an easier breakfast!
+,2019-12-15,5,0.700184,positive,"Great product, very mild scent"
+,2019-08-10,4,0.948577,positive,Beneful
+,2019-08-03,5,0.468100,positive,dilute with water for face
+,2019-03-30,5,0.812653,positive,hoping for great results
+,2019-10-08,5,-0.302127,negative,Diminished my bruise!
+,2019-08-11,3,0.493953,positive,manuka WHAT!!!
+,2019-07-24,4,0.768000,positive,4-paws from my dog!!
+,2019-06-11,2,-0.365849,negative,Purina not molto Bene
+,2019-07-24,5,0.999127,positive,Great Stuff!!!!
+,2019-03-09,5,0.327876,positive,Steel Cut Oatmeal
+,2019-05-24,5,0.771250,positive,Great stuff!
+,2019-12-23,5,-0.456308,negative,Excellent
+,2019-07-22,4,0.638935,positive,More sugar and salt than peas and carrots
+,2019-07-19,4,0.321961,positive,My dogs like it!
+,2019-10-01,5,0.581704,positive,Manuka Active 16+ Honey is Delicious!
+,2019-06-18,5,0.634673,positive,Oatmeal
+,2019-07-24,4,0.756379,positive,"Pricey but really, really good."
+,2019-03-29,5,0.542022,positive,WOW! Irish Steel Cut Only!
+,2019-01-31,5,0.420153,positive,Interesting Oil
+,2019-04-15,5,0.000000,neutral,Manuka Honey for medicinal purposes.
+,2019-04-16,5,0.305240,positive,GREAT BREAKFAST STARTS HERE
+,2019-07-24,4,-0.413174,negative,Picky Shih-Tzu eats it mixed with canned food....
+,2019-08-11,5,0.764224,positive,Fresh and delicious!
+,2019-05-23,5,0.880032,positive,It's the real thing
+,2019-07-27,3,0.601890,positive,"I like the bag, dogs like the taste, nobody likes the ""nutrition"""
+,2019-01-19,5,0.803663,positive,cadillac of honey
+,2019-07-25,4,0.954123,positive,Healthy Dog Food
+,2019-07-25,4,-0.484869,negative,My friend's 2 dogs and 5 shelter dogs ate this dog food eagerly
+,2019-02-06,5,0.857802,positive,It's all I eat for breakfast now!
+,2019-09-29,5,-0.958820,negative,More effective than Nexium or Pantozole
+,2019-01-30,5,0.467948,positive,Oatmeal for people who hate oatmeal
+,2019-07-24,4,-0.367604,negative,"Dogs love it, picture on bag is very misleading."
+,2019-12-29,5,0.761986,positive,Great product. Delicous
+,2019-03-01,5,0.896230,positive,Fantastic Oatmeal
+,2019-12-12,5,0.741325,positive,Coconut Oil
+,2019-05-21,5,0.909956,positive,Love it!!
+,2019-07-31,5,0.983201,positive,Awesome!
+,2019-09-17,4,0.827414,positive,"Great for my hair, and cooking!"
+,2019-03-08,5,-0.895779,negative,Miracle Noodles
+,2019-04-22,4,0.940185,positive,coconut oil
+,2019-01-05,5,0.550978,positive,the best
+,2019-12-28,5,0.910708,positive,I'm addicted!!!
+,2019-04-12,3,0.292934,positive,"Love Nutiva, but Dioxin (plastic)"
+,2019-03-01,5,0.331050,positive,SO MANY USES!
+,2019-11-24,5,0.739466,positive,Love it - give it a try
+,2019-08-14,5,0.529307,positive,Great Price With Shipping
+,2019-04-25,5,-0.514044,negative,Why are we no longer able to autoship my item?
+,2019-06-20,5,0.361209,positive,Filling noodles
+,2019-01-25,2,0.924361,positive,"Vey, verry sweet"
+,2019-07-25,3,-0.380659,negative,My dog doesn't love it
+,2019-04-04,5,0.501364,positive,a must try for any dieter!
+,2019-02-14,1,-0.338745,negative,very weak!
+,2019-10-16,1,-0.904553,negative,poor quality !!!!
+,2019-12-03,5,0.728799,positive,Great buy!
+,2019-01-10,5,-0.419230,negative,Great Resolution Support
+,2019-03-23,5,0.660030,positive,Awesome!  Will never be without it!
+,2019-12-08,5,0.648409,positive,SPIKE this with some Irish cream liqueur
+,2019-01-17,3,0.420052,positive,Good Toy--A few Drawbacks
+,2019-02-12,5,0.765313,positive,Coconut oil for everything!
+,2019-07-13,5,0.723492,positive,The best of Miracle Noodles Angel Hair Pasta !!!
+,2019-06-17,5,0.721981,positive,best coconut oil I have found
+,2019-09-12,5,-0.343326,negative,I love this toy
+,2019-02-17,5,0.984069,positive,Healthy cooking with coconut oil
+,2019-05-10,1,0.693836,positive,Very cheap and flat taste...
+,2019-09-12,3,0.857997,positive,"Disappointed the oil didn't come in a ""jar"" ended up being a ""plastic bottle.""  :("
+,2019-12-13,5,0.960643,positive,Great Taste...
+,2019-03-01,5,0.657463,positive,Great for cooking and skin/haircare!
+,2019-03-03,5,0.864504,positive,Excellent Coffee Blend at Best Price
+,2019-03-03,5,0.623439,positive,Delicious
+,2019-03-17,5,0.929192,positive,Great Taste
+,2019-08-23,1,-0.853231,negative,Plastic taste
+,2019-05-31,5,0.718232,positive,Great busy toy!
+,2019-08-04,5,0.727079,positive,Miracle Noodles----truly a miracle!!!
+,2019-02-22,4,-0.316825,negative,"Be warned, can double as a club when wielded by strong dog."
+,2019-05-04,5,0.346872,positive,Love it! Best toy yet.
+,2019-05-28,4,-0.618914,negative,Leaked
+,2019-02-02,5,-0.461543,negative,"For dieters YES, For non-dieters NO"
+,2019-06-15,5,-0.903779,negative,love &lt;3
+,2019-02-11,5,0.796906,positive,Great Substitute for Pasta
+,2019-07-19,5,0.744224,positive,Really Supprised
+,2019-05-05,5,0.762497,positive,Tasty and nutritious
+,2019-02-19,5,0.868020,positive,Fog Chaser K-cups
+,2019-01-05,5,0.756927,positive,Great product!
+,2019-07-07,5,0.888474,positive,Good near zero calorie meal
+,2019-12-18,5,0.997674,positive,great cappuccino
+,2019-07-31,4,0.967773,positive,"My dog loves it, and it's not hard on my bank account"
+,2019-09-30,5,0.917970,positive,Excellent pasta substitute
+,2019-11-22,1,-0.821990,negative,Extremely Poor Quality - SUX
+,2019-03-19,4,0.372599,positive,Odd package but good coffee
+,2019-06-05,5,0.605762,positive,Great Stuff
+,2019-05-21,5,0.530388,positive,Well Worth Trying
+,2019-12-16,5,0.358323,positive,Needs a bit of creativity to be palatable
+,2019-11-25,5,0.797580,positive,Finally!!
+,2019-07-31,3,-0.562467,negative,Hmm...
+,2019-07-21,5,0.575222,positive,Nutiva vs. Barlean's
+,2019-08-19,5,-0.710056,negative,"Took a while to figure out, but great toy!"
+,2019-11-28,5,-0.934854,negative,Great Cappuccino
+,2019-04-15,5,0.644136,positive,K-Cup that tastes like coffee
+,2019-08-15,5,0.630624,positive,Tug-a-Jug is WONDERFUL!!
+,2019-04-13,5,0.664987,positive,Delicious flavor
+,2019-10-29,5,0.830612,positive,Fantastic Stuff!
+,2019-11-28,5,0.483254,positive,Very good coffee with less packaging
+,2019-05-30,2,0.683117,positive,Weird aftertaste...
+,2019-10-27,4,0.521563,positive,"Near Perfect for popcorn, experimental for other things"
+,2019-10-23,2,0.706491,positive,Lids break easily
+,2019-09-11,1,-0.608148,negative,Way too sweet
+,2019-08-12,5,0.523550,positive,Great oil!
+,2019-09-24,3,-0.360723,negative,Was good for a while
+,2019-01-13,5,0.710823,positive,Very versatile
+,2019-08-17,5,-0.325343,negative,My Pugs love this!
+,2019-12-16,5,0.293518,positive,great cappuccino
+,2019-12-05,5,0.609333,positive,Amazing!!!!!!
+,2019-01-30,4,0.706586,positive,SF Bay Fog Chaser K Cup - A pleasant surprise
+,2019-04-23,5,0.984884,positive,Nutiva Organic Extra Virgin Coconut Oil - 8lb tub
+,2019-05-22,5,0.872677,positive,Excellent coffee from a family-owned company
+,2019-11-18,5,0.336016,positive,Tastes just like cellophane noodles! Great for pho!
+,2019-08-15,4,0.436226,positive,Price is okay. S&S: Be sure to count your packages!
+,2019-12-07,5,0.989190,positive,Delicious!
+,2019-07-01,5,0.649083,positive,Excellent Taste and More Robust Brewing with These Type of Pods
+,2019-05-29,5,0.685498,positive,Miracle Noodle Angel Hair Pasta at Amazon
+,2019-12-13,3,-0.695740,negative,Maybe my dog isn't the brightest....
+,2019-01-11,5,0.523487,positive,It just doesn't get better than this!!
+,2019-03-04,5,-0.288460,negative,Challenging and Durable
+,2019-03-13,5,0.761119,positive,Really is Natural
+,2019-07-07,5,0.483942,positive,Super Awesome
+,2019-02-28,5,0.666345,positive,Amazing way to provide treats
+,2019-05-19,4,-0.472362,negative,Strongest K-Cup coffee out there
+,2019-03-09,4,-0.632400,negative,Great interactive toy but my boy still to smart for it...lol
+,2019-05-25,5,0.734035,positive,The best
+,2019-01-21,5,0.582865,positive,Great tasting coffee
+,2019-07-10,5,0.844277,positive,Love This Product
+,2019-02-18,4,0.000000,neutral,DOG TOY
+,2019-02-13,5,0.812188,positive,"Good strong coffee (new favorite), and a bit better for the environment!"
+,2019-04-23,5,0.500265,positive,Cant say anything that hasnt already been said!
+,2019-11-10,5,0.356195,positive,Good for what it is
+,2019-09-13,5,0.295858,positive,Excellent pasta substitution!
+,2019-01-04,5,-0.435202,negative,Delicious
+,2019-04-23,5,0.984872,positive,Reasonably Priced Delicious Coffee
+,2019-10-21,1,0.499226,positive,Grove Square K-cups - DO NOT BUY!
+,2019-04-30,3,-0.351595,negative,"Good coffee, bad packaging"
+,2019-10-09,5,0.755112,positive,Excellent Coconut Oil
+,2019-10-20,4,-0.433354,negative,Keeps my big Dog busy for a long time!
+,2019-11-22,5,0.738723,positive,Great Product!
+,2019-03-24,5,0.828722,positive,Cheaper price and better flavor
+,2019-08-02,4,0.908160,positive,Good food easy and quick
+,2019-02-26,4,0.405333,positive,"Good value for ""Kcups"""
+,2019-02-11,5,0.829503,positive,Nutiva Organic Coconut Oil
+,2019-09-18,5,0.559603,positive,These are Amazing
+,2019-01-03,5,-0.315463,negative,Very Good
+,2019-09-05,5,0.585043,positive,Worth every penny!
+,2019-05-22,1,-0.814007,negative,Used to love it.
+,2019-05-16,5,0.319699,positive,Surprised at how much my dog liked this!
+,2019-03-04,4,-0.530163,negative,Pug loves it...
+,2019-01-26,5,0.845042,positive,Great coconut oil!
+,2019-08-16,4,0.324018,positive,First Time User
+,2019-12-26,5,0.923876,positive,Doggy Approved
+,2019-09-17,5,0.921136,positive,I love coconut oil
+,2019-08-29,1,-0.871225,negative,EXPIRED!!!!
+,2019-10-05,5,0.732505,positive,Nutiva Is The Best Brand!
+,2019-03-11,5,0.558719,positive,Delicious
+,2019-09-26,5,0.580218,positive,I keep ordering--Great substitute!
+,2019-11-10,5,0.915721,positive,This is delicious!
+,2019-03-27,3,0.683843,positive,Smart Siberian Husky
+,2019-02-02,4,-0.288250,negative,Great!
+,2019-02-06,4,0.866794,positive,"Good coffee, creative product design, great price!"
+,2019-11-07,5,0.935616,positive,Yummy coconut!
+,2019-02-12,1,0.829993,positive,Instant Coffee
+,2019-10-02,5,0.745809,positive,Delicious
+,2019-12-08,5,0.736486,positive,LOVE this Kcup coffee
+,2019-03-23,1,-0.934889,negative,Partially Hydroginated crap
+,2019-03-05,2,0.261601,positive,Miracle no
+,2019-05-14,5,0.800718,positive,Coffee
+,2019-08-12,4,-0.410647,negative,"Great fun, has to be on a rug and needs thin treats"
+,2019-10-20,5,0.764054,positive,Really good for what it is
+,2019-06-04,5,0.447692,positive,If you want to cut down of carbs go for this!
+,2019-05-20,5,0.898423,positive,Less plastic - Like the Earth needs another cup....
+,2019-04-23,5,0.517576,positive,Favorite toy
+,2019-02-13,5,0.613345,positive,Tug-A-Jug Med/Lg
+,2019-04-30,3,-0.340074,negative,A Decent Filler
+,2019-08-20,5,0.741983,positive,best purshase yet!!
+,2019-06-15,5,-0.330726,negative,Wow - I am surprised by these.
+,2019-02-23,4,-0.482304,negative,Keeps dog busy
+,2019-05-24,5,0.893214,positive,sold
+,2019-09-17,5,0.372727,positive,My favorite thing ever
+,2019-07-07,5,-0.581667,negative,Keeps Shih Tzu busy!
+,2019-09-11,2,-0.674069,negative,Disappointed
+,2019-10-18,5,0.799861,positive,"For 10 dollars, yes. otherwise, no"
+,2019-03-12,1,-0.880225,negative,Pretty Bad
+,2019-05-11,5,0.853127,positive,Wonderful product...
+,2019-05-06,5,0.542006,positive,Better Than Most K-Cups!
+,2019-06-25,3,0.256269,positive,Different Texture but No Fishey Smell
+,2019-02-02,4,0.474092,positive,Yummy and simple
+,2019-10-19,5,0.368789,positive,taste awesome
+,2019-08-08,2,0.433473,positive,MILD and Sweet
+,2019-06-15,5,0.000000,neutral,*ALL-PURPOSE COCONUT OIL!!!
+,2019-03-25,5,0.992057,positive,Miracle is right!!!!
+,2019-04-11,5,0.809006,positive,Great Stuff
+,2019-05-15,5,0.935883,positive,Don't Look Like K-Kups
+,2019-09-10,5,0.378097,positive,noodles.
+,2019-03-10,1,-0.706303,negative,Horrid!!!
+,2019-05-15,5,0.463774,positive,"Good Value, Good Taste"
+,2019-10-26,5,0.817556,positive,Great Oil - Great Price
+,2019-04-16,5,0.663011,positive,This stuff is great
+,2019-05-19,5,0.709692,positive,Love it!
+,2019-06-13,4,-0.634715,negative,Ok...to be honest...
+,2019-04-29,5,0.504276,positive,sf kcup coffee review
+,2019-12-05,3,0.651851,positive,"Product as described, texture as expected..."
+,2019-11-27,1,-0.938869,negative,Cappuccino cups
+,2019-01-05,5,0.840701,positive,delicious!
+,2019-12-05,5,0.956864,positive,Pretty Good
+,2019-06-24,5,0.777892,positive,amazing product
+,2019-04-28,5,0.884331,positive,My new favorite
+,2019-01-17,5,0.653146,positive,An inexpensive alternative to the K-cup
+,2019-02-12,5,0.365074,positive,Excellent value and product. Love it!
+,2019-08-05,4,0.693509,positive,Easy!
+,2019-05-06,5,0.890716,positive,good
+,2019-02-17,4,0.335665,positive,Good for fast eaters
+,2019-09-01,1,0.564469,positive,Way to sweet
+,2019-12-16,5,0.816028,positive,Very Happy With This Item!
+,2019-01-09,5,-0.553086,negative,skeptical at first
+,2019-11-04,5,0.696125,positive,Nothing Compares
+,2019-04-11,5,0.961492,positive,Tasty
+,2019-08-01,5,-0.287407,negative,Miracle Noodle
+,2019-01-06,5,0.683834,positive,Best Deal Ever!
+,2019-04-24,5,-0.421021,negative,Great Product & Amazon Service. Expect Greasy Delivery in Hot Weather.
+,2019-06-24,5,0.295554,positive,Create product - hit or miss shipping
+,2019-02-26,5,-0.351496,negative,Yum!
+,2019-04-17,5,0.518197,positive,Calorie Free Noodles!!!! Amazing
+,2019-01-16,2,-0.836544,negative,Diffrent
+,2019-05-01,4,0.908023,positive,Great product!!!
+,2019-01-22,5,0.818618,positive,"Great Taste, Less waste!"
+,2019-08-01,5,0.819872,positive,Great oil...especially for popcorn!
+,2019-09-27,2,-0.382834,negative,If you like coffee.. buy something else
+,2019-03-15,4,-0.438201,negative,Favorite toy - just plan to replace it frequently
+,2019-11-16,5,0.837192,positive,Great morning wakeup cup of coffee
+,2019-08-30,1,-0.692387,negative,"Actual noodles weigh 1oz, comes in 6oz of water, so gross!"
+,2019-07-24,3,-0.284151,negative,"Dog Not a Big Fan, but the Cats Loved It"
+,2019-11-22,5,0.680234,positive,Really Good Coffee Drink
+,2019-07-15,5,0.699066,positive,Superb Quality!
+,2019-01-29,5,0.436506,positive,No fog here!.
+,2019-04-26,5,0.415044,positive,Great find!
+,2019-04-24,4,-0.869489,negative,"Oil is good, bottle is not"
+,2019-10-22,5,0.878109,positive,"Great just be aware, it is instant not fresh brewed."
+,2019-05-10,5,0.881509,positive,Fragrance that takes you out of this world!!
+,2019-05-04,5,0.853396,positive,Great Bargain at this price
+,2019-08-20,5,0.703458,positive,Love These Noodles
+,2019-09-21,4,-0.521709,negative,Great Product.
+,2019-06-12,5,-0.287662,negative,Amazing toy for dogs who devour their food quickly
+,2019-02-03,5,-0.396783,negative,My dog loves this
+,2019-03-12,4,0.851511,positive,Great deal!
+,2019-11-14,5,0.901317,positive,"Nutiva Organic Extra Virgin Coconut Oil, 54 ounce jar"
+,2019-12-06,5,0.443464,positive,we use it daily
+,2019-01-19,2,0.429406,positive,Big Dissapointment
+,2019-03-22,1,-0.721518,negative,It is a miracle I didn't vomit
+,2019-04-26,5,0.684599,positive,Our Rescue Pup LOVES this toy!
+,2019-02-04,4,0.291981,positive,"Very good, but very pricey."
+,2019-03-15,5,0.545757,positive,LOVEEEE!
+,2019-05-24,5,0.558993,positive,Good value conitioner/moisturizer
+,2019-09-09,5,0.523287,positive,My Dogs LOVE Tug-a-Jug!
+,2019-02-28,5,-0.357197,negative,Miracle Noodles
+,2019-10-20,5,0.702723,positive,These are a diet's Lifesaver!
+,2019-04-30,5,0.918129,positive,Excellent coffee!
+,2019-01-30,5,0.762768,positive,Delicious!
+,2019-03-27,4,0.514417,positive,Good food toy for the rotation
+,2019-01-19,5,-0.614593,negative,Two Years is a LONG Time
+,2019-06-04,5,-0.463858,negative,Best tasting coconut oil
+,2019-02-23,4,0.801676,positive,Great for smart busy dogs!
+,2019-11-13,1,-0.636712,negative,Awful!  Didn't make it through a day!
+,2019-03-07,5,0.811008,positive,well-being in a jar
+,2019-02-28,5,0.821130,positive,Excellent product!!!
+,2019-04-09,4,-0.327465,negative,Great Product
+,2019-06-22,4,-0.530322,negative,Great alternative to pasta
+,2019-12-16,5,0.650931,positive,Best coconut oil
+,2019-08-06,5,0.629881,positive,Nutiva organic extra virgin coconut oil
+,2019-06-10,5,0.827056,positive,Great Product + Excellent Price!
+,2019-10-05,4,0.974948,positive,Yummy!
+,2019-06-10,5,0.656022,positive,Great product!
+,2019-04-16,4,0.659505,positive,Larger than I though
+,2019-07-10,5,0.704058,positive,Great low-carb option for Asian noodle dishes
+,2019-12-11,5,0.646942,positive,Best darn Coconut oil EVER!!!!
+,2019-06-26,5,0.608883,positive,Noodlicious
+,2019-10-01,5,0.699896,positive,The best dog toy I ever bought :)
+,2019-05-24,5,0.865602,positive,Our favorite coffee at a fantastic price
+,2019-11-21,5,0.705240,positive,"Tastes like coconut, is delicious and healthy!"
+,2019-05-24,5,0.967361,positive,Cocunut Oil
+,2019-06-20,1,-0.707936,negative,"Had to try it, but yuck."
+,2019-02-09,4,0.522335,positive,Sukiyaki ingredients!
+,2019-03-23,5,0.596838,positive,Best Tasting Coconut Oil
+,2019-06-11,1,-0.787910,negative,shirataki noodles- order the bare minimum
+,2019-02-01,5,0.666015,positive,Simply THE best tasting!
+,2019-06-05,4,0.370933,positive,"Product good, packaging needs to be improved!"
+,2019-02-22,5,0.793903,positive,Fog Chaser - Superb!
+,2019-10-15,5,0.401727,positive,Great for kitchen and bath use!
+,2019-03-22,4,0.784841,positive,Fog Chaser for Sure!
+,2019-03-11,5,0.756739,positive,excellent product - great for baking
+,2019-01-22,5,0.581246,positive,excellent
+,2019-03-13,5,0.626284,positive,Nutive Organic Extra Virgin Coconut Oil
+,2019-06-25,1,-0.604411,negative,"No miracle, they are NOT edible!"
+,2019-10-04,1,-0.868162,negative,Absolutely Vile
+,2019-01-19,4,-0.339298,negative,Lasted longer than I thought!
+,2019-12-21,5,-0.280452,negative,Read before purchasing
+,2019-09-16,5,-0.698253,negative,She works for her kibble
+,2019-05-25,5,0.921767,positive,Coconut oil is awesome!
+,2019-05-01,5,0.911717,positive,Makes the Keurig finally worth the money
+,2019-12-08,5,0.915862,positive,It was exactly what I expected.
+,2019-02-02,5,0.905701,positive,Very good!
+,2019-03-10,5,0.411551,positive,Favorite and hardest of the 4 Busy Buddy toys we own
+,2019-05-29,5,0.826736,positive,"Great coffee, great price and  much greener!"
+,2019-06-10,5,0.739786,positive,"Bold, fresh flavor"
+,2019-02-28,1,-0.656181,negative,yuk!
+,2019-02-14,1,0.491519,positive,More like dessert than coffee
+,2019-02-02,5,0.362983,positive,BEST PRICE - BEST PRODUCT!
+,2019-11-29,5,0.583820,positive,"Absolutely delicious, best cup of coffee around!"
+,2019-03-06,5,0.480802,positive,My Manna
+,2019-01-11,5,-0.314263,negative,Less plastic and better taste? Yes please!
+,2019-05-11,5,0.997917,positive,Love This Oil
+,2019-11-20,1,-0.708520,negative,"Horrible, Instant coffee, Hydrogenated oil inside, health hazard!!!"
+,2019-06-01,5,0.848263,positive,Coconut popcorn
+,2019-04-11,5,0.805733,positive,Best Deal on the Internet
+,2019-03-06,5,0.655145,positive,"Durable, still fun when ""solved"""
+,2019-02-20,5,0.710120,positive,tastes great and great for higher heat cooking
+,2019-07-21,5,0.530457,positive,"very durable ""toy"" to keep dog entertained"
+,2019-05-08,5,0.872837,positive,I absolutely LOVE the taste ...
+,2019-02-08,5,0.786870,positive,Healthiest fat on the planet.
+,2019-08-02,4,-0.448171,negative,Great product
+,2019-10-06,4,-0.392586,negative,Good eating but not effective dieting
+,2019-08-25,5,0.696268,positive,I can't get any better than this...
+,2019-05-22,4,0.960076,positive,Noodle review
+,2019-01-01,5,0.813643,positive,"Dogs love it, easy to fill, durable."
+,2019-02-07,5,0.974358,positive,Nutiva Coconut Oil
+,2019-05-01,5,0.984943,positive,Delicious!
+,2019-01-24,5,0.869677,positive,LOVE!!!
+,2019-02-15,5,0.739339,positive,How did I live without this?
+,2019-12-06,5,0.928642,positive,"So tasty, so good for you!"
+,2019-08-15,5,0.889352,positive,LOvE IT!!!!!
+,2019-12-26,5,0.627418,positive,The best tasting
+,2019-02-13,5,0.644214,positive,tug-a-jug
+,2019-01-27,5,0.711505,positive,Love this product
+,2019-01-19,5,0.614401,positive,Eye Opener
+,2019-05-19,5,0.836911,positive,It's the new EVOO!
+,2019-03-04,2,-0.743878,negative,Not worth it
+,2019-12-13,5,0.873814,positive,Tropical Treat
+,2019-02-23,5,-0.724467,negative,Busy Buddy
+,2019-01-23,1,0.000000,neutral,Ingredients
+,2019-03-18,5,0.620425,positive,SMELLS DELICIOUS!!
+,2019-07-07,1,0.545770,positive,disappointed with my first SF Bay coffee
+,2019-05-02,5,-0.440491,negative,Better than every real K-Cup there is
+,2019-03-10,2,0.574793,positive,Excellent products
+,2019-11-25,5,0.526160,positive,Don't expect pasta!
+,2019-04-23,5,0.678424,positive,Simple the Best Keurig Cups
+,2019-05-16,5,0.400587,positive,Love!
+,2019-07-03,4,0.563318,positive,worth trying
+,2019-07-06,3,0.525635,positive,When is a noodle not a noodle.
+,2019-02-02,5,0.524718,positive,Love it!
+,2019-05-25,5,0.811072,positive,"Great product, great value!"
+,2019-01-29,5,0.493141,positive,THIS STUFF IS INCREDIBLE!!!
+,2019-07-30,4,0.551377,positive,Dog eats it!
+,2019-12-07,5,0.754751,positive,very engaging!
+,2019-01-13,5,0.881222,positive,Love it!
+,2019-11-27,5,-0.325495,negative,Mini Mart Cappuccino
+,2019-08-16,5,0.460158,positive,Holy YUM!!
+,2019-05-02,4,0.614047,positive,"Good, but I don't like it black at all"
+,2019-02-24,1,0.285866,positive,lame
+,2019-03-13,5,-0.688244,negative,Robust and true...
+,2019-04-09,5,0.810090,positive,LOVE IT~LOVE IT~LOVE IT!!!
+,2019-10-30,4,0.726549,positive,Good entertainment
+,2019-08-10,5,0.767503,positive,Excellent coconut oil
+,2019-01-28,1,0.706494,positive,Wow.... lots of saturated fat
+,2019-01-31,5,0.512565,positive,Fresh-brewed taste for way less $$!
+,2019-09-10,5,0.854713,positive,Coconut oil
+,2019-08-16,5,0.444107,positive,Very Good Oil
+,2019-11-02,5,0.688202,positive,This is so much cheaper then getting my cappuccino from the gas station in the mornings!
+,2019-06-18,4,0.580692,positive,Makes a quick snack
+,2019-09-05,5,0.903002,positive,Takes on the flavor of whatever you're cooking!
+,2019-07-30,4,-0.391159,negative,Easier than I expected
+,2019-01-24,5,0.760753,positive,Awesome Toy!
+,2019-04-11,4,0.898743,positive,Delicious smelling body lotion and hair treatment
+,2019-05-14,5,0.880029,positive,*~~~Wonderful Product~~~*
+,2019-08-05,1,-0.481305,negative,Too Sweet
+,2019-03-18,1,-0.416252,negative,Low Quality. High Calorie and Fat.
+,2019-02-21,5,0.588553,positive,Best so far!
+,2019-02-23,3,0.898373,positive,Too sweet
+,2019-07-20,5,0.321596,positive,My dog's favorite way to eat!
+,2019-02-04,4,0.891932,positive,no carb pasta
+,2019-12-28,5,0.931439,positive,Cappuccino kcups
+,2019-12-19,5,0.920018,positive,Great Coconut Oil
+,2019-05-15,3,0.324622,positive,Great Toy but Not as Durable
+,2019-04-23,5,0.754937,positive,ahhh smell the coffee!
+,2019-01-13,2,-0.414205,negative,"Exactly as advertised, But I just couldn't do it."
+,2019-12-03,4,-0.312267,negative,Pleasant Surprise!!
+,2019-10-04,5,0.364668,positive,"Like Ramen Noodles, but healthier!"
+,2019-01-16,5,0.790898,positive,Awesome for Hair!
+,2019-11-16,5,0.338359,positive,Fantastic puzzle toy for our clever and busy pit bull! Just try not to get conked out with it.
+,2019-02-03,5,0.637462,positive,Great for popcorn!
+,2019-03-12,2,0.438810,positive,"Average, at best.  (You get what you pay for...)"
+,2019-07-23,4,0.649660,positive,Pleased with purchase so far.
+,2019-07-09,5,0.753407,positive,Great Product
+,2019-05-30,5,0.589158,positive,BIG fan!
+,2019-03-18,5,0.986169,positive,Great Coffee
+,2019-06-10,5,-0.329004,negative,Good Quality
+,2019-12-26,5,0.985969,positive,Yum!
+,2019-03-10,5,0.929217,positive,I love it
+,2019-05-18,5,0.335115,positive,My Pooch Loves it
+,2019-08-16,5,0.999034,positive,loving the coconut oil
+,2019-07-29,5,0.944986,positive,My dogs approve!
+,2019-11-14,5,0.629097,positive,More value for your money
+,2019-08-04,5,0.803949,positive,Tug-a-jug is a hit!
+,2019-11-16,5,0.613231,positive,Use the right recipe!
+,2019-06-07,5,0.803707,positive,Wow...fantastic coffee at a great price
+,2019-07-18,1,0.644739,positive,Not very busy buddy
+,2019-08-16,5,0.708552,positive,Nutiva Organic EV Coconut Oil
+,2019-01-13,5,0.609271,positive,Exactly what I was looking for
+,2019-12-05,4,0.357099,positive,"One dog loves it, the other couldn't figure it out!"
+,2019-01-10,5,0.611855,positive,We use this for everything!
+,2019-06-15,5,0.640290,positive,"Bold coffee from k-cups, finally!"
+,2019-12-05,5,0.471338,positive,YUM!
+,2019-10-27,5,-0.360880,negative,NUTIVA COCONUT OIL
+,2019-08-20,1,-0.510303,negative,No. Just no.
+,2019-07-13,5,0.606738,positive,shirataki noodles
+,2019-01-04,5,0.457516,positive,Puppies All Time Favorite Toy
+,2019-08-15,1,-0.352585,negative,"Vending Machine Coffee, dont buy it."
+,2019-07-01,5,0.265348,positive,Great Toy
+,2019-11-06,5,0.956639,positive,Very Good Coffee
+,2019-03-10,1,-0.623108,negative,Strong chemical smell
+,2019-07-17,1,-0.563912,negative,Could barely get through 2 sips..
+,2019-11-18,5,0.930406,positive,Nutiva Organic Coconut Oil
+,2019-12-18,2,0.689900,positive,unfortunately underwhelming
+,2019-03-15,5,0.673235,positive,My dog loves this thing
+,2019-09-08,4,0.287827,positive,"Not Bad, Not Bad At All"
+,2019-08-14,5,0.554225,positive,Great alternative cooking oil
+,2019-08-22,4,0.532047,positive,Nutiva Coconut Oil - change in bottling?
+,2019-04-25,5,0.779639,positive,Great cup of joe
+,2019-05-20,5,0.583139,positive,The best of the best
+,2019-06-03,5,0.566641,positive,good for external use
+,2019-12-10,5,0.571422,positive,A great deal!
+,2019-04-22,4,-0.655459,negative,Works in the B3000 brewer
+,2019-12-01,5,0.766885,positive,"Great taste, impressed"
+,2019-08-02,4,0.513752,positive,"Miracle Noodles, good not great..."
+,2019-03-26,5,0.686402,positive,New user and LOVE it!!
+,2019-11-24,5,0.953694,positive,So yummy!!
+,2019-03-15,5,0.505588,positive,Puppy Loves It!
+,2019-03-03,4,0.493646,positive,Miracle
+,2019-09-27,5,0.354742,positive,Good brand of Coconut Oil
+,2019-10-19,2,0.481594,positive,Convenience Store Cappuccino
+,2019-12-03,4,0.436732,positive,"Good Coffee, Different Packaging"
+,2019-11-25,5,0.492027,positive,Golden Retriever Loves it
+,2019-03-08,4,0.829376,positive,Value and Quality
+,2019-07-19,5,0.893806,positive,I love this Coconut Oil
+,2019-06-21,5,0.570434,positive,Keurig Who????
+,2019-05-31,5,0.995498,positive,Great Coffee
+,2019-10-17,5,-0.893189,negative,I kinda like it
+,2019-04-12,5,0.976832,positive,Amazing product
+,2019-10-23,5,0.518243,positive,Occupies my dog for hours!
+,2019-03-25,5,0.896029,positive,Taste fantastic with just about anything and not strong...
+,2019-05-03,5,0.871275,positive,Great for everything!!
+,2019-05-17,3,-0.514935,negative,Shipped quick
+,2019-08-08,1,-0.974966,negative,Unhappy
+,2019-03-21,5,0.616789,positive,Lab puppy loves this
+,2019-11-05,5,0.674737,positive,New morning pleasure
+,2019-01-08,5,0.376869,positive,Great Product
+,2019-02-09,5,0.381980,positive,Good Deal - Good Oil
+,2019-02-14,1,-0.544677,negative,Wish I had read the reviews
+,2019-07-29,3,0.464706,positive,It is better than most but not as good as some
+,2019-06-20,5,0.426135,positive,Great Alternative to Pasta!
+,2019-01-09,4,0.580252,positive,Perfect for Hair
+,2019-01-30,5,0.810921,positive,Sanfrancisco Bay Coffee
+,2019-10-19,2,0.659228,positive,Not pleased with these K-cups
+,2019-07-10,1,-0.699380,negative,Weak
+,2019-12-12,5,0.781123,positive,The best Cappuccino
+,2019-08-14,5,0.982146,positive,Best coconut oil you can find anywhere!
+,2019-12-16,5,0.414270,positive,Great Toy But Not Durable Enough
+,2019-08-18,5,0.773135,positive,I'm a faithful Nutiva fan: quality and value.
+,2019-12-12,5,0.469400,positive,Something we agree on!
+,2019-12-04,5,0.971324,positive,Great Product
+,2019-07-24,5,0.798841,positive,my dog loves it
+,2019-11-27,5,0.966233,positive,Great cup of coffee
+,2019-02-02,5,0.776172,positive,"Great flavor, less waste!"
+,2019-08-28,5,0.357356,positive,Miracle Noodles...quite impressive!
+,2019-04-19,1,-0.480695,negative,Great while it lasted
+,2019-08-23,5,0.549374,positive,"Love Nutiva coconut oil, but not digging the price hike."
+,2019-01-20,5,0.800964,positive,"Lasting forever, tastes great, works great."
+,2019-12-30,1,-0.863609,negative,not a miracle
+,2019-05-21,5,0.447278,positive,Delicious
+,2019-04-12,5,0.635255,positive,"San Francisco Bay Coffee One Cup for Keurig K-Cup Brewers, Fog Chaser, 36-Count"
+,2019-07-28,5,0.749027,positive,Dog food your vet would approve
+,2019-12-10,5,0.479927,positive,"Tasty, strong brew"
+,2019-05-11,5,0.691057,positive,Amazing Oil
+,2019-05-06,5,0.530105,positive,multifunctional wonderstuff!
+,2019-03-11,2,-0.714738,negative,"""Green"" K-cup packaging sacrifices flavor"
+,2019-02-01,1,-0.440655,negative,Nasty fake sweetener aftertaste
+,2019-02-25,5,0.891037,positive,Love love love
+,2019-02-07,4,-0.624184,negative,Tug-A-Jug Treat Toy
+,2019-01-16,5,0.736596,positive,Gas Station Cappuccino
+,2019-10-15,5,0.829449,positive,Yum!
+,2019-05-25,5,0.838170,positive,excellent stuff
+,2019-05-07,5,0.825724,positive,Good coffee
+,2019-07-01,5,0.980428,positive,A great alternative Oil
+,2019-09-22,5,0.914189,positive,My skin is happy!
+,2019-02-13,5,0.691873,positive,Great tasting in oatmeal!
+,2019-12-01,5,0.849996,positive,I love Fog Chaser
+,2019-06-17,2,-0.518420,negative,Not as Bold as advertised  ;(
+,2019-06-19,5,0.847652,positive,"Amazing on the face, body, and on food!"
+,2019-04-04,5,0.919484,positive,the best!!!
+,2019-07-23,5,0.706384,positive,Tastes and smells great
+,2019-10-01,2,0.816452,positive,Bootleg Product?
+,2019-02-08,5,0.669950,positive,Pure Coconut Oil with nice flavor and good price
+,2019-11-20,5,0.355839,positive,coconut oil&lt;3
+,2019-04-21,4,0.969718,positive,Environmentally Better
+,2019-01-09,5,-0.512796,negative,A cut above the rest!
+,2019-02-12,2,-0.297194,negative,Tastes awful due to sugar-free sweetener
+,2019-04-12,5,0.774078,positive,Great fun for my dogs!
+,2019-02-19,5,0.545035,positive,Best tasting coffee I have had for the Keurig
+,2019-04-04,1,-0.896153,negative,If you like the smell of fish you'll like these
+,2019-07-27,5,0.310915,positive,I'm Sold on Coconut Oil
+,2019-05-18,2,-0.414543,negative,Terrible Texture
+,2019-05-21,5,0.591130,positive,Awesome Product
+,2019-04-04,2,0.654392,positive,My Dogs completely ignore it.
+,2019-12-29,5,0.786680,positive,K-Cups
+,2019-07-27,5,0.526735,positive,The reviews don't lie
+,2019-04-15,3,-0.499993,negative,eat-a-rope
+,2019-12-13,5,0.626837,positive,Provides Hours of Durable Fun for our Puppies!
+,2019-01-03,5,0.715938,positive,The Perfect Treat!
+,2019-06-17,5,0.901450,positive,Great tasting!
+,2019-03-14,1,-0.908108,negative,Not the Miracle I was looking for!!!
+,2019-07-24,4,0.841037,positive,My dog enjoys it
+,2019-12-21,3,0.621094,positive,San Fransisco k-cup
+,2019-08-28,4,0.509746,positive,nice toy
+,2019-09-01,5,0.396245,positive,Working Nicely for my Dog's Itchy Red Skin
+,2019-12-24,5,0.993308,positive,k cups
+,2019-05-24,5,-0.430484,negative,great way to feed!
+,2019-04-23,5,0.724197,positive,Coconut Oil
+,2019-01-18,5,0.788731,positive,Great Taste
+,2019-01-30,5,0.774459,positive,Wonderful Goodness
+,2019-06-04,5,0.436659,positive,size and shape worried me- but taste is where they excel
+,2019-01-25,5,0.570559,positive,Wakes me up!
+,2019-09-20,5,0.516517,positive,This made ALL the difference
+,2019-06-09,5,0.000000,neutral,GREAT COFFEE
+,2019-08-22,5,0.521767,positive,OMG!
+,2019-05-31,4,-0.465453,negative,keeps 'em busy!
+,2019-07-31,4,0.401169,positive,The dog likes it
+,2019-12-07,5,0.902343,positive,The best oil ever!
+,2019-09-12,5,0.775476,positive,Delicious & Nutricious!
+,2019-07-04,5,0.604059,positive,A Diverse Product
+,2019-03-03,5,0.696697,positive,Great Toy
+,2019-03-05,5,0.956581,positive,It's different from k-cups
+,2019-06-05,5,0.606857,positive,really good coffee for a really good price
+,2019-12-28,5,0.849821,positive,Delicious!
+,2019-05-08,5,0.854895,positive,Fast became one of my favorite K-Cups
+,2019-01-22,5,-0.572392,negative,Great Lab Toy!
+,2019-12-09,5,0.853286,positive,Always stocked in my house
+,2019-04-05,4,0.537599,positive,EXCELLENT no carb!!!
+,2019-02-28,1,0.511819,positive,What a disappointment
+,2019-08-17,1,-0.801547,negative,ATTENTION: This toy is DANGEROUS for your dog!
+,2019-10-12,5,0.963573,positive,Oh God...That this is legal bliss is..
+,2019-12-20,4,0.258224,positive,Satisfied
+,2019-03-01,5,-0.360064,negative,"Healthy, vermicelli-like noodles"
+,2019-06-26,4,-0.413919,negative,A Great Substitute!
+,2019-01-22,5,0.789681,positive,Hours of fun!
+,2019-12-09,1,-0.874742,negative,Beware of artificial sweetener!
+,2019-03-10,5,0.737340,positive,Best tasting coconut oil we've tried.
+,2019-03-07,5,-0.467142,negative,Great Multi-Uses
+,2019-06-07,5,0.845659,positive,This is What REAL Coconut Oil Should Be
+,2019-12-23,5,0.621476,positive,2nd order
+,2019-09-21,5,0.363253,positive,Great Product
+,2019-12-18,1,-0.255848,negative,Hope you like milk and sugar and no coffee
+,2019-11-07,5,0.884842,positive,Best oil for hair
+,2019-02-11,5,0.908150,positive,So delicious!
+,2019-06-26,5,0.648928,positive,Fantastic!!!
+,2019-02-06,5,0.729588,positive,LOVE LOVE LOVE
+,2019-07-29,5,0.469313,positive,Organic extra virgin coconut oil
+,2019-06-28,5,0.641001,positive,Love Love Love this stuff!
+,2019-01-21,5,0.306374,positive,My dogs love this toy!
+,2019-02-01,4,0.452128,positive,Good quality coffee-- cheaper and less waste
+,2019-01-08,3,0.439773,positive,Not Really K-Cups But They Do Fit in Your Keurig
+,2019-04-09,5,-0.324921,negative,great for aging skin!
+,2019-06-07,5,0.676502,positive,Smells Great! Works Great!
+,2019-01-04,5,-0.319642,negative,"Dear lord, thank you for sending me miracle noodles..."
+,2019-10-19,5,0.893744,positive,"I love it, stock up for the winter!!"
+,2019-11-07,3,0.474311,positive,"Love This Product, But..."
+,2019-12-26,5,0.849112,positive,I use it for everything!
+,2019-08-17,4,0.702068,positive,A Good Substitute
+,2019-09-28,1,-0.546859,negative,Not worth it
+,2019-12-03,5,0.804899,positive,Love it!
+,2019-11-16,5,0.684725,positive,For Everything
+,2019-01-23,4,0.771714,positive,Pretty damn good....but I LIKE the Wawa/Convenience store stuff!
+,2019-05-16,5,0.607753,positive,Gives a Good Hint of Coconut to Food
+,2019-02-07,5,0.453466,positive,Great Stuff - No odor
+,2019-06-23,4,0.782517,positive,"Miracle Noodle Shiratake Angel Pasta, 7-ounce packages (Pack of 6)"
+,2019-02-09,5,0.710306,positive,Best cup of coffee from a Keurig yet.
+,2019-11-07,5,0.856723,positive,I really enjoy it's clean fresh taste and light texture.
+,2019-08-12,5,-0.367568,negative,Keeps my dog occupied for a looooong time!
+,2019-04-08,5,0.923111,positive,"GREAT COCONUT OIL....Try it, you'll like it!"
+,2019-05-18,4,0.700483,positive,Tough Jug!
+,2019-05-14,5,0.833301,positive,Great product; great store.
+,2019-03-18,5,0.475769,positive,Great coffee
+,2019-03-13,5,0.977484,positive,enjoy this brand of coffee
+,2019-05-09,1,-0.456860,negative,Only Meant To Be Used In Asian Dishes
+,2019-10-17,1,-0.578018,negative,Gas station coffee dispenser garbage
+,2019-01-30,4,0.419955,positive,Good basic coffee for your Keurig
+,2019-07-26,5,0.654412,positive,Many different uses!
+,2019-05-10,5,0.895879,positive,Healthy Organic Coconut Oil
+,2019-03-28,3,0.667939,positive,Average cup of coffee
+,2019-09-12,4,-0.587654,negative,Coconut oil can seep past the new opaque white plastic Jar.
+,2019-01-10,5,0.450759,positive,Great taste
+,2019-01-07,1,-0.874614,negative,Bad Stuff
+,2019-08-18,5,0.514858,positive,Tropical paradise on your skin
+,2019-05-21,5,0.649816,positive,Love it
+,2019-02-19,5,0.851264,positive,fog chaser
+,2019-02-21,5,0.635823,positive,PERFECT
+,2019-08-08,5,0.402149,positive,Great distraction! I get so much done!
+,2019-05-30,5,0.785789,positive,If You Like a Stong Brew
+,2019-03-12,3,-0.766497,negative,San Francisco Bay Coffee
+,2019-07-31,5,0.676449,positive,Beneful Dog Food is all we use
+,2019-02-08,5,0.763799,positive,Yuuuuuum!
+,2019-02-23,5,0.738486,positive,It's a win win thing.  And I even like the smell!
+,2019-04-03,5,0.775008,positive,My dogs LOVE this toy!
+,2019-05-13,5,0.555382,positive,So much better than a bowl!
+,2019-06-30,3,-0.875712,negative,Good very pricey
+,2019-06-29,5,0.842035,positive,My Yorkie can spend hours playing with the Tug-A-Jug!
+,2019-12-13,4,0.649690,positive,flavor
+,2019-09-10,2,0.512496,positive,Buried Treasure Forever!
+,2019-04-12,5,0.788671,positive,Nutiva
+,2019-05-22,5,0.849023,positive,San Francisco Bay ( fog chaser )
+,2019-11-04,1,-0.468590,negative,Not what you think--taste wise
+,2019-10-20,5,0.983743,positive,Great Coffee and Great Price
+,2019-05-17,5,0.501311,positive,love this product
+,2019-12-25,5,0.797749,positive,Delicious Cappucino Hot or Cold!
+,2019-04-17,5,0.677520,positive,No Hexane
+,2019-02-16,5,0.797037,positive,Digging the Fog Chaser
+,2019-05-18,5,0.970426,positive,"Wonderful oil, very happy with it"
+,2019-08-28,5,0.802966,positive,sturdy
+,2019-05-13,5,0.474095,positive,great deal
+,2019-12-28,5,0.844028,positive,I love these!
+,2019-05-26,5,0.738172,positive,"A hearty, fresh, and somewhat bold taste"
+,2019-02-12,4,0.355294,positive,I like it
+,2019-08-17,2,-0.591869,negative,It DOES NOT taste bad......BUT...
+,2019-12-14,2,0.628258,positive,Disappointed. . .
+,2019-09-11,5,0.826783,positive,Coconut Oil
+,2019-04-29,5,0.837498,positive,Love the flavor
+,2019-02-01,5,-0.875842,negative,Love Fog Chaser!
+,2019-06-05,4,0.590513,positive,Surprisingly Good
+,2019-08-29,5,0.759873,positive,Buy It!
+,2019-12-13,5,0.551079,positive,My wife loves it.
+,2019-04-11,5,0.673894,positive,Coconut Oil
+,2019-09-26,3,-0.564415,negative,"Not bad, but not good either"
+,2019-11-26,5,0.375433,positive,Georgia and Diego love  Tug-A-Jug
+,2019-03-01,5,0.622692,positive,"I love, love, LOVE it!"
+,2019-03-05,5,0.484785,positive,Fantastic!!
+,2019-10-11,5,0.871636,positive,Great product

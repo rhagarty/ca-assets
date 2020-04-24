@@ -28,7 +28,9 @@
 
 require('dotenv').config({
   silent: true,
+  path: '../.env',
 });
+
 const Query = require('./QueryConstants');
 const databaseUtil = require('./DatabaseUtil');
 const dataUtil = require('./DataUtil');
@@ -45,7 +47,11 @@ const queryParams = {
 };
 
 const writeToCSV = process.env.WRITE_TO_CSV_FILE;
+<<<<<<< HEAD
 console.log(writeToCSV)
+=======
+const writeToDB = process.env.WRITE_TO_DB;
+>>>>>>> 2466eb2df269ae046ebf028f73a7cb5610622de5
 
 module.exports = {
   discoEnrichAndSave: () => {
@@ -65,11 +71,13 @@ module.exports = {
         return result;
       })
       .then((result) => {
-        databaseUtil.updateDB(
-          Query.FOOD_REVIEWS_CREATE_TABLE,
-          Query.FOOD_REVIEWS_INSERT_TO_TABLE,
-          result
-        );
+        if (writeToDB === 'true') {
+          databaseUtil.updateDB(
+            Query.FOOD_REVIEWS_CREATE_TABLE,
+            Query.FOOD_REVIEWS_INSERT_TO_TABLE,
+            result
+          );
+        }
       })
       .catch((err) => {
         console.log('error:', err);
@@ -79,7 +87,7 @@ module.exports = {
 
 // write out each review as a row into a csv file
 function buildCSVfile(results) {
-  console.log('Build CSV File');
+  console.log('Build product review CSV File');
   const csvWriter = createCsvWriter({
     path: '../data/out.csv',
     header: [
@@ -94,5 +102,5 @@ function buildCSVfile(results) {
 
   csvWriter
     .writeRecords(results)
-    .then(() => console.log('The CSV file was written successfully'));
+    .then(() => console.log('The product review CSV file was written successfully'));
 }
