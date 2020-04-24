@@ -56,7 +56,7 @@ module.exports = {
         data.push({
           warehouseId: warehouse.warehouseId,
           productId: product.productId,
-          numOfItems: items,
+          numItems: items,
           resupplyAmount: amt,
           resupplyInterval: 'monthly',
         });
