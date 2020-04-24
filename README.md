@@ -171,7 +171,7 @@ cd ca-assets/scripts
 node GenerateAndSaveData
 ```
 
-### Additioal scripting information
+### Additional scripting information
 
 Outside of the scripts used to build the product and sales data listed above, there are additonal scripts which were used to generate product review data. The end result of the scripts is the generation of 1000 food review json files that can be loaded into Watson Discovery (see [Step #3](#3-configure-watson-discovery)). Since we have included the 1000 json files in this repo, there is no need to run the scripts again, but it is worth discussing how they work.
 
