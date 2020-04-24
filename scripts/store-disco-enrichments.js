@@ -47,11 +47,7 @@ const queryParams = {
 };
 
 const writeToCSV = process.env.WRITE_TO_CSV_FILE;
-<<<<<<< HEAD
-console.log(writeToCSV)
-=======
 const writeToDB = process.env.WRITE_TO_DB;
->>>>>>> 2466eb2df269ae046ebf028f73a7cb5610622de5
 
 module.exports = {
   discoEnrichAndSave: () => {

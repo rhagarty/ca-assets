@@ -128,9 +128,9 @@ module.exports = {
       if (month < 10) monthStr = '0' + month;
       if (day < 10) dayStr = '0' + day;
   
-      let reviewDate = [year, monthStr, dayStr].join('-');      
+      let reviewDate = [year, monthStr, dayStr].join('-');   
       let summary = enrichedData.Summary.substring(0, 120);
-      let score = enrichedData.enriched_text[0].sentiment.Score.toFixed(6);
+      let score = enrichedData.enriched_text[0].sentiment.score.toFixed(6);
       data.push({
         productId: enrichedData.ProductId,
         time: reviewDate,
