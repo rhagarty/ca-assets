@@ -48,7 +48,7 @@ module.exports = {
       path: '../data/out-stores.csv',
       header: [
         { id: 'storeId', title: 'StoreId' },
-        { id: 'name', title: 'Name' },
+        { id: 'name', title: 'Store Name' },
         { id: 'address', title: 'Address' },
         { id: 'city', title: 'City' },
         { id: 'state', title: 'State' },
@@ -84,7 +84,7 @@ module.exports = {
       path: '../data/out-products.csv',
       header: [
         { id: 'productId', title: 'ProductId' },
-        { id: 'name', title: 'Name' },
+        { id: 'name', title: 'Product Name' },
         { id: 'price', title: 'Price' },
       ],
     });
