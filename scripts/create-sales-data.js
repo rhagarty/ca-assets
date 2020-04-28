@@ -48,9 +48,13 @@ module.exports = {
       path: '../data/out-stores.csv',
       header: [
         { id: 'storeId', title: 'StoreId' },
+        { id: 'name', title: 'Name' },
         { id: 'address', title: 'Address' },
         { id: 'city', title: 'City' },
         { id: 'state', title: 'State' },
+        { id: 'zip', title: 'Zip Code' },
+        { id: 'lat', title: 'Latitude' },
+        { id: 'long', title: 'Longitude' },
       ],
     });
 
