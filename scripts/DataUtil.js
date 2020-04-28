@@ -90,8 +90,9 @@ module.exports = {
     let data = [];
     storeJson.forEach(function (store) {
       productJson.forEach(function (product) {
-        for (let month = 11; month <= 12; month++) {
-          for (let day = 1; day < 31; day++) {
+        for (let month = 7; month <= 12; month++) {
+          let daysInMonth = getDaysInMonth(month);
+          for (let day = 1; day <= daysInMonth; day++) {
             let amt = randomIntFromInterval(1, 25);
             let date = month.toString() + '/' + day.toString() + '/2019';
             data.push({
@@ -149,7 +150,7 @@ function randomDate() {
   function randomValueBetween(min, max) {
     return Math.random() * (max - min) + min;
   }
-  let date1 = '11-01-2019';
+  let date1 = '07-01-2019';
   let date2 = '12-31-2019';
   date1 = new Date(date1).getTime();
   date2 = new Date(date2).getTime();
@@ -162,4 +163,12 @@ function randomDate() {
 
 function randomIntFromInterval(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+function getDaysInMonth(month) {
+  if (month == 9 || month == 11) {
+    return 30;
+  } else {
+    return 31;
+  }
 }
