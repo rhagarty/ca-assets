@@ -53,7 +53,7 @@ updateDB: async (createQuery, insertQuery, data) => {
           data.forEach(function (row) {
             Object.keys(row).forEach(function (key) {
               keys.push(row[key]);
-            });         
+            });      
             stmt.executeNonQuerySync(keys);
             i += 1;
             keys = [];
