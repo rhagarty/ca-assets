@@ -18,7 +18,7 @@
  * To Run:
  * copy Reviews-full.csv to /data directory
  * cd scripts
- * node csv-to-json.js
+ * node generate-disco-input-files.js
  * 
  * Create a json file for each review associated with the specified products.
  * Files will be stored in the `data/food_reviews` directory.
@@ -31,16 +31,11 @@ const fs=require('fs');
 
 // list of products we want reviews for, and the NEW product ID we will use to make visuals easier to read
 const products = [
-  { id: 'B000GAT6NG', newId: 'P1000-01' },
-  { id: 'B001VJ0B0I', newId: 'P1000-02' },
-  { id: 'B000VK08OC', newId: 'P1000-03' },
-  { id: 'B008J1HO4C', newId: 'P1000-03' },
-  { id: 'B004CLCEDE', newId: 'P1000-04' },
-  { id: 'B005K4Q37A', newId: 'P1000-05' },
-  { id: 'B005ZBZLT4', newId: 'P1000-06' },
-  { id: 'B000KV61FC', newId: 'P1000-07' },
-  { id: 'B001EO5Q64', newId: 'P1000-08' },
-  { id: 'B003B3OOPA', newId: 'P1000-10' }
+  { id: 'B001VJ0B0I', newId: 'P1000-01' },
+  { id: 'B005K4Q37A', newId: 'P1000-02' },
+  { id: 'B000KV61FC', newId: 'P1000-03' },
+  { id: 'B001EO5Q64', newId: 'P1000-04' },
+  { id: 'B003B3OOPA', newId: 'P1000-05' }
 ];
 
 let padding = '000';  // to Line up the numbers and slice(-4).
@@ -76,7 +71,7 @@ csv({
       if (myMap.has(key)) {
         numberOfReviews = myMap.get(key);
       }
-      if (numberOfReviews < 100 && json['HelpfulnessNumerator'] > 0) {
+      if (numberOfReviews < 200 && json['HelpfulnessNumerator'] > 0) {
           numberOfReviews += 1;
         myMap.set(key, numberOfReviews);
         files += 1;

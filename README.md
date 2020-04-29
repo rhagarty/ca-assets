@@ -74,7 +74,15 @@ To access the collection, make sure you are in the correct project, then click t
 
 Click the collection tile to access it.
 
-  ![disco-activity-cpd](doc/source/images/disco-collection.png)
+  ![disco-collection](doc/source/images/disco-collection.png)
+
+Turn on sentiments.
+
+  ![disco-sentiment](doc/source/images/disco-sentiment.png)
+
+Click `Apply changes and reprocess`
+
+Wait for all the of the documents to be reprosessed.
 
 ## 4. Configure Db2 Warehouse
 
@@ -150,6 +158,7 @@ The provided scripts can be used to generate sample data for a facticious compan
 
 The scripts build the following data, which will be output to local .csv files, and also to Db2 Warehouse tables.
 
+* Reviews - this contains all of the reviews for each of the products. Includes rating and sentiment score.
 * Products - this is information about each of our products. Includes product_id, name, and unit price.
 * Stores - this is information about each of our stores. Includes store_id and location.
 * Sales - this is the sales data from each of the stores. Includes store_id, product_id, data, and amount of items sold.

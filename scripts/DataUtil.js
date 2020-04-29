@@ -42,7 +42,14 @@ module.exports = {
   getProductData: () => {
     let data = [];
     productJson.forEach((product) => {
-      data.push(product);
+      let amt = randomIntFromInterval(50, 100);
+      data.push({
+        productId: product.productId,
+        name: product.name,
+        price: product.price,
+        restockAmt: amt,
+        restockInt: 'monthly',
+      });
     });
     return data;
   },
@@ -51,15 +58,16 @@ module.exports = {
     let data = [];
     warehouseJson.forEach(function (warehouse) {
       productJson.forEach(function (product) {
-        let items = randomIntFromInterval(500, 800);
-        let amt = randomIntFromInterval(50, 100);
-        data.push({
-          warehouseId: warehouse.warehouseId,
-          productId: product.productId,
-          numItems: items,
-          resupplyAmount: amt,
-          resupplyInterval: 'monthly',
-        });
+        for (let month = 7; month <= 12; month++) {
+          let items = randomIntFromInterval(500, 800);
+          let date = month.toString() + '/1/2019';
+          data.push({
+            warehouseId: warehouse.warehouseId,
+            productId: product.productId,
+            date: date,
+            numItems: items
+          });
+        }
       });
     });
     return data;
@@ -93,7 +101,16 @@ module.exports = {
         for (let month = 7; month <= 12; month++) {
           let daysInMonth = getDaysInMonth(month);
           for (let day = 1; day <= daysInMonth; day++) {
-            let amt = randomIntFromInterval(1, 25);
+            let amt;
+            if (product.name === 'Heart Healthy') {
+              // most popular cereal
+              amt = randomIntFromInterval(15, 40);
+            } else if (product.name === 'Chocolate Crunch') {
+              // least popular cereal
+              amt = randomIntFromInterval(1, 10);
+            } else {
+              amt = randomIntFromInterval(10, 20);
+            }
             let date = month.toString() + '/' + day.toString() + '/2019';
             data.push({
               storeId: store.storeId,
@@ -112,6 +129,7 @@ module.exports = {
     let data = [];
     let currentDate = new Date();
     enrichedDatas.forEach(function (enrichedData) {
+      // console.log(JSON.stringify(enrichedData, null, 2));
       // convert timestamp to string
       let dd = new Date(enrichedData.Time * 1000);
       let month = dd.getMonth() + 1;
