@@ -86,6 +86,8 @@ module.exports = {
         { id: 'productId', title: 'ProductId' },
         { id: 'name', title: 'Product Name' },
         { id: 'price', title: 'Price' },
+        { id: 'restockAmt', title: 'Restock Amount'},
+        { id: 'restockInt', title: 'Restock Interval'},
       ],
     });
 
@@ -116,9 +118,8 @@ module.exports = {
       header: [
         { id: 'warehouseId', title: 'WarehouseId' },
         { id: 'productId', title: 'ProductId' },
-        { id: 'numItems', title: 'Number of Items' },
-        { id: 'resupplyAmount', title: 'Resupply Amount' },
-        { id: 'resupplyInterval', title: 'Resupply Time Interval' },
+        { id: 'date', title: 'Date' },
+        { id: 'numItems', title: 'Number of Items' }
       ],
     });
 

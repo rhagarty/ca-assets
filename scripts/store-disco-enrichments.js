@@ -54,7 +54,7 @@ module.exports = {
     discovery
       .query(queryParams)
       .then((queryResponse) => {
-        //console.log(JSON.stringify(queryResponse, null, 2));
+        // console.log(JSON.stringify(queryResponse, null, 2));
         return queryResponse.result;
       })
       .then((result) => {
@@ -84,10 +84,11 @@ module.exports = {
 // write out each review as a row into a csv file
 function buildCSVfile(results) {
   console.log('Build product review CSV File');
+  // console.log(JSON.stringify(results, null, 2));
   const csvWriter = createCsvWriter({
-    path: '../data/out.csv',
+    path: '../data/out-reviews.csv',
     header: [
-      { id: 'productid', title: 'ProductId' },
+      { id: 'productId', title: 'ProductId' },
       { id: 'time', title: 'Time' },
       { id: 'rating', title: 'Rating' },
       { id: 'score', title: 'Sentiment Score' },
