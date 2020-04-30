@@ -40,7 +40,7 @@ const writeToDB = process.env.WRITE_TO_DB;
 
 module.exports = {
 
-  //updateDB: async (createQuery, insertQuery, data) =>
+  // STORE DATA
   buildStoreFile: async () => {
     console.log('Build Store File');
 
@@ -77,6 +77,7 @@ module.exports = {
     return true;
   },
 
+  // PRODUCT DATA
   buildProductFile: async () => {
     console.log('Build Product File');
 
@@ -110,6 +111,7 @@ module.exports = {
     return true;
   },
 
+  // WAREHOUSE INVENTORY DATA
   buildWarehouseFile: async () => {
     console.log('Build Warehouse File');
 
@@ -143,6 +145,7 @@ module.exports = {
     return true;
   },
 
+  // ORDER DATA (requests from stores, fulfilled by warehouse)
   buildOrderFile: async () => {
     console.log('Build Order File');
 
@@ -177,6 +180,7 @@ module.exports = {
     return true;
   },
 
+  // SALES DATA from stores
   buildSalesfile: async () => {
     console.log('Build Sales File');
 

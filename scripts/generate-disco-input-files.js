@@ -31,12 +31,43 @@ const fs=require('fs');
 
 // list of products we want reviews for, and the NEW product ID we will use to make visuals easier to read
 const products = [
-  { id: 'B001VJ0B0I', newId: 'P1000-01' },
-  { id: 'B005K4Q37A', newId: 'P1000-02' },
-  { id: 'B000KV61FC', newId: 'P1000-03' },
-  { id: 'B001EO5Q64', newId: 'P1000-04' },
-  { id: 'B003B3OOPA', newId: 'P1000-05' }
+  { id: 'B005ZBZLT4', newId: 'P1000-01' },  // Fog Chaser
+  { id: 'B005K4Q37A', newId: 'P1000-02' },  // Cappuccino
+  { id: 'B006Q820X0', newId: 'P1000-03' },  // Dark Roast
+  { id: 'B00438XVGU', newId: 'P1000-04' },  // Columbian
+  { id: 'B007I7Z3Z0', newId: 'P1000-05' }   // Black Tea
 ];
+
+// B000UBD88A[158] usefullness: 0.8811881188118812   // Senseo Coffee Pods, Dark Roast
+// B001D0IZBM[160] usefullness: 0.8732106339468303   // Emeril's Big Easy Bold Coffee
+// B003D4F1QS[167] usefullness: 0.8620689655172413   // Stash Tea Decaf Premium Green Tea
+// B007I7Z3Z0[161] usefullness: 0.6775193798449612   // Lipton To Go Stix Iced Black Tea Mix
+// B00438XVGU[168] usefullness: 0.8112449799196787   // Starbucks VIA Ready Brew Coffee, Colombia
+// B006Q820X0[189] usefullness: 0.5523877405559515   // Brooklyn Bean Roastery Coffee
+// B005K4Q37A[241] usefullness: 0.791459781529295    // Grove Square Caramel Cappuccino
+// B005ZBZLT4[244] usefullness: 0.7641144624903325   // San Francisco Bay OneCup, Fog Chaser Coffee
+
+// B002QWP89S[162] usefullness: 0.7154566744730679   // Greenies Dental Dog Treats
+// B000FI4O90[167] usefullness: 0.9106130860381246   // AeroGarden 7 with Gourmet Herb Seed Kit
+// B0019QT66I[174] usefullness: 0.8171109733415995   // Natural Vitality Calcium Drink
+// B000UUWECC[177] usefullness: 0.8215038650737878   // ONE Coconut Water
+// B000NMJWZO[189] usefullness: 0.8444180522565321   // Pamela's Products Glutten Free Baking and Pancake Mix
+// B003TNANSO[190] usefullness: 0.87001287001287     // Kind Plus, Peanut Butter Dark Chocolate
+// B001D09KAM[190] usefullness: 0.8696774193548387   // Kind Plus, Mango Macadamia Bars
+// B003QNJYXM[193] usefullness: 0.7087301587301588   // 5-hour Energy, Extra Strength Berry
+// B008ZRKZSM[194] usefullness: 0.8621987951807228   // Pb2 Powdered Peanut Butter
+// B0013NUGDE[195] usefullness: 0.7589424572317263   // Popchips, Sea Salt & Vinegar
+// B004SRH2B6[198] usefullness: 0.7479055597867479   // ZICO Pure Premium Coconut Water
+// B0018KR8V0[210] usefullness: 0.7197732997481109   // Larabar Glutten Free Bar, Key Lime Pie
+// B001AS1A4Q[210] usefullness: 0.7136659436008677   // 5-hour Energy, Berry
+// B000GAT6NG[211] usefullness: 0.861442362294151    // Nutiva Organic Cold-Press Virgin Coconut Oil
+// B001VJ0B0I[215] usefullness: 0.7291242362525459   // Purina Beneful Originals Adult Dry Dog Food
+// B000VK08OC[222] usefullness: 0.8879135719108711   // Wedderspoon Raw Premium Manuka Honey
+// B008J1HO4C[227] usefullness: 0.8479318734793188   // McCann's Steel Cut Oatmeal
+// B004CLCEDE[235] usefullness: 0.9008547008547009   // Miracle Noodle Shirataki Angel Hair Pasta
+// B000KV61FC[316] usefullness: 0.9059982094897046   // PetSafe Busy Buddy Tug-A-Jug Meal-Dispensing Dog Toy
+// B001EO5Q64[335] usefullness: 0.8498472282845919   // Nutiva Organic Cold-Pressed Virgin Coconut Oil
+// B003B3OOPA[428] usefullness: 0.8811733014067644   // Nature's Way Coconut Oil
 
 let padding = '000';  // to Line up the numbers and slice(-4).
 let files = 0;
@@ -71,7 +102,7 @@ csv({
       if (myMap.has(key)) {
         numberOfReviews = myMap.get(key);
       }
-      if (numberOfReviews < 200 && json['HelpfulnessNumerator'] > 0) {
+      if (numberOfReviews < 240 && json['HelpfulnessNumerator'] > 0) {
           numberOfReviews += 1;
         myMap.set(key, numberOfReviews);
         files += 1;
