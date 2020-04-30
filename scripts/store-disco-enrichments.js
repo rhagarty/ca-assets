@@ -69,8 +69,8 @@ module.exports = {
       .then((result) => {
         if (writeToDB === 'true') {
           databaseUtil.updateDB(
-            Query.FOOD_REVIEWS_CREATE_TABLE,
-            Query.FOOD_REVIEWS_INSERT_TO_TABLE,
+            Query.PRODUCT_REVIEWS_CREATE_TABLE,
+            Query.PRODUCT_REVIEWS_INSERT_TO_TABLE,
             result
           );
         }
