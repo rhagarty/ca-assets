@@ -31,7 +31,6 @@ const productJson = require('../data/product.json');
 const warehouseJson = require('../data/warehouse.json');
 
 module.exports = {
-
   // STORE DATA
   getStoreData: () => {
     let data = [];
@@ -69,7 +68,7 @@ module.exports = {
             warehouseId: warehouse.warehouseId,
             productId: product.productId,
             date: date,
-            numItems: items
+            numItems: items,
           });
         }
       });
@@ -134,7 +133,7 @@ module.exports = {
   // KEYWORD DATA
   extractKeywordData: (enrichedDatas) => {
     let data = [];
-    let keywords = [];  // array of objects, one for each product
+    let keywords = []; // array of objects, one for each product
 
     enrichedDatas.forEach(function (enrichedData) {
       // get object for this product
@@ -149,17 +148,17 @@ module.exports = {
       if (!found) {
         keywordObj = {
           productId: enrichedData.ProductId,
-          keywords: []
-        }
+          keywords: [],
+        };
       }
-      
+
       // iterate through all keywords for a single review
-      enrichedData.enriched_text[0].keywords.forEach(function(entry) {
+      enrichedData.enriched_text[0].keywords.forEach(function (entry) {
         // determine if we have started collecting keywords for this product
         keywords.forEach(function (keyword) {
           // find out if this keyword has been used before
           found = false;
-          for (var i=0; i<keywordObj.keywords.length; i++) {
+          for (var i = 0; i < keywordObj.keywords.length; i++) {
             if (keywordObj.keywords[i].keyword === keyword) {
               keywordObj.keywords[i].count += 1;
               found = true;
@@ -168,7 +167,7 @@ module.exports = {
           if (!found) {
             keywordObj.keywords.push({
               keyword: keyword,
-              count: 1
+              count: 1,
             });
           }
         });
@@ -185,7 +184,7 @@ module.exports = {
 
     enrichedDatas.forEach(function (enrichedData) {
       // console.log(JSON.stringify(enrichedData, null, 2));
-      
+
       //
       // first get review data
       //
@@ -196,17 +195,17 @@ module.exports = {
       let day = dd.getDate();
       // all reviews are 2012 or older, so making them all CurrentYear -1
       let year = currentDate.getFullYear() - 1;
-  
+
       // hack for leap year months.
       if (month === 2 && day === 29) {
         day = day - 1;
       }
-  
+
       let monthStr = '' + month;
       let dayStr = '' + day;
       if (month < 10) monthStr = '0' + month;
       if (day < 10) dayStr = '0' + day;
-  
+
       let reviewDate = [year, monthStr, dayStr].join('-');
       let summary = enrichedData.Summary.substring(0, 120);
       let score = enrichedData.enriched_text[0].sentiment.score.toFixed(6);
@@ -218,15 +217,17 @@ module.exports = {
         // not found, so create
         obj = {
           productId: enrichedData.ProductId,
-          reviews: [{
-            time: reviewDate,
-            rating: enrichedData.Score,
-            score: score,
-            label: enrichedData.enriched_text[0].sentiment.label,
-            summary: summary,
-          }],
-          keywords: []
-        }
+          reviews: [
+            {
+              time: reviewDate,
+              rating: enrichedData.Score,
+              score: score,
+              label: enrichedData.enriched_text[0].sentiment.label,
+              summary: summary,
+            },
+          ],
+          keywords: [],
+        };
         data.push(obj);
       } else {
         data[idx].reviews.push({
@@ -244,10 +245,10 @@ module.exports = {
 
       // iterate through all keywords for the review
       idx = getProductObject(data, enrichedData.ProductId);
-      enrichedData.enriched_text[0].keywords.forEach(function(keyword) {
+      enrichedData.enriched_text[0].keywords.forEach(function (keyword) {
         // find out if this keyword has been used before
         found = false;
-        for (var i=0; i<data[idx].keywords.length; i++) {
+        for (var i = 0; i < data[idx].keywords.length; i++) {
           if (data[idx].keywords[i].text === keyword.text) {
             data[idx].keywords[i].count += 1;
             found = true;
@@ -256,7 +257,7 @@ module.exports = {
         if (!found) {
           data[idx].keywords.push({
             text: keyword.text,
-            count: 1
+            count: 1,
           });
         }
       });
@@ -264,14 +265,14 @@ module.exports = {
 
     // keep only the most popular keywords
     let popularKeywords = [];
-    data.forEach(function(entry) {
-      entry.keywords.forEach(function(keyword) {
+    data.forEach(function (entry) {
+      entry.keywords.forEach(function (keyword) {
         if (keyword.count > 5) {
           popularKeywords.push({
             text: keyword.text,
-            count: keyword.count
+            count: keyword.count,
           });
-          }
+        }
       });
 
       entry.keywords = popularKeywords;
@@ -279,7 +280,40 @@ module.exports = {
 
     // console.log(JSON.stringify(data[0].keywords, null, 2));
     return data;
-  }
+  },
+
+  getReviewsFromEnrichedData: (results) => {
+    let reviews = [];
+    results.forEach(function (result) {
+      result.reviews.forEach(function (review) {
+        reviews.push({
+          productId: result.productId,
+          time: review.time,
+          rating: review.rating,
+          score: review.score,
+          label: review.label,
+          summary: review.summary,
+        });
+      });
+    });
+
+    return reviews;
+  },
+
+  getKeywordsAndCountFromEnrichedData: (results) => {
+    let keywords = [];
+    results.forEach(function (result) {
+      result.keywords.forEach(function (keyword) {
+        keywords.push({
+          productId: result.productId,
+          keyword: keyword.text,
+          count: keyword.count,
+        });
+      });
+    });
+
+    return keywords;
+  },
 };
 
 // generate a random date

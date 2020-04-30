@@ -68,10 +68,18 @@ module.exports = {
       })
       .then((result) => {
         if (writeToDB === 'true') {
+          let reviews = dataUtil.getReviewsFromEnrichedData(result);
+          let keywords = dataUtil.getKeywordsAndCountFromEnrichedData(result);
           databaseUtil.updateDB(
             Query.PRODUCT_REVIEWS_CREATE_TABLE,
             Query.PRODUCT_REVIEWS_INSERT_TO_TABLE,
-            result
+            reviews
+          );
+
+          databaseUtil.updateDB(
+            Query.PRODUCT_KEYWORDS_CREATE_TABLE,
+            Query.PRODUCT_KEYWORDS_INSERT_TO_TABLE,
+            keywords
           );
         }
       })
@@ -107,27 +115,8 @@ function buildReviewFile(results) {
     ],
   });
 
-  let reviews = [];
-  let keywords = [];
-  results.forEach(function (result) {
-    result.reviews.forEach(function (review) {
-      reviews.push({
-        productId: result.productId,
-        time: review.time,
-        rating: review.rating,
-        score: review.score,
-        label: review.label,
-        summary: review.summary
-      });
-    });
-    result.keywords.forEach(function (keyword) {
-      keywords.push({
-        productId: result.productId,
-        keyword: keyword.text,
-        count: keyword.count
-      });
-    });
-  });
+  let reviews = dataUtil.getReviewsFromEnrichedData(results);
+  let keywords = dataUtil.getKeywordsAndCountFromEnrichedData(results);
 
   csvReviewWriter
     .writeRecords(reviews)
