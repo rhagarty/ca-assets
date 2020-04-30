@@ -83,9 +83,10 @@ module.exports = {
 
 // write out each review as a row into a csv file
 function buildReviewFile(results) {
-  console.log('Build product review CSV File');
+  console.log('Build product review and keyword CSV Files');
   // console.log(JSON.stringify(results, null, 2));
-  const csvWriter = createCsvWriter({
+
+  const csvReviewWriter = createCsvWriter({
     path: '../data/out-reviews.csv',
     header: [
       { id: 'productId', title: 'ProductId' },
@@ -97,7 +98,42 @@ function buildReviewFile(results) {
     ],
   });
 
-  csvWriter
-    .writeRecords(results)
+  const csvKeywordWriter = createCsvWriter({
+    path: '../data/out-keywords.csv',
+    header: [
+      { id: 'productId', title: 'ProductId' },
+      { id: 'keyword', title: 'Keyword' },
+      { id: 'count', title: 'Count' },
+    ],
+  });
+
+  let reviews = [];
+  let keywords = [];
+  results.forEach(function (result) {
+    result.reviews.forEach(function (review) {
+      reviews.push({
+        productId: result.productId,
+        time: review.time,
+        rating: review.rating,
+        score: review.score,
+        label: review.label,
+        summary: review.summary
+      });
+    });
+    result.keywords.forEach(function (keyword) {
+      keywords.push({
+        productId: result.productId,
+        keyword: keyword.text,
+        count: keyword.count
+      });
+    });
+  });
+
+  csvReviewWriter
+    .writeRecords(reviews)
     .then(() => console.log('The product review CSV file was written successfully'));
+
+  csvKeywordWriter
+    .writeRecords(keywords)
+    .then(() => console.log('The product keyword CSV file was written successfully'));
 }
