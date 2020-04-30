@@ -31,6 +31,8 @@ const productJson = require('../data/product.json');
 const warehouseJson = require('../data/warehouse.json');
 
 module.exports = {
+
+  // STORE DATA
   getStoreData: () => {
     let data = [];
     storeJson.forEach((store) => {
@@ -39,6 +41,7 @@ module.exports = {
     return data;
   },
 
+  // PRODUCT DATA
   getProductData: () => {
     let data = [];
     productJson.forEach((product) => {
@@ -54,6 +57,7 @@ module.exports = {
     return data;
   },
 
+  // WAREHOUSE DATA
   getWarehouseData: () => {
     let data = [];
     warehouseJson.forEach(function (warehouse) {
@@ -73,12 +77,13 @@ module.exports = {
     return data;
   },
 
+  // ORDER DATA
   getOrderData: () => {
     let data = [];
     let orderCnt = 1;
     storeJson.forEach(function (store) {
       productJson.forEach(function (product) {
-        let size = randomIntFromInterval(50, 100);
+        let size = randomIntFromInterval(20, 50);
         data.push({
           orderId: 'ORD-' + orderCnt,
           date: randomDate(),
@@ -94,6 +99,7 @@ module.exports = {
     return data;
   },
 
+  // SALES DATA
   getSalesData: () => {
     let data = [];
     storeJson.forEach(function (store) {
@@ -102,11 +108,11 @@ module.exports = {
           let daysInMonth = getDaysInMonth(month);
           for (let day = 1; day <= daysInMonth; day++) {
             let amt;
-            if (product.name === 'Heart Healthy') {
-              // most popular cereal
+            if (product.name === 'Cappuccino') {
+              // most popular
               amt = randomIntFromInterval(15, 40);
-            } else if (product.name === 'Chocolate Crunch') {
-              // least popular cereal
+            } else if (product.name === 'Columbian') {
+              // least popular
               amt = randomIntFromInterval(1, 10);
             } else {
               amt = randomIntFromInterval(10, 20);
@@ -125,11 +131,65 @@ module.exports = {
     return data;
   },
 
+  // KEYWORD DATA
+  extractKeywordData: (enrichedDatas) => {
+    let data = [];
+    let keywords = [];  // array of objects, one for each product
+
+    enrichedDatas.forEach(function (enrichedData) {
+      // get object for this product
+      let found = false;
+      let keywordObj;
+      keywords.forEach(function (keyword) {
+        if (keyword.productId === enrichedData.ProductId) {
+          keywordObj = keyword;
+          found = true;
+        }
+      });
+      if (!found) {
+        keywordObj = {
+          productId: enrichedData.ProductId,
+          keywords: []
+        }
+      }
+      
+      // iterate through all keywords for a single review
+      enrichedData.enriched_text[0].keywords.forEach(function(entry) {
+        // determine if we have started collecting keywords for this product
+        keywords.forEach(function (keyword) {
+          // find out if this keyword has been used before
+          found = false;
+          for (var i=0; i<keywordObj.keywords.length; i++) {
+            if (keywordObj.keywords[i].keyword === keyword) {
+              keywordObj.keywords[i].count += 1;
+              found = true;
+            }
+          }
+          if (!found) {
+            keywordObj.keywords.push({
+              keyword: keyword,
+              count: 1
+            });
+          }
+        });
+      });
+    });
+    console.log('keywordObj: ' + JSON.stringify(keywordObj, null, 2));
+    return data;
+  },
+
+  // Get review data from Discovery
   extractEnrichedData: (enrichedDatas) => {
     let data = [];
     let currentDate = new Date();
+
     enrichedDatas.forEach(function (enrichedData) {
       // console.log(JSON.stringify(enrichedData, null, 2));
+      
+      //
+      // first get review data
+      //
+
       // convert timestamp to string
       let dd = new Date(enrichedData.Time * 1000);
       let month = dd.getMonth() + 1;
@@ -150,20 +210,79 @@ module.exports = {
       let reviewDate = [year, monthStr, dayStr].join('-');
       let summary = enrichedData.Summary.substring(0, 120);
       let score = enrichedData.enriched_text[0].sentiment.score.toFixed(6);
-      data.push({
-        productId: enrichedData.ProductId,
-        time: reviewDate,
-        rating: enrichedData.Score,
-        score: score,
-        label: enrichedData.enriched_text[0].sentiment.label,
-        summary: summary,
+      // console.log(JSON.stringify(enrichedData.enriched_text[0], null, 2));
+      // console.log(JSON.stringify(enrichedData, null, 2));
+
+      let idx = getProductObject(data, enrichedData.ProductId);
+      if (idx < 0) {
+        // not found, so create
+        obj = {
+          productId: enrichedData.ProductId,
+          reviews: [{
+            time: reviewDate,
+            rating: enrichedData.Score,
+            score: score,
+            label: enrichedData.enriched_text[0].sentiment.label,
+            summary: summary,
+          }],
+          keywords: []
+        }
+        data.push(obj);
+      } else {
+        data[idx].reviews.push({
+          time: reviewDate,
+          rating: enrichedData.Score,
+          score: score,
+          label: enrichedData.enriched_text[0].sentiment.label,
+          summary: summary,
+        });
+      }
+
+      //
+      // now get keyword data
+      //
+
+      // iterate through all keywords for the review
+      idx = getProductObject(data, enrichedData.ProductId);
+      enrichedData.enriched_text[0].keywords.forEach(function(keyword) {
+        // find out if this keyword has been used before
+        found = false;
+        for (var i=0; i<data[idx].keywords.length; i++) {
+          if (data[idx].keywords[i].text === keyword.text) {
+            data[idx].keywords[i].count += 1;
+            found = true;
+          }
+        }
+        if (!found) {
+          data[idx].keywords.push({
+            text: keyword.text,
+            count: 1
+          });
+        }
       });
     });
+
+    // keep only the most popular keywords
+    let popularKeywords = [];
+    data.forEach(function(entry) {
+      entry.keywords.forEach(function(keyword) {
+        if (keyword.count > 5) {
+          popularKeywords.push({
+            text: keyword.text,
+            count: keyword.count
+          });
+          }
+      });
+
+      entry.keywords = popularKeywords;
+    });
+
+    // console.log(JSON.stringify(data[0].keywords, null, 2));
     return data;
   }
-
 };
 
+// generate a random date
 function randomDate() {
   function randomValueBetween(min, max) {
     return Math.random() * (max - min) + min;
@@ -179,14 +298,27 @@ function randomDate() {
   }
 }
 
+// generate a random number between min/max
 function randomIntFromInterval(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+// return days in specific month
 function getDaysInMonth(month) {
   if (month == 9 || month == 11) {
     return 30;
   } else {
     return 31;
   }
+}
+
+function getProductObject(data, productId) {
+  // get object for this product
+  for (var idx = 0; idx < data.length; idx++) {
+    if (data[idx].productId === productId) {
+      return idx;
+    }
+  }
+
+  return -1;
 }

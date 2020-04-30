@@ -62,7 +62,7 @@ module.exports = {
       })
       .then((result) => {        
         if (writeToCSV === 'true') {
-          buildCSVfile(result);
+          buildReviewFile(result);
         }
         return result;
       })
@@ -82,7 +82,7 @@ module.exports = {
 };
 
 // write out each review as a row into a csv file
-function buildCSVfile(results) {
+function buildReviewFile(results) {
   console.log('Build product review CSV File');
   // console.log(JSON.stringify(results, null, 2));
   const csvWriter = createCsvWriter({
